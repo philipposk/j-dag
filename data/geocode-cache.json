@@ -1,0 +1,4843 @@
+{
+  "4-tallet, Copenhagen, Denmark": [],
+  "Alpehytten, Copenhagen, Denmark": [
+    {
+      "place_id": 148313930,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8119069621,
+      "lat": "55.6820480",
+      "lon": "12.5824570",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Alpehytten",
+      "display_name": "Alpehytten, Store Regnegade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1110, Danmark",
+      "address": {
+        "amenity": "Alpehytten",
+        "road": "Store Regnegade",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1110",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Alpehytten"
+      },
+      "boundingbox": [
+        "55.6819980",
+        "55.6820980",
+        "12.5824070",
+        "12.5825070"
+      ]
+    }
+  ],
+  "Andys Bar, Copenhagen, Denmark": [],
+  "Bankeråt, Copenhagen, Denmark": [
+    {
+      "place_id": 147846578,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 25440922,
+      "lat": "55.6834082",
+      "lon": "12.5651843",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Bankeråt",
+      "display_name": "Bankeråt, Ahlefeldtsgade, Nørrevold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1359, Danmark",
+      "address": {
+        "amenity": "Bankeråt",
+        "road": "Ahlefeldtsgade",
+        "quarter": "Nørrevold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1359",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Bankeråt",
+        "name:da": "Bankeråt",
+        "alt_name": "Bankeråt Restaurant & Bar"
+      },
+      "boundingbox": [
+        "55.6833582",
+        "55.6834582",
+        "12.5651343",
+        "12.5652343"
+      ]
+    }
+  ],
+  "Barcelona Bar, Copenhagen, Denmark": [],
+  "BARkowski, Copenhagen, Denmark": [
+    {
+      "place_id": 149174341,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3372385621,
+      "lat": "55.6846268",
+      "lon": "12.5675944",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Barkowski",
+      "display_name": "Barkowski, Nørre Farimagsgade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1363, Danmark",
+      "address": {
+        "amenity": "Barkowski",
+        "road": "Nørre Farimagsgade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1363",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Barkowski",
+        "name:da": "Barkowski",
+        "alt_name": "Barkowski Bar"
+      },
+      "boundingbox": [
+        "55.6845768",
+        "55.6846768",
+        "12.5675444",
+        "12.5676444"
+      ]
+    }
+  ],
+  "Barrdrew, Copenhagen, Denmark": [
+    {
+      "place_id": 148444635,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9710167696,
+      "lat": "55.6850036",
+      "lon": "12.5677383",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "BarrDrew",
+      "display_name": "BarrDrew, Frederiksborggade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1363, Danmark",
+      "address": {
+        "amenity": "BarrDrew",
+        "road": "Frederiksborggade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1363",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "BarrDrew"
+      },
+      "boundingbox": [
+        "55.6849536",
+        "55.6850536",
+        "12.5676883",
+        "12.5677883"
+      ]
+    }
+  ],
+  "Basement Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 148430251,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 898939487,
+      "lat": "55.6818705",
+      "lon": "12.5825994",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Basement",
+      "display_name": "Basement, Store Regnegade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1110, Danmark",
+      "address": {
+        "amenity": "Basement",
+        "road": "Store Regnegade",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1110",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Basement",
+        "name:da": "Basement",
+        "alt_name": "Basement Bar"
+      },
+      "boundingbox": [
+        "55.6818205",
+        "55.6819205",
+        "12.5825494",
+        "12.5826494"
+      ]
+    }
+  ],
+  "Bird & The Churchkey, Copenhagen, Denmark": [
+    {
+      "place_id": 148887082,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3773088919,
+      "lat": "55.6776418",
+      "lon": "12.5780759",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "The Bird and the Churchkey",
+      "display_name": "The Bird and the Churchkey, Gammel Strand, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1202, Danmark",
+      "address": {
+        "amenity": "The Bird and the Churchkey",
+        "road": "Gammel Strand",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1202",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "The Bird and the Churchkey"
+      },
+      "boundingbox": [
+        "55.6775918",
+        "55.6776918",
+        "12.5780259",
+        "12.5781259"
+      ]
+    }
+  ],
+  "Borgerly, Copenhagen, Denmark": [],
+  "Cafe Guldhornene, Copenhagen, Denmark": [
+    {
+      "place_id": 148469773,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 687312669,
+      "lat": "55.6772854",
+      "lon": "12.5693007",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Cafè Guldhornene",
+      "display_name": "Cafè Guldhornene, Vestergade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1456, Danmark",
+      "address": {
+        "amenity": "Cafè Guldhornene",
+        "road": "Vestergade",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1456",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Cafè Guldhornene"
+      },
+      "boundingbox": [
+        "55.6772354",
+        "55.6773354",
+        "12.5692507",
+        "12.5693507"
+      ]
+    }
+  ],
+  "Cafe Katz, Copenhagen, Denmark": [
+    {
+      "place_id": 148762028,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 281253914,
+      "lat": "55.6760515",
+      "lon": "12.5750716",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Cafe Katz",
+      "display_name": "Cafe Katz, Frederiksholms Kanal, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1204, Danmark",
+      "address": {
+        "amenity": "Cafe Katz",
+        "road": "Frederiksholms Kanal",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1204",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Cafe Katz"
+      },
+      "boundingbox": [
+        "55.6760015",
+        "55.6761015",
+        "12.5750216",
+        "12.5751216"
+      ]
+    }
+  ],
+  "Nemoland, Copenhagen, Denmark": [
+    {
+      "place_id": 420368489,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13934960417,
+      "lat": "55.6729888",
+      "lon": "12.5998288",
+      "category": "amenity",
+      "type": "music_venue",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Nemoland",
+      "display_name": "Nemoland, Pusher Street, Christiania, Holmen, Amagerbro, København, Københavns Kommune, Region Hovedstaden, 1429, Danmark",
+      "address": {
+        "amenity": "Nemoland",
+        "road": "Pusher Street",
+        "neighbourhood": "Christiania",
+        "quarter": "Holmen",
+        "suburb": "Amagerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1429",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Nemoland"
+      },
+      "boundingbox": [
+        "55.6729388",
+        "55.6730388",
+        "12.5997788",
+        "12.5998788"
+      ]
+    },
+    {
+      "place_id": 148310636,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3789555912,
+      "lat": "55.6730769",
+      "lon": "12.6002701",
+      "category": "tourism",
+      "type": "artwork",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "tourism",
+      "name": "Nemoland",
+      "display_name": "Nemoland, Mælkevejen, Christiania, Holmen, Amagerbro, København, Københavns Kommune, Region Hovedstaden, 1440, Danmark",
+      "address": {
+        "tourism": "Nemoland",
+        "road": "Mælkevejen",
+        "neighbourhood": "Christiania",
+        "quarter": "Holmen",
+        "suburb": "Amagerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1440",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Nemoland"
+      },
+      "boundingbox": [
+        "55.6730269",
+        "55.6731269",
+        "12.6002201",
+        "12.6003201"
+      ]
+    }
+  ],
+  "Cafe Sofie Kælderen, Copenhagen, Denmark": [],
+  "Cafe Sommersko, Copenhagen, Denmark": [
+    {
+      "place_id": 148822267,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12871228301,
+      "lat": "55.6821782",
+      "lon": "12.5868360",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Sommersko",
+      "display_name": "Sommersko, Palægade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1261, Danmark",
+      "address": {
+        "amenity": "Sommersko",
+        "road": "Palægade",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1261",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Sommersko"
+      },
+      "boundingbox": [
+        "55.6821282",
+        "55.6822282",
+        "12.5867860",
+        "12.5868860"
+      ]
+    }
+  ],
+  "Camping Boltens Gård, Copenhagen, Denmark": [
+    {
+      "place_id": 147838736,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12912713635,
+      "lat": "55.6817711",
+      "lon": "12.5846229",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Camping Boltensgård",
+      "display_name": "Camping Boltensgård, Boltens Gård, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1104, Danmark",
+      "address": {
+        "amenity": "Camping Boltensgård",
+        "road": "Boltens Gård",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1104",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Camping Boltensgård"
+      },
+      "boundingbox": [
+        "55.6817211",
+        "55.6818211",
+        "12.5845729",
+        "12.5846729"
+      ]
+    }
+  ],
+  "Centre Stage, Copenhagen, Denmark": [
+    {
+      "place_id": 148711754,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8144238933,
+      "lat": "55.6784007",
+      "lon": "12.5687681",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Centre Stage Bar & Lounge",
+      "display_name": "Centre Stage Bar & Lounge, Studiestræde, Pisserenden, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1453, Danmark",
+      "address": {
+        "amenity": "Centre Stage Bar & Lounge",
+        "road": "Studiestræde",
+        "neighbourhood": "Pisserenden",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1453",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Centre Stage Bar & Lounge",
+        "name:da": "Centre Stage Bar & Lounge",
+        "old_name": "COSY BAR"
+      },
+      "boundingbox": [
+        "55.6783507",
+        "55.6784507",
+        "12.5687181",
+        "12.5688181"
+      ]
+    }
+  ],
+  "Copenhagen Downtown Hostel, Copenhagen, Denmark": [
+    {
+      "place_id": 147937467,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 415895215,
+      "lat": "55.6759488",
+      "lon": "12.5742396",
+      "category": "tourism",
+      "type": "hostel",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "tourism",
+      "name": "Copenhagen Downtown Hostel",
+      "display_name": "Copenhagen Downtown Hostel, Vandkunsten, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1467, Danmark",
+      "address": {
+        "tourism": "Copenhagen Downtown Hostel",
+        "road": "Vandkunsten",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1467",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Copenhagen Downtown Hostel"
+      },
+      "boundingbox": [
+        "55.6758988",
+        "55.6759988",
+        "12.5741896",
+        "12.5742896"
+      ]
+    }
+  ],
+  "Cucaracha Bar CPH, Copenhagen, Denmark": [
+    {
+      "place_id": 148967661,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 898933924,
+      "lat": "55.6823061",
+      "lon": "12.5816691",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Cucaracha Bar",
+      "display_name": "Cucaracha Bar, Gothersgade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1111, Danmark",
+      "address": {
+        "amenity": "Cucaracha Bar",
+        "road": "Gothersgade",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1111",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Cucaracha Bar"
+      },
+      "boundingbox": [
+        "55.6822561",
+        "55.6823561",
+        "12.5816191",
+        "12.5817191"
+      ]
+    }
+  ],
+  "Den Jyske Ambassade, Copenhagen, Denmark": [],
+  "Det Elektriske Hjørne, Copenhagen, Denmark": [
+    {
+      "place_id": 147671505,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 301511854,
+      "lat": "55.6815478",
+      "lon": "12.5822074",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Det Elektriske Hjørne",
+      "display_name": "Det Elektriske Hjørne, Store Regnegade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1110, Danmark",
+      "address": {
+        "amenity": "Det Elektriske Hjørne",
+        "road": "Store Regnegade",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1110",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Det Elektriske Hjørne"
+      },
+      "boundingbox": [
+        "55.6814978",
+        "55.6815978",
+        "12.5821574",
+        "12.5822574"
+      ]
+    }
+  ],
+  "Drop Inn, Copenhagen, Denmark": [
+    {
+      "place_id": 148520919,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 279472194,
+      "lat": "55.6763998",
+      "lon": "12.5733293",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Drop Inn",
+      "display_name": "Drop Inn, Kompagnistræde, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1465, Danmark",
+      "address": {
+        "amenity": "Drop Inn",
+        "road": "Kompagnistræde",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1465",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Drop Inn"
+      },
+      "boundingbox": [
+        "55.6763498",
+        "55.6764498",
+        "12.5732793",
+        "12.5733793"
+      ]
+    }
+  ],
+  "Floss, Copenhagen, Denmark": [
+    {
+      "place_id": 149224432,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2837243901,
+      "lat": "55.6781561",
+      "lon": "12.5698566",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Floss",
+      "display_name": "Floss, Larsbjørnsstræde, Pisserenden, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1454, Danmark",
+      "address": {
+        "amenity": "Floss",
+        "road": "Larsbjørnsstræde",
+        "neighbourhood": "Pisserenden",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1454",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Floss"
+      },
+      "boundingbox": [
+        "55.6781061",
+        "55.6782061",
+        "12.5698066",
+        "12.5699066"
+      ]
+    }
+  ],
+  "Studenterhuset, Copenhagen, Denmark": [
+    {
+      "place_id": 431185533,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 40630575,
+      "lat": "55.6813499",
+      "lon": "12.5764715",
+      "category": "amenity",
+      "type": "community_centre",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Studenterhuset",
+      "display_name": "Studenterhuset, Købmagergade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1125, Danmark",
+      "address": {
+        "amenity": "Studenterhuset",
+        "road": "Købmagergade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1125",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Studenterhuset"
+      },
+      "boundingbox": [
+        "55.6811183",
+        "55.6815954",
+        "12.5761592",
+        "12.5768895"
+      ]
+    },
+    {
+      "place_id": 148369685,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 311470440,
+      "lat": "55.6811920",
+      "lon": "12.5762820",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Studenterhuset",
+      "display_name": "Studenterhuset, Købmagergade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1150, Danmark",
+      "address": {
+        "amenity": "Studenterhuset",
+        "road": "Købmagergade",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1150",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Studenterhuset"
+      },
+      "boundingbox": [
+        "55.6811420",
+        "55.6812420",
+        "12.5762320",
+        "12.5763320"
+      ]
+    }
+  ],
+  "Funchs Vinstue, Copenhagen, Denmark": [
+    {
+      "place_id": 148765903,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1462189989,
+      "lat": "55.6845001",
+      "lon": "12.5674404",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Funchs Vinstue",
+      "display_name": "Funchs Vinstue, Nørre Farimagsgade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1363, Danmark",
+      "address": {
+        "amenity": "Funchs Vinstue",
+        "road": "Nørre Farimagsgade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1363",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Funchs Vinstue"
+      },
+      "boundingbox": [
+        "55.6844501",
+        "55.6845501",
+        "12.5673904",
+        "12.5674904"
+      ]
+    }
+  ],
+  "Generator Copenhagen, Copenhagen, Denmark": [
+    {
+      "place_id": 147677643,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1683620829,
+      "lat": "55.6829255",
+      "lon": "12.5826069",
+      "category": "tourism",
+      "type": "hostel",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "tourism",
+      "name": "Generator Copenhagen",
+      "display_name": "Generator Copenhagen, Adelgade, Nyboder, Indre By, København, Københavns Kommune, Region Hovedstaden, 1110, Danmark",
+      "address": {
+        "tourism": "Generator Copenhagen",
+        "road": "Adelgade",
+        "quarter": "Nyboder",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1110",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Generator Copenhagen"
+      },
+      "boundingbox": [
+        "55.6828755",
+        "55.6829755",
+        "12.5825569",
+        "12.5826569"
+      ]
+    }
+  ],
+  "Heidi’s Bier Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 148434521,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 687313455,
+      "lat": "55.6773855",
+      "lon": "12.5694568",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Heidi's Bier Bar",
+      "display_name": "Heidi's Bier Bar, Vestergade, Pisserenden, Nørrevold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1456, Danmark",
+      "address": {
+        "amenity": "Heidi's Bier Bar",
+        "road": "Vestergade",
+        "neighbourhood": "Pisserenden",
+        "quarter": "Nørrevold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1456",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Heidi's Bier Bar"
+      },
+      "boundingbox": [
+        "55.6773355",
+        "55.6774355",
+        "12.5694068",
+        "12.5695068"
+      ]
+    }
+  ],
+  "Hermans Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 147637402,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12825973670,
+      "lat": "55.6788527",
+      "lon": "12.5722171",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Eldorado Bar",
+      "display_name": "Eldorado Bar, Nørregade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1167, Danmark",
+      "address": {
+        "amenity": "Eldorado Bar",
+        "road": "Nørregade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1167",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Eldorado Bar",
+        "name:da": "Eldorado Bar",
+        "alt_name": "Hermans Bar"
+      },
+      "boundingbox": [
+        "55.6788027",
+        "55.6789027",
+        "12.5721671",
+        "12.5722671"
+      ]
+    }
+  ],
+  "Høvlen 77, Copenhagen, Denmark": [],
+  "Jagtstuen, Copenhagen, Denmark": [
+    {
+      "place_id": 148719291,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1462221515,
+      "lat": "55.6839289",
+      "lon": "12.5684807",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Jagtstuen",
+      "display_name": "Jagtstuen, Vendersgade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1363, Danmark",
+      "address": {
+        "amenity": "Jagtstuen",
+        "road": "Vendersgade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1363",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Jagtstuen"
+      },
+      "boundingbox": [
+        "55.6838789",
+        "55.6839789",
+        "12.5684307",
+        "12.5685307"
+      ]
+    }
+  ],
+  "Jailhouse, Copenhagen, Denmark": [
+    {
+      "place_id": 148545465,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4015755825,
+      "lat": "55.6788802",
+      "lon": "12.5700342",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Born 12/ Jailhouse CPH",
+      "display_name": "Born 12/ Jailhouse CPH, Studiestræde, Pisserenden, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1167, Danmark",
+      "address": {
+        "amenity": "Born 12/ Jailhouse CPH",
+        "road": "Studiestræde",
+        "neighbourhood": "Pisserenden",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1167",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Born 12/ Jailhouse CPH"
+      },
+      "boundingbox": [
+        "55.6788302",
+        "55.6789302",
+        "12.5699842",
+        "12.5700842"
+      ]
+    }
+  ],
+  "Kanal Bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 148715329,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 727708821,
+      "lat": "55.6719928",
+      "lon": "12.5905788",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Kanal Bodega",
+      "display_name": "Kanal Bodega, Overgaden Oven Vandet, Gammelholm, Christianshavn, København, Københavns Kommune, Region Hovedstaden, 1410, Danmark",
+      "address": {
+        "amenity": "Kanal Bodega",
+        "road": "Overgaden Oven Vandet",
+        "quarter": "Gammelholm",
+        "suburb": "Christianshavn",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1410",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Kanal Bodega"
+      },
+      "boundingbox": [
+        "55.6719428",
+        "55.6720428",
+        "12.5905288",
+        "12.5906288"
+      ]
+    }
+  ],
+  "Kayak Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 149026042,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4012815277,
+      "lat": "55.6752050",
+      "lon": "12.5867640",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Kayak Bar",
+      "display_name": "Kayak Bar, Christians Brygge, Gammelholm, Christianshavn, København, Københavns Kommune, Region Hovedstaden, 1059, Danmark",
+      "address": {
+        "amenity": "Kayak Bar",
+        "road": "Christians Brygge",
+        "quarter": "Gammelholm",
+        "suburb": "Christianshavn",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1059",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Kayak Bar"
+      },
+      "boundingbox": [
+        "55.6751550",
+        "55.6752550",
+        "12.5867140",
+        "12.5868140"
+      ]
+    }
+  ],
+  "Liam’s, Copenhagen, Denmark": [],
+  "Masken, Copenhagen, Denmark": [
+    {
+      "place_id": 147849191,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1596733408,
+      "lat": "55.6781756",
+      "lon": "12.5686176",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Masken Bar",
+      "display_name": "Masken Bar, Studiestræde, Pisserenden, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1453, Danmark",
+      "address": {
+        "amenity": "Masken Bar",
+        "road": "Studiestræde",
+        "neighbourhood": "Pisserenden",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1453",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Masken Bar"
+      },
+      "boundingbox": [
+        "55.6781256",
+        "55.6782256",
+        "12.5685676",
+        "12.5686676"
+      ]
+    }
+  ],
+  "McJoy’s Choice, Copenhagen, Denmark": [],
+  "MJ Gothersgade, Copenhagen, Denmark": [],
+  "Mojo, Copenhagen, Denmark": [
+    {
+      "place_id": 148425121,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1612954850,
+      "lat": "55.6756583",
+      "lon": "12.5735337",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Mojo Blues Bar",
+      "display_name": "Mojo Blues Bar, Løngangstræde, Vestervold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1468, Danmark",
+      "address": {
+        "amenity": "Mojo Blues Bar",
+        "road": "Løngangstræde",
+        "quarter": "Vestervold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1468",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Mojo Blues Bar"
+      },
+      "boundingbox": [
+        "55.6756083",
+        "55.6757083",
+        "12.5734837",
+        "12.5735837"
+      ]
+    }
+  ],
+  "Nørreport Bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 147655706,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1591124412,
+      "lat": "55.6824210",
+      "lon": "12.5715050",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Nørreport Bodega",
+      "display_name": "Nørreport Bodega, Nørre Voldgade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1358, Danmark",
+      "address": {
+        "amenity": "Nørreport Bodega",
+        "road": "Nørre Voldgade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1358",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Nørreport Bodega"
+      },
+      "boundingbox": [
+        "55.6823710",
+        "55.6824710",
+        "12.5714550",
+        "12.5715550"
+      ]
+    }
+  ],
+  "Palmehaven, Copenhagen, Denmark": [],
+  "Rabalder Bar CPH, Copenhagen, Denmark": [
+    {
+      "place_id": 147665890,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8117602439,
+      "lat": "55.6820900",
+      "lon": "12.5824986",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Rabalder Bar",
+      "display_name": "Rabalder Bar, Gothersgade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1110, Danmark",
+      "address": {
+        "amenity": "Rabalder Bar",
+        "road": "Gothersgade",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1110",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Rabalder Bar"
+      },
+      "boundingbox": [
+        "55.6820400",
+        "55.6821400",
+        "12.5824486",
+        "12.5825486"
+      ]
+    }
+  ],
+  "Rosengårdens Bodega, Copenhagen, Denmark": [],
+  "Sjus Bar CPH, Copenhagen, Denmark": [
+    {
+      "place_id": 146875212,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 413370338,
+      "lat": "55.6810813",
+      "lon": "12.5798685",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Sjus Bar",
+      "display_name": "Sjus Bar, Pilestræde, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1112, Danmark",
+      "address": {
+        "amenity": "Sjus Bar",
+        "road": "Pilestræde",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1112",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Sjus Bar",
+        "name:da": "Sjus Bar",
+        "alt_name": "Sjus"
+      },
+      "boundingbox": [
+        "55.6810313",
+        "55.6811313",
+        "12.5798185",
+        "12.5799185"
+      ]
+    }
+  ],
+  "Southern Cross Pub, Copenhagen, Denmark": [
+    {
+      "place_id": 148525878,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4575935451,
+      "lat": "55.6752286",
+      "lon": "12.5724216",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Southern Cross Pub",
+      "display_name": "Southern Cross Pub, Løngangstræde, Vestervold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1468, Danmark",
+      "address": {
+        "amenity": "Southern Cross Pub",
+        "road": "Løngangstræde",
+        "quarter": "Vestervold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1468",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Southern Cross Pub"
+      },
+      "boundingbox": [
+        "55.6751786",
+        "55.6752786",
+        "12.5723716",
+        "12.5724716"
+      ]
+    }
+  ],
+  "The Dubliner, Copenhagen, Denmark": [],
+  "The Globe, Copenhagen, Denmark": [
+    {
+      "place_id": 148375992,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2165235074,
+      "lat": "55.6817950",
+      "lon": "12.5709215",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "The Globe",
+      "display_name": "The Globe, Nørregade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1165, Danmark",
+      "address": {
+        "amenity": "The Globe",
+        "road": "Nørregade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1165",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "The Globe"
+      },
+      "boundingbox": [
+        "55.6817450",
+        "55.6818450",
+        "12.5708715",
+        "12.5709715"
+      ]
+    }
+  ],
+  "Tyrolia Bier Klub, Copenhagen, Denmark": [],
+  "Victoria Pub, Copenhagen, Denmark": [],
+  "Wall Street Pub, Copenhagen, Denmark": [
+    {
+      "place_id": 147654525,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4715837029,
+      "lat": "55.6816577",
+      "lon": "12.5849140",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Wall Street Pub",
+      "display_name": "Wall Street Pub, Gothersgade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1104, Danmark",
+      "address": {
+        "amenity": "Wall Street Pub",
+        "road": "Gothersgade",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1104",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Wall Street Pub"
+      },
+      "boundingbox": [
+        "55.6816077",
+        "55.6817077",
+        "12.5848640",
+        "12.5849640"
+      ]
+    }
+  ],
+  "Wessel Kro, Copenhagen, Denmark": [],
+  "Axelborg Bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 148834509,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 893959430,
+      "lat": "55.6754287",
+      "lon": "12.5644398",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Axelborg Bodega",
+      "display_name": "Axelborg Bodega, Axeltorv, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1609, Danmark",
+      "address": {
+        "amenity": "Axelborg Bodega",
+        "road": "Axeltorv",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1609",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Axelborg Bodega"
+      },
+      "boundingbox": [
+        "55.6753787",
+        "55.6754787",
+        "12.5643898",
+        "12.5644898"
+      ]
+    }
+  ],
+  "Bar 42, Copenhagen, Denmark": [
+    {
+      "place_id": 149164796,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 674852970,
+      "lat": "55.6672208",
+      "lon": "12.5534530",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café 42",
+      "display_name": "Café 42, Sønder Boulevard, Den Gule By, Vesterbro, København, Københavns Kommune, Region Hovedstaden, 1721, Danmark",
+      "address": {
+        "amenity": "Café 42",
+        "road": "Sønder Boulevard",
+        "quarter": "Den Gule By",
+        "suburb": "Vesterbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1721",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café 42"
+      },
+      "boundingbox": [
+        "55.6671708",
+        "55.6672708",
+        "12.5534030",
+        "12.5535030"
+      ]
+    }
+  ],
+  "Bar 180, Copenhagen, Denmark": [],
+  "Blomsten, Copenhagen, Denmark": [
+    {
+      "place_id": 148465120,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 24845133,
+      "lat": "55.7136871",
+      "lon": "12.5551135",
+      "category": "place",
+      "type": "allotments",
+      "place_rank": 22,
+      "importance": 0.10674865873197525,
+      "addresstype": "allotments",
+      "name": "Haveforeningen Blomsten",
+      "display_name": "Haveforeningen Blomsten, Nørrebro, København, Københavns Kommune, Region Hovedstaden, Danmark",
+      "address": {
+        "allotments": "Haveforeningen Blomsten",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Haveforeningen Blomsten"
+      },
+      "boundingbox": [
+        "55.7119212",
+        "55.7145721",
+        "12.5521100",
+        "12.5569022"
+      ]
+    },
+    {
+      "place_id": 149262807,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 317257648,
+      "lat": "55.6535307",
+      "lon": "12.5676887",
+      "category": "building",
+      "type": "apartments",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "building",
+      "name": "Brygge Blomsten",
+      "display_name": "Brygge Blomsten, Rundholtsvej, Ballonparken, København, Københavns Kommune, Region Hovedstaden, 1561, Danmark",
+      "address": {
+        "building": "Brygge Blomsten",
+        "road": "Rundholtsvej",
+        "suburb": "Ballonparken",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1561",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Brygge Blomsten"
+      },
+      "boundingbox": [
+        "55.6534005",
+        "55.6536506",
+        "12.5674723",
+        "12.5679149"
+      ]
+    },
+    {
+      "place_id": 148815196,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1223225238,
+      "lat": "55.6736610",
+      "lon": "12.5933524",
+      "category": "shop",
+      "type": "florist",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "shop",
+      "name": "Pigen og blomsten",
+      "display_name": "Pigen og blomsten, Overgaden Oven Vandet, Gammelholm, Christianshavn, København, Københavns Kommune, Region Hovedstaden, 1415, Danmark",
+      "address": {
+        "shop": "Pigen og blomsten",
+        "road": "Overgaden Oven Vandet",
+        "quarter": "Gammelholm",
+        "suburb": "Christianshavn",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1415",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Pigen og blomsten"
+      },
+      "boundingbox": [
+        "55.6736110",
+        "55.6737110",
+        "12.5933024",
+        "12.5934024"
+      ]
+    },
+    {
+      "place_id": 149108512,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7692582438,
+      "lat": "55.6806926",
+      "lon": "12.5893772",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Blomsten",
+      "display_name": "Café Blomsten, Lille Strandstræde, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1254, Danmark",
+      "address": {
+        "amenity": "Café Blomsten",
+        "road": "Lille Strandstræde",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1254",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Blomsten"
+      },
+      "boundingbox": [
+        "55.6806426",
+        "55.6807426",
+        "12.5893272",
+        "12.5894272"
+      ]
+    }
+  ],
+  "Bryggerens, Copenhagen, Denmark": [
+    {
+      "place_id": 147717104,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12833708898,
+      "lat": "55.6673534",
+      "lon": "12.5335681",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Bryggerens",
+      "display_name": "Bryggerens, Ny Carlsberg Vej, Humleby, Den Gule By, Carlsberg Byen, København, Københavns Kommune, Region Hovedstaden, 1799, Danmark",
+      "address": {
+        "amenity": "Bryggerens",
+        "road": "Ny Carlsberg Vej",
+        "neighbourhood": "Humleby",
+        "quarter": "Den Gule By",
+        "suburb": "Carlsberg Byen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1799",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Bryggerens",
+        "name:da": "Bryggerens",
+        "alt_name": "Bryggerens"
+      },
+      "boundingbox": [
+        "55.6673034",
+        "55.6674034",
+        "12.5335181",
+        "12.5336181"
+      ]
+    }
+  ],
+  "Cafe Ludwigsen, Copenhagen, Denmark": [
+    {
+      "place_id": 148415462,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 738821350,
+      "lat": "55.6709507",
+      "lon": "12.5436884",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Ludwigsen",
+      "display_name": "Café Ludwigsen, Vesterbrogade, Humleby, Vestervold, Carlsberg Byen, København, Københavns Kommune, Region Hovedstaden, 1752, Danmark",
+      "address": {
+        "amenity": "Café Ludwigsen",
+        "road": "Vesterbrogade",
+        "neighbourhood": "Humleby",
+        "quarter": "Vestervold",
+        "suburb": "Carlsberg Byen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1752",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Ludwigsen"
+      },
+      "boundingbox": [
+        "55.6709007",
+        "55.6710007",
+        "12.5436384",
+        "12.5437384"
+      ]
+    }
+  ],
+  "Cafe Skammekrogen, Copenhagen, Denmark": [
+    {
+      "place_id": 146713940,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 899018814,
+      "lat": "55.6717350",
+      "lon": "12.5547646",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Skammekrogen",
+      "display_name": "Skammekrogen, Vesterbro Torv, Vestervold, Vesterbro, København, Københavns Kommune, Region Hovedstaden, 1659, Danmark",
+      "address": {
+        "amenity": "Skammekrogen",
+        "road": "Vesterbro Torv",
+        "quarter": "Vestervold",
+        "suburb": "Vesterbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1659",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Skammekrogen"
+      },
+      "boundingbox": [
+        "55.6716850",
+        "55.6717850",
+        "12.5547146",
+        "12.5548146"
+      ]
+    }
+  ],
+  "Camping Kødbyen, Copenhagen, Denmark": [
+    {
+      "place_id": 148579489,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9839949333,
+      "lat": "55.6668883",
+      "lon": "12.5588952",
+      "category": "leisure",
+      "type": "miniature_golf",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "leisure",
+      "name": "Camping Kødbyen - Minigolf, bar & burgers",
+      "display_name": "Camping Kødbyen - Minigolf, bar & burgers, Kødboderne, Den Gule By, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1714, Danmark",
+      "address": {
+        "leisure": "Camping Kødbyen - Minigolf, bar & burgers",
+        "road": "Kødboderne",
+        "quarter": "Den Gule By",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1714",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Camping Kødbyen - Minigolf, bar & burgers"
+      },
+      "boundingbox": [
+        "55.6668383",
+        "55.6669383",
+        "12.5588452",
+        "12.5589452"
+      ]
+    },
+    {
+      "place_id": 148603651,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5299629819,
+      "lat": "55.6668636",
+      "lon": "12.5589364",
+      "category": "amenity",
+      "type": "fast_food",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Camping Kødbyen - Minigolf, bar & burgers",
+      "display_name": "Camping Kødbyen - Minigolf, bar & burgers, Kødboderne, Den Gule By, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1714, Danmark",
+      "address": {
+        "amenity": "Camping Kødbyen - Minigolf, bar & burgers",
+        "road": "Kødboderne",
+        "quarter": "Den Gule By",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1714",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Camping Kødbyen - Minigolf, bar & burgers"
+      },
+      "boundingbox": [
+        "55.6668136",
+        "55.6669136",
+        "12.5588864",
+        "12.5589864"
+      ]
+    }
+  ],
+  "Club Mambo, Copenhagen, Denmark": [
+    {
+      "place_id": 147657807,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 280464811,
+      "lat": "55.6750928",
+      "lon": "12.5721856",
+      "category": "amenity",
+      "type": "nightclub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Club Mambo",
+      "display_name": "Club Mambo, Løngangstræde, Vestervold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1552, Danmark",
+      "address": {
+        "amenity": "Club Mambo",
+        "road": "Løngangstræde",
+        "quarter": "Vestervold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1552",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Club Mambo"
+      },
+      "boundingbox": [
+        "55.6750428",
+        "55.6751428",
+        "12.5721356",
+        "12.5722356"
+      ]
+    }
+  ],
+  "Grotten, Copenhagen, Denmark": [
+    {
+      "place_id": 149273179,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 683192044,
+      "lat": "55.6675503",
+      "lon": "12.5553934",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Grotten",
+      "display_name": "Café Grotten, Sommerstedgade, Den Gule By, Vesterbro, København, Københavns Kommune, Region Hovedstaden, 1718, Danmark",
+      "address": {
+        "amenity": "Café Grotten",
+        "road": "Sommerstedgade",
+        "quarter": "Den Gule By",
+        "suburb": "Vesterbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1718",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Grotten"
+      },
+      "boundingbox": [
+        "55.6675003",
+        "55.6676003",
+        "12.5553434",
+        "12.5554434"
+      ]
+    }
+  ],
+  "Jernbanecafeen, Copenhagen, Denmark": [
+    {
+      "place_id": 148905483,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 727436488,
+      "lat": "55.6721637",
+      "lon": "12.5636709",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Jernbanecafeen",
+      "display_name": "Jernbanecafeen, Reventlowsgade, Postbyen, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1651, Danmark",
+      "address": {
+        "amenity": "Jernbanecafeen",
+        "road": "Reventlowsgade",
+        "neighbourhood": "Postbyen",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1651",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Jernbanecafeen"
+      },
+      "boundingbox": [
+        "55.6721137",
+        "55.6722137",
+        "12.5636209",
+        "12.5637209"
+      ]
+    }
+  ],
+  "Larsens Plaz, Copenhagen, Denmark": [],
+  "Maximum, Copenhagen, Denmark": [
+    {
+      "place_id": 146711446,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13479374525,
+      "lat": "55.6636581",
+      "lon": "12.5601860",
+      "category": "leisure",
+      "type": "amusement_arcade",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "leisure",
+      "name": "Maximum København",
+      "display_name": "Maximum København, Det Grønne Strøg, Den Gule By, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1714, Danmark",
+      "address": {
+        "leisure": "Maximum København",
+        "road": "Det Grønne Strøg",
+        "quarter": "Den Gule By",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1714",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Maximum København"
+      },
+      "boundingbox": [
+        "55.6636081",
+        "55.6637081",
+        "12.5601360",
+        "12.5602360"
+      ]
+    }
+  ],
+  "Urban House Copenhagen, Copenhagen, Denmark": [
+    {
+      "place_id": 149014840,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3513411225,
+      "lat": "55.6722103",
+      "lon": "12.5623271",
+      "category": "tourism",
+      "type": "hostel",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "tourism",
+      "name": "Meiniger Hotel Copenhagen (former Urban House Copenhagen)",
+      "display_name": "Meiniger Hotel Copenhagen (former Urban House Copenhagen), Istedgade, Postbyen, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1653, Danmark",
+      "address": {
+        "tourism": "Meiniger Hotel Copenhagen (former Urban House Copenhagen)",
+        "road": "Istedgade",
+        "neighbourhood": "Postbyen",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1653",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Meiniger Hotel Copenhagen (former Urban House Copenhagen)",
+        "name:da": "Meiniger Hotel Copenhagen (former Urban House Copenhagen)",
+        "alt_name": "MEININGER Hotel Copenhagen"
+      },
+      "boundingbox": [
+        "55.6721603",
+        "55.6722603",
+        "12.5622771",
+        "12.5623771"
+      ]
+    }
+  ],
+  "Never Mind, Copenhagen, Denmark": [],
+  "Next House Copenhagen, Copenhagen, Denmark": [
+    {
+      "place_id": 148775780,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10055230050,
+      "lat": "55.6696312",
+      "lon": "12.5709088",
+      "category": "tourism",
+      "type": "hostel",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "tourism",
+      "name": "Next House",
+      "display_name": "Next House, Polititorvet, Postbyen, Islands Brygge, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1567, Danmark",
+      "address": {
+        "tourism": "Next House",
+        "road": "Polititorvet",
+        "neighbourhood": "Postbyen",
+        "quarter": "Islands Brygge",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1567",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Next House"
+      },
+      "boundingbox": [
+        "55.6695812",
+        "55.6696812",
+        "12.5708588",
+        "12.5709588"
+      ]
+    }
+  ],
+  "Old Irish Pub Karaokebar, Copenhagen, Denmark": [],
+  "Oscar Bar og Cafe, Copenhagen, Denmark": [],
+  "Pinden bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 148865191,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12891709281,
+      "lat": "55.6733784",
+      "lon": "12.5627200",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Pinden Bodega",
+      "display_name": "Pinden Bodega, Reventlowsgade, Postbyen, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1651, Danmark",
+      "address": {
+        "amenity": "Pinden Bodega",
+        "road": "Reventlowsgade",
+        "neighbourhood": "Postbyen",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1651",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Pinden Bodega"
+      },
+      "boundingbox": [
+        "55.6733284",
+        "55.6734284",
+        "12.5626700",
+        "12.5627700"
+      ]
+    }
+  ],
+  "Proud Mary CPH, Copenhagen, Denmark": [
+    {
+      "place_id": 156706929,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8107469773,
+      "lat": "55.6757850",
+      "lon": "12.5671330",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Proud Mary",
+      "display_name": "Proud Mary, Vesterbrogade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1608, Danmark",
+      "address": {
+        "amenity": "Proud Mary",
+        "road": "Vesterbrogade",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1608",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Proud Mary"
+      },
+      "boundingbox": [
+        "55.6757350",
+        "55.6758350",
+        "12.5670830",
+        "12.5671830"
+      ]
+    }
+  ],
+  "Pub & Sport, Copenhagen, Denmark": [
+    {
+      "place_id": 148497759,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 279690426,
+      "lat": "55.6782361",
+      "lon": "12.5668224",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Pub & Sport",
+      "display_name": "Pub & Sport, Vester Voldgade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1551, Danmark",
+      "address": {
+        "amenity": "Pub & Sport",
+        "road": "Vester Voldgade",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1551",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Pub & Sport"
+      },
+      "boundingbox": [
+        "55.6781861",
+        "55.6782861",
+        "12.5667724",
+        "12.5668724"
+      ]
+    }
+  ],
+  "Restaurant Klubben, Copenhagen, Denmark": [
+    {
+      "place_id": 147896186,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 340502719,
+      "lat": "55.6711195",
+      "lon": "12.5457687",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Restaurant Klubben",
+      "display_name": "Restaurant Klubben, Enghavevej, Humleby, Vestervold, Vesterbro, København, Københavns Kommune, Region Hovedstaden, 1624, Danmark",
+      "address": {
+        "amenity": "Restaurant Klubben",
+        "road": "Enghavevej",
+        "neighbourhood": "Humleby",
+        "quarter": "Vestervold",
+        "suburb": "Vesterbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1624",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Restaurant Klubben",
+        "name:da": "Restaurant Klubben",
+        "alt_name": "Tove Ditlevsens Mindehave"
+      },
+      "boundingbox": [
+        "55.6710695",
+        "55.6711695",
+        "12.5457187",
+        "12.5458187"
+      ]
+    }
+  ],
+  "Steel House, Copenhagen, Denmark": [
+    {
+      "place_id": 147989147,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5039784175,
+      "lat": "55.6762570",
+      "lon": "12.5600960",
+      "category": "tourism",
+      "type": "hostel",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "tourism",
+      "name": "Steel House",
+      "display_name": "Steel House, Herholdtsgade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1605, Danmark",
+      "address": {
+        "tourism": "Steel House",
+        "road": "Herholdtsgade",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1605",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Steel House"
+      },
+      "boundingbox": [
+        "55.6762070",
+        "55.6763070",
+        "12.5600460",
+        "12.5601460"
+      ]
+    }
+  ],
+  "Studiecafeen Humlen, Copenhagen, Denmark": [],
+  "The Goat, Copenhagen, Denmark": [
+    {
+      "place_id": 147723088,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 281255286,
+      "lat": "55.6719584",
+      "lon": "12.5547149",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "The Goat",
+      "display_name": "The Goat, Vesterbro Torv, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1659, Danmark",
+      "address": {
+        "amenity": "The Goat",
+        "road": "Vesterbro Torv",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1659",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "The Goat"
+      },
+      "boundingbox": [
+        "55.6719084",
+        "55.6720084",
+        "12.5546649",
+        "12.5547649"
+      ]
+    }
+  ],
+  "The Old English Pub Karaokebar, Copenhagen, Denmark": [],
+  "The Old Irish Pub Vesterbrogade, Copenhagen, Denmark": [
+    {
+      "place_id": 147865673,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 895776321,
+      "lat": "55.6754762",
+      "lon": "12.5662861",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "The Old Irish Pub Vesterbrogade",
+      "display_name": "The Old Irish Pub Vesterbrogade, Vesterbrogade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1608, Danmark",
+      "address": {
+        "amenity": "The Old Irish Pub Vesterbrogade",
+        "road": "Vesterbrogade",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1608",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "The Old Irish Pub Vesterbrogade",
+        "brand": "The Old Irish Pub",
+        "name:da": "The Old Irish Pub Vesterbrogade"
+      },
+      "boundingbox": [
+        "55.6754262",
+        "55.6755262",
+        "12.5662361",
+        "12.5663361"
+      ]
+    }
+  ],
+  "The Scottish Pub, Copenhagen, Denmark": [
+    {
+      "place_id": 148542820,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 281539863,
+      "lat": "55.6759526",
+      "lon": "12.5672190",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "The Scottish Pub",
+      "display_name": "The Scottish Pub, Vesterbrogade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1608, Danmark",
+      "address": {
+        "amenity": "The Scottish Pub",
+        "road": "Vesterbrogade",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1608",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "The Scottish Pub"
+      },
+      "boundingbox": [
+        "55.6759026",
+        "55.6760026",
+        "12.5671690",
+        "12.5672690"
+      ]
+    }
+  ],
+  "The Shamrock Inn, Copenhagen, Denmark": [
+    {
+      "place_id": 147949869,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3404321338,
+      "lat": "55.6759200",
+      "lon": "12.5658600",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "The Shamrock Inn",
+      "display_name": "The Shamrock Inn, Jernbanegade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1608, Danmark",
+      "address": {
+        "amenity": "The Shamrock Inn",
+        "road": "Jernbanegade",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1608",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "The Shamrock Inn"
+      },
+      "boundingbox": [
+        "55.6758700",
+        "55.6759700",
+        "12.5658100",
+        "12.5659100"
+      ]
+    }
+  ],
+  "Zeppelin Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 149176199,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4883742491,
+      "lat": "55.6722464",
+      "lon": "12.5558859",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Zeppelin",
+      "display_name": "Zeppelin, Vesterbrogade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1616, Danmark",
+      "address": {
+        "amenity": "Zeppelin",
+        "road": "Vesterbrogade",
+        "quarter": "Vestervold",
+        "suburb": "Kødbyen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1616",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Zeppelin"
+      },
+      "boundingbox": [
+        "55.6721964",
+        "55.6722964",
+        "12.5558359",
+        "12.5559359"
+      ]
+    }
+  ],
+  "Barbarian, Copenhagen, Denmark": [
+    {
+      "place_id": 147954214,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8117602447,
+      "lat": "55.6875250",
+      "lon": "12.5593420",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Barbarian",
+      "display_name": "Barbarian, Blågårdsgade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 1370, Danmark",
+      "address": {
+        "amenity": "Barbarian",
+        "road": "Blågårdsgade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1370",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Barbarian"
+      },
+      "boundingbox": [
+        "55.6874750",
+        "55.6875750",
+        "12.5592920",
+        "12.5593920"
+      ]
+    }
+  ],
+  "Baren RHK, Copenhagen, Denmark": [],
+  "Bip Bip Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 148478290,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7061980768,
+      "lat": "55.6889032",
+      "lon": "12.5597580",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Bip Bip Bar",
+      "display_name": "Bip Bip Bar, Fælledvej, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 1371, Danmark",
+      "address": {
+        "amenity": "Bip Bip Bar",
+        "road": "Fælledvej",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1371",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Bip Bip Bar"
+      },
+      "boundingbox": [
+        "55.6888532",
+        "55.6889532",
+        "12.5597080",
+        "12.5598080"
+      ]
+    }
+  ],
+  "Cafe Castro, Copenhagen, Denmark": [
+    {
+      "place_id": 148434939,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8712878659,
+      "lat": "55.6986296",
+      "lon": "12.5420351",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Castro",
+      "display_name": "Café Castro, Nørrebrogade, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark",
+      "address": {
+        "amenity": "Café Castro",
+        "road": "Nørrebrogade",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2200",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Castro"
+      },
+      "boundingbox": [
+        "55.6985796",
+        "55.6986796",
+        "12.5419851",
+        "12.5420851"
+      ]
+    }
+  ],
+  "Cafe Fuglereden, Copenhagen, Denmark": [
+    {
+      "place_id": 148481752,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8124919089,
+      "lat": "55.7047135",
+      "lon": "12.5264504",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Fuglereden",
+      "display_name": "Café Fuglereden, Frederikssundsvej, Utterslev, Bispebjerg, København, Københavns Kommune, Region Hovedstaden, 2400, Danmark",
+      "address": {
+        "amenity": "Café Fuglereden",
+        "road": "Frederikssundsvej",
+        "quarter": "Utterslev",
+        "suburb": "Bispebjerg",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2400",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Fuglereden"
+      },
+      "boundingbox": [
+        "55.7046635",
+        "55.7047635",
+        "12.5264004",
+        "12.5265004"
+      ]
+    }
+  ],
+  "Cafe Heimdal, Copenhagen, Denmark": [
+    {
+      "place_id": 149130671,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1369021923,
+      "lat": "55.7007099",
+      "lon": "12.5417497",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Cafe Heimdal",
+      "display_name": "Cafe Heimdal, Mimersgade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark",
+      "address": {
+        "amenity": "Cafe Heimdal",
+        "road": "Mimersgade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2200",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Cafe Heimdal"
+      },
+      "boundingbox": [
+        "55.7006599",
+        "55.7007599",
+        "12.5416997",
+        "12.5417997"
+      ]
+    }
+  ],
+  "Cafe Klovnen, Copenhagen, Denmark": [],
+  "Cafe Lille Peter, Copenhagen, Denmark": [
+    {
+      "place_id": 148462477,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 664252432,
+      "lat": "55.6957863",
+      "lon": "12.5439384",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Lille Peter",
+      "display_name": "Café Lille Peter, Søllerødgade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark",
+      "address": {
+        "amenity": "Café Lille Peter",
+        "road": "Søllerødgade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2200",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Lille Peter"
+      },
+      "boundingbox": [
+        "55.6957363",
+        "55.6958363",
+        "12.5438884",
+        "12.5439884"
+      ]
+    }
+  ],
+  "Cafe Stefanshus, Copenhagen, Denmark": [
+    {
+      "place_id": 149276100,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 335962972,
+      "lat": "55.6953457",
+      "lon": "12.5433560",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Stefanshus",
+      "display_name": "Café Stefanshus, Nordbanegade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark",
+      "address": {
+        "amenity": "Café Stefanshus",
+        "road": "Nordbanegade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2200",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Stefanshus"
+      },
+      "boundingbox": [
+        "55.6952957",
+        "55.6953957",
+        "12.5433060",
+        "12.5434060"
+      ]
+    }
+  ],
+  "Franks Kro, Copenhagen, Denmark": [
+    {
+      "place_id": 149027931,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10699341087,
+      "lat": "55.6927267",
+      "lon": "12.5675736",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Franks Kro",
+      "display_name": "Franks Kro, Fredensgade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1357, Danmark",
+      "address": {
+        "amenity": "Franks Kro",
+        "road": "Fredensgade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1357",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Franks Kro"
+      },
+      "boundingbox": [
+        "55.6926767",
+        "55.6927767",
+        "12.5675236",
+        "12.5676236"
+      ]
+    }
+  ],
+  "Glentekroen, Copenhagen, Denmark": [
+    {
+      "place_id": 147755498,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7296739573,
+      "lat": "55.6979088",
+      "lon": "12.5354754",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Glentekroen",
+      "display_name": "Glentekroen, Glentevej, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2400, Danmark",
+      "address": {
+        "amenity": "Glentekroen",
+        "road": "Glentevej",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2400",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Glentekroen"
+      },
+      "boundingbox": [
+        "55.6978588",
+        "55.6979588",
+        "12.5354254",
+        "12.5355254"
+      ]
+    }
+  ],
+  "Léanowski Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 149321037,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8124949018,
+      "lat": "55.6897820",
+      "lon": "12.5602590",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Léanowski Bar",
+      "display_name": "Léanowski Bar, Fælledvej, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 1371, Danmark",
+      "address": {
+        "amenity": "Léanowski Bar",
+        "road": "Fælledvej",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1371",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Léanowski Bar"
+      },
+      "boundingbox": [
+        "55.6897320",
+        "55.6898320",
+        "12.5602090",
+        "12.5603090"
+      ]
+    }
+  ],
+  "Mimers Bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 149027068,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4170928389,
+      "lat": "55.6983406",
+      "lon": "12.5503495",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Mimers Bodega",
+      "display_name": "Mimers Bodega, Thorsgade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark",
+      "address": {
+        "amenity": "Mimers Bodega",
+        "road": "Thorsgade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2200",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Mimers Bodega"
+      },
+      "boundingbox": [
+        "55.6982906",
+        "55.6983906",
+        "12.5502995",
+        "12.5503995"
+      ]
+    }
+  ],
+  "Nørre Bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 148658763,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1109570885,
+      "lat": "55.6950589",
+      "lon": "12.5479618",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Nørre Bodega",
+      "display_name": "Nørre Bodega, Uffesgade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark",
+      "address": {
+        "amenity": "Nørre Bodega",
+        "road": "Uffesgade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2200",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Nørre Bodega"
+      },
+      "boundingbox": [
+        "55.6950089",
+        "55.6951089",
+        "12.5479118",
+        "12.5480118"
+      ]
+    }
+  ],
+  "Rust, Copenhagen, Denmark": [
+    {
+      "place_id": 148518333,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 705923959,
+      "lat": "55.6912247",
+      "lon": "12.5592520",
+      "category": "amenity",
+      "type": "nightclub",
+      "place_rank": 30,
+      "importance": 0.22489365626900393,
+      "addresstype": "amenity",
+      "name": "Rust",
+      "display_name": "Rust, Guldbergsgade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 1371, Danmark",
+      "address": {
+        "amenity": "Rust",
+        "road": "Guldbergsgade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1371",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Rust"
+      },
+      "boundingbox": [
+        "55.6911747",
+        "55.6912747",
+        "12.5592020",
+        "12.5593020"
+      ]
+    }
+  ],
+  "Sigurds Bar, Copenhagen, Denmark": [],
+  "Temple Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 148617597,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1136433325,
+      "lat": "55.6895620",
+      "lon": "12.5565870",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Temple Bar",
+      "display_name": "Temple Bar, Nørrebrogade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 1973, Danmark",
+      "address": {
+        "amenity": "Temple Bar",
+        "road": "Nørrebrogade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1973",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Temple Bar"
+      },
+      "boundingbox": [
+        "55.6895120",
+        "55.6896120",
+        "12.5565370",
+        "12.5566370"
+      ]
+    }
+  ],
+  "Tjilipop, Copenhagen, Denmark": [],
+  "Understellet, Copenhagen, Denmark": [
+    {
+      "place_id": 148628556,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2163836323,
+      "lat": "55.6883250",
+      "lon": "12.5598233",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Understellet",
+      "display_name": "Understellet, Nørrebrogade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 1371, Danmark",
+      "address": {
+        "amenity": "Understellet",
+        "road": "Nørrebrogade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1371",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Understellet"
+      },
+      "boundingbox": [
+        "55.6882750",
+        "55.6883750",
+        "12.5597733",
+        "12.5598733"
+      ]
+    }
+  ],
+  "Diligencen, Copenhagen, Denmark": [
+    {
+      "place_id": 148228412,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1463848266,
+      "lat": "55.6849310",
+      "lon": "12.5587950",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Diligencen",
+      "display_name": "Diligencen, Korsgade, Nørrevold, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 1635, Danmark",
+      "address": {
+        "amenity": "Diligencen",
+        "road": "Korsgade",
+        "quarter": "Nørrevold",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1635",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Diligencen"
+      },
+      "boundingbox": [
+        "55.6848810",
+        "55.6849810",
+        "12.5587450",
+        "12.5588450"
+      ]
+    }
+  ],
+  "Amager Pub, Copenhagen, Denmark": [
+    {
+      "place_id": 146683415,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5401946315,
+      "lat": "55.6843528",
+      "lon": "12.5728215",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Amager Bryghus Taproom",
+      "display_name": "Amager Bryghus Taproom, Nørre Voldgade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1131, Danmark",
+      "address": {
+        "amenity": "Amager Bryghus Taproom",
+        "road": "Nørre Voldgade",
+        "quarter": "Nørrevold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1131",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Amager Bryghus Taproom"
+      },
+      "boundingbox": [
+        "55.6843028",
+        "55.6844028",
+        "12.5727715",
+        "12.5728715"
+      ]
+    }
+  ],
+  "Anker, Copenhagen, Denmark": [
+    {
+      "place_id": 147875221,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1885600,
+      "lat": "55.6714889",
+      "lon": "12.5732181",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.3867453017489014,
+      "addresstype": "residential",
+      "name": "Anker Heegaards Gade",
+      "display_name": "Anker Heegaards Gade, Postbyen, Islands Brygge, Ballonparken, København, Københavns Kommune, Region Hovedstaden, 1572, Danmark",
+      "address": {
+        "road": "Anker Heegaards Gade",
+        "neighbourhood": "Postbyen",
+        "quarter": "Islands Brygge",
+        "suburb": "Ballonparken",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1572",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Anker Heegaards Gade"
+      },
+      "boundingbox": [
+        "55.6710616",
+        "55.6719161",
+        "12.5723766",
+        "12.5740595"
+      ]
+    },
+    {
+      "place_id": 148312527,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 528351360,
+      "lat": "55.6511938",
+      "lon": "12.5365355",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06674865873197527,
+      "addresstype": "square",
+      "name": "Anker Jørgensens Plads",
+      "display_name": "Anker Jørgensens Plads, Frederiksholm, Carlsberg Byen, København, Københavns Kommune, Region Hovedstaden, Danmark",
+      "address": {
+        "square": "Anker Jørgensens Plads",
+        "quarter": "Frederiksholm",
+        "suburb": "Carlsberg Byen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Anker Jørgensens Plads"
+      },
+      "boundingbox": [
+        "55.6510327",
+        "55.6513522",
+        "12.5362380",
+        "12.5368319"
+      ]
+    },
+    {
+      "place_id": 148351316,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 137986865,
+      "lat": "55.6511655",
+      "lon": "12.5365448",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05341532539864191,
+      "addresstype": "pedestrian",
+      "name": "Anker Jørgensens Plads",
+      "display_name": "Anker Jørgensens Plads, Frederiksholm, Carlsberg Byen, København, Københavns Kommune, Region Hovedstaden, 2450, Danmark",
+      "address": {
+        "road": "Anker Jørgensens Plads",
+        "quarter": "Frederiksholm",
+        "suburb": "Carlsberg Byen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2450",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Anker Jørgensens Plads"
+      },
+      "boundingbox": [
+        "55.6510705",
+        "55.6512605",
+        "12.5362783",
+        "12.5368112"
+      ]
+    }
+  ],
+  "Cafe Engholm, Copenhagen, Denmark": [],
+  "Cafe Femøren, Copenhagen, Denmark": [],
+  "Jaguar Bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 148596699,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1358980017,
+      "lat": "55.6643102",
+      "lon": "12.6032096",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Jaguaren",
+      "display_name": "Jaguaren, Holmbladsgade, Amagerbro, København, Københavns Kommune, Region Hovedstaden, 1426, Danmark",
+      "address": {
+        "amenity": "Jaguaren",
+        "road": "Holmbladsgade",
+        "suburb": "Amagerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1426",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Jaguaren",
+        "name:da": "Jaguaren",
+        "alt_name": "Jaguar Bodega"
+      },
+      "boundingbox": [
+        "55.6642602",
+        "55.6643602",
+        "12.6031596",
+        "12.6032596"
+      ]
+    }
+  ],
+  "Post Bodegaen, Copenhagen, Denmark": [],
+  "Restaurant Kareten, Copenhagen, Denmark": [
+    {
+      "place_id": 148937977,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 532495503,
+      "lat": "55.6647417",
+      "lon": "12.5994220",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Kareten",
+      "display_name": "Kareten, Anders Henriksens Gade, Amagerbro, København, Københavns Kommune, Region Hovedstaden, 1426, Danmark",
+      "address": {
+        "amenity": "Kareten",
+        "road": "Anders Henriksens Gade",
+        "suburb": "Amagerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1426",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Kareten"
+      },
+      "boundingbox": [
+        "55.6646917",
+        "55.6647917",
+        "12.5993720",
+        "12.5994720"
+      ]
+    }
+  ],
+  "Restaurant Sundby Sejl, Copenhagen, Denmark": [
+    {
+      "place_id": 148858296,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9067487941,
+      "lat": "55.6644204",
+      "lon": "12.6318053",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Restaurant Sundby Sejl",
+      "display_name": "Restaurant Sundby Sejl, Søanemonestien, Sundbyøster, Sundbyerne, Københavns Kommune, Region Hovedstaden, 1441, Danmark",
+      "address": {
+        "amenity": "Restaurant Sundby Sejl",
+        "road": "Søanemonestien",
+        "suburb": "Sundbyøster",
+        "town": "Sundbyerne",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1441",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Restaurant Sundby Sejl"
+      },
+      "boundingbox": [
+        "55.6643704",
+        "55.6644704",
+        "12.6317553",
+        "12.6318553"
+      ]
+    }
+  ],
+  "Børges Bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 147746480,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 976747659,
+      "lat": "55.7104835",
+      "lon": "12.5610308",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Børges Bodega",
+      "display_name": "Børges Bodega, Lyngbyvej, Lyngbyvejskvarteret, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2100, Danmark",
+      "address": {
+        "amenity": "Børges Bodega",
+        "road": "Lyngbyvej",
+        "quarter": "Lyngbyvejskvarteret",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2100",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Børges Bodega"
+      },
+      "boundingbox": [
+        "55.7104335",
+        "55.7105335",
+        "12.5609808",
+        "12.5610808"
+      ]
+    }
+  ],
+  "Chevy’s Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 148682565,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4558623948,
+      "lat": "55.7037349",
+      "lon": "12.5900058",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Chevy's",
+      "display_name": "Chevy's, Nordre Frihavnsgade, Marmormolen, Østerbro, København, Københavns Kommune, Region Hovedstaden, 2150, Danmark",
+      "address": {
+        "amenity": "Chevy's",
+        "road": "Nordre Frihavnsgade",
+        "neighbourhood": "Marmormolen",
+        "suburb": "Østerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2150",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Chevy's",
+        "name:da": "Chevy's",
+        "alt_name": "Chevys Bar"
+      },
+      "boundingbox": [
+        "55.7036849",
+        "55.7037849",
+        "12.5899558",
+        "12.5900558"
+      ]
+    }
+  ],
+  "Foreningen Cafedrift, Copenhagen, Denmark": [],
+  "Halifax Trianglen, Copenhagen, Denmark": [
+    {
+      "place_id": 147239238,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2120227780,
+      "lat": "55.6989893",
+      "lon": "12.5778833",
+      "category": "amenity",
+      "type": "fast_food",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Halifax",
+      "display_name": "Halifax, Trianglen, Østervold, Østerbro, København, Københavns Kommune, Region Hovedstaden, 2100, Danmark",
+      "address": {
+        "amenity": "Halifax",
+        "road": "Trianglen",
+        "quarter": "Østervold",
+        "suburb": "Østerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2100",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Halifax"
+      },
+      "boundingbox": [
+        "55.6989393",
+        "55.6990393",
+        "12.5778333",
+        "12.5779333"
+      ]
+    }
+  ],
+  "Hermod Bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 146777318,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6036542117,
+      "lat": "55.7078925",
+      "lon": "12.5778792",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Hermod Bodega",
+      "display_name": "Hermod Bodega, Vordingborggade, Indre Østerbro, Østerbro, København, Københavns Kommune, Region Hovedstaden, 2100, Danmark",
+      "address": {
+        "amenity": "Hermod Bodega",
+        "road": "Vordingborggade",
+        "neighbourhood": "Indre Østerbro",
+        "suburb": "Østerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2100",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Hermod Bodega"
+      },
+      "boundingbox": [
+        "55.7078425",
+        "55.7079425",
+        "12.5778292",
+        "12.5779292"
+      ]
+    }
+  ],
+  "Lumskebuksen, Copenhagen, Denmark": [
+    {
+      "place_id": 149263442,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 147291402,
+      "lat": "55.7039381",
+      "lon": "12.5570419",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Lumskebuksen",
+      "display_name": "Lumskebuksen, Lersø Parkallé, Lyngbyvejskvarteret, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark",
+      "address": {
+        "amenity": "Lumskebuksen",
+        "road": "Lersø Parkallé",
+        "quarter": "Lyngbyvejskvarteret",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2200",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Lumskebuksen"
+      },
+      "boundingbox": [
+        "55.7038318",
+        "55.7039805",
+        "12.5568229",
+        "12.5571326"
+      ]
+    }
+  ],
+  "A-vej, Copenhagen, Denmark": [
+    {
+      "place_id": 148390698,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 148979108,
+      "lat": "55.6749995",
+      "lon": "12.6409041",
+      "category": "highway",
+      "type": "service",
+      "place_rank": 27,
+      "importance": 0.0400819920653086,
+      "addresstype": "road",
+      "name": "A-Vej",
+      "display_name": "A-Vej, Sundbyøster, København, Københavns Kommune, Region Hovedstaden, 1432, Danmark",
+      "address": {
+        "road": "A-Vej",
+        "suburb": "Sundbyøster",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1432",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "A-Vej"
+      },
+      "boundingbox": [
+        "55.6729698",
+        "55.6775336",
+        "12.6400268",
+        "12.6410031"
+      ]
+    }
+  ],
+  "Alleenberg, Copenhagen, Denmark": [],
+  "Bar Aksel, Copenhagen, Denmark": [],
+  "Bartof Station, Copenhagen, Denmark": [],
+  "Cafe Bartof, Copenhagen, Denmark": [],
+  "Cafe Moccador, Copenhagen, Denmark": [],
+  "Cafe Viggo, Copenhagen, Denmark": [
+    {
+      "place_id": 148732316,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 279143826,
+      "lat": "55.6740755",
+      "lon": "12.5497061",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Viggo",
+      "display_name": "Café Viggo, Værnedamsvej, Vestervold, Vesterbro, København, Frederiksberg Kommune, Region Hovedstaden, 1619, Danmark",
+      "address": {
+        "amenity": "Café Viggo",
+        "road": "Værnedamsvej",
+        "quarter": "Vestervold",
+        "suburb": "Vesterbro",
+        "city": "København",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1619",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Viggo"
+      },
+      "boundingbox": [
+        "55.6740255",
+        "55.6741255",
+        "12.5496561",
+        "12.5497561"
+      ]
+    }
+  ],
+  "Det Gamle Posthus, Copenhagen, Denmark": [
+    {
+      "place_id": 148572063,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 286511991,
+      "lat": "55.6512893",
+      "lon": "12.5367680",
+      "category": "amenity",
+      "type": "post_office",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Det gamle posthus",
+      "display_name": "Det gamle posthus, Anker Jørgensens Plads, Frederiksholm, Carlsberg Byen, København, Københavns Kommune, Region Hovedstaden, 2450, Danmark",
+      "address": {
+        "amenity": "Det gamle posthus",
+        "road": "Anker Jørgensens Plads",
+        "quarter": "Frederiksholm",
+        "suburb": "Carlsberg Byen",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2450",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Det gamle posthus"
+      },
+      "boundingbox": [
+        "55.6512393",
+        "55.6513393",
+        "12.5367180",
+        "12.5368180"
+      ]
+    }
+  ],
+  "Frederik VI, Copenhagen, Denmark": [
+    {
+      "place_id": 146765403,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1913007,
+      "lat": "55.6922102",
+      "lon": "12.5529831",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.29960026554141705,
+      "addresstype": "residential",
+      "name": "Frederik VII's Gade",
+      "display_name": "Frederik VII's Gade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark",
+      "address": {
+        "road": "Frederik VII's Gade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2200",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Frederik VII's Gade"
+      },
+      "boundingbox": [
+        "55.6919199",
+        "55.6924997",
+        "12.5524475",
+        "12.5535191"
+      ]
+    },
+    {
+      "place_id": 148693401,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 3993672,
+      "lat": "55.6978596",
+      "lon": "12.5676691",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341532539864191,
+      "addresstype": "residential",
+      "name": "Frederik V's Vej",
+      "display_name": "Frederik V's Vej, De Gamles By, Østerbro, København, Københavns Kommune, Region Hovedstaden, 1355, Danmark",
+      "address": {
+        "road": "Frederik V's Vej",
+        "quarter": "De Gamles By",
+        "suburb": "Østerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1355",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Frederik V's Vej"
+      },
+      "boundingbox": [
+        "55.6960009",
+        "55.6997315",
+        "12.5645562",
+        "12.5707892"
+      ]
+    },
+    {
+      "place_id": 148636097,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 89479446,
+      "lat": "55.6969530",
+      "lon": "12.5671131",
+      "category": "highway",
+      "type": "service",
+      "place_rank": 27,
+      "importance": 0.0400819920653086,
+      "addresstype": "road",
+      "name": "Frederik V's Vej",
+      "display_name": "Frederik V's Vej, De Gamles By, Østerbro, København, Københavns Kommune, Region Hovedstaden, 1357, Danmark",
+      "address": {
+        "road": "Frederik V's Vej",
+        "quarter": "De Gamles By",
+        "suburb": "Østerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1357",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Frederik V's Vej"
+      },
+      "boundingbox": [
+        "55.6964703",
+        "55.6974502",
+        "12.5663362",
+        "12.5680013"
+      ]
+    },
+    {
+      "place_id": 151559906,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 4089645,
+      "lat": "55.6968905",
+      "lon": "12.5687329",
+      "category": "highway",
+      "type": "service",
+      "place_rank": 27,
+      "importance": 0.0400819920653086,
+      "addresstype": "road",
+      "name": "Frederik V's Vej",
+      "display_name": "Frederik V's Vej, De Gamles By, Østerbro, København, Københavns Kommune, Region Hovedstaden, 1354, Danmark",
+      "address": {
+        "road": "Frederik V's Vej",
+        "quarter": "De Gamles By",
+        "suburb": "Østerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1354",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Frederik V's Vej"
+      },
+      "boundingbox": [
+        "55.6967282",
+        "55.6970514",
+        "12.5684170",
+        "12.5690495"
+      ]
+    },
+    {
+      "place_id": 146768301,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26767138,
+      "lat": "55.6966197",
+      "lon": "12.5682092",
+      "category": "highway",
+      "type": "service",
+      "place_rank": 27,
+      "importance": 0.0400819920653086,
+      "addresstype": "road",
+      "name": "Frederik V's Vej",
+      "display_name": "Frederik V's Vej, De Gamles By, Østerbro, København, Københavns Kommune, Region Hovedstaden, 1355, Danmark",
+      "address": {
+        "road": "Frederik V's Vej",
+        "quarter": "De Gamles By",
+        "suburb": "Østerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1355",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Frederik V's Vej"
+      },
+      "boundingbox": [
+        "55.6965111",
+        "55.6967282",
+        "12.5680013",
+        "12.5684170"
+      ]
+    }
+  ],
+  "Hos Robert, Copenhagen, Denmark": [],
+  "The Old Irish Pub, Smallegade, Copenhagen, Denmark": [],
+  "Cafe Cire, Copenhagen, Denmark": [
+    {
+      "place_id": 148741311,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 282821186,
+      "lat": "55.6665053",
+      "lon": "12.5148218",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Cafe Ciré",
+      "display_name": "Cafe Ciré, Valby Langgade, Valby, København, Københavns Kommune, Region Hovedstaden, 1805, Danmark",
+      "address": {
+        "amenity": "Cafe Ciré",
+        "road": "Valby Langgade",
+        "suburb": "Valby",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1805",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Cafe Ciré"
+      },
+      "boundingbox": [
+        "55.6664553",
+        "55.6665553",
+        "12.5147718",
+        "12.5148718"
+      ]
+    }
+  ],
+  "Hotel Fy & Bi, Copenhagen, Denmark": [
+    {
+      "place_id": 148589202,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 282821200,
+      "lat": "55.6664428",
+      "lon": "12.5145524",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Hotel Fy & Bi",
+      "display_name": "Hotel Fy & Bi, Valby Langgade, Valby, København, Københavns Kommune, Region Hovedstaden, 1805, Danmark",
+      "address": {
+        "amenity": "Hotel Fy & Bi",
+        "road": "Valby Langgade",
+        "suburb": "Valby",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1805",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Hotel Fy & Bi"
+      },
+      "boundingbox": [
+        "55.6663928",
+        "55.6664928",
+        "12.5145024",
+        "12.5146024"
+      ]
+    }
+  ],
+  "Mølle Cafeen, Copenhagen, Denmark": [
+    {
+      "place_id": 148512287,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 496287667,
+      "lat": "55.6653765",
+      "lon": "12.5171005",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Mølle Cafeen",
+      "display_name": "Mølle Cafeen, Mølle Allé, Valby, København, Københavns Kommune, Region Hovedstaden, 1805, Danmark",
+      "address": {
+        "amenity": "Mølle Cafeen",
+        "road": "Mølle Allé",
+        "suburb": "Valby",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1805",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Mølle Cafeen"
+      },
+      "boundingbox": [
+        "55.6653265",
+        "55.6654265",
+        "12.5170505",
+        "12.5171505"
+      ]
+    }
+  ],
+  "Nanok, Copenhagen, Denmark": [
+    {
+      "place_id": 148580897,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1619265824,
+      "lat": "55.6668132",
+      "lon": "12.5048845",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Nanok Bar",
+      "display_name": "Nanok Bar, Valby Langgade, Valby, København, Københavns Kommune, Region Hovedstaden, 2500, Danmark",
+      "address": {
+        "amenity": "Nanok Bar",
+        "road": "Valby Langgade",
+        "suburb": "Valby",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2500",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Nanok Bar"
+      },
+      "boundingbox": [
+        "55.6667632",
+        "55.6668632",
+        "12.5048345",
+        "12.5049345"
+      ]
+    },
+    {
+      "place_id": 148368552,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12118565558,
+      "lat": "55.6767816",
+      "lon": "12.6018114",
+      "category": "club",
+      "type": "sport",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "club",
+      "name": "CSR-Nanok Rugby",
+      "display_name": "CSR-Nanok Rugby, Danneskiold-Samsøes Allé, Holmen, Amagerbro, København, Københavns Kommune, Region Hovedstaden, 1436, Danmark",
+      "address": {
+        "club": "CSR-Nanok Rugby",
+        "road": "Danneskiold-Samsøes Allé",
+        "quarter": "Holmen",
+        "suburb": "Amagerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1436",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "CSR-Nanok Rugby"
+      },
+      "boundingbox": [
+        "55.6767316",
+        "55.6768316",
+        "12.6017614",
+        "12.6018614"
+      ]
+    }
+  ],
+  "Nykro, Copenhagen, Denmark": [],
+  "Snoopy Bodega, Copenhagen, Denmark": [
+    {
+      "place_id": 156578069,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 571267064,
+      "lat": "55.6826112",
+      "lon": "12.4914551",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Snoopy Bodega",
+      "display_name": "Snoopy Bodega, Linde Allé, Vanløse, København, Københavns Kommune, Region Hovedstaden, 2720, Danmark",
+      "address": {
+        "amenity": "Snoopy Bodega",
+        "road": "Linde Allé",
+        "suburb": "Vanløse",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2720",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Snoopy Bodega"
+      },
+      "boundingbox": [
+        "55.6825612",
+        "55.6826612",
+        "12.4914051",
+        "12.4915051"
+      ]
+    }
+  ],
+  "Støvlen, Copenhagen, Denmark": [
+    {
+      "place_id": 148228759,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13017757562,
+      "lat": "55.6918978",
+      "lon": "12.4835599",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Støvlen",
+      "display_name": "Støvlen, Jyllingevej, Vanløse, København, Københavns Kommune, Region Hovedstaden, 2720, Danmark",
+      "address": {
+        "amenity": "Støvlen",
+        "road": "Jyllingevej",
+        "suburb": "Vanløse",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2720",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Støvlen"
+      },
+      "boundingbox": [
+        "55.6918478",
+        "55.6919478",
+        "12.4835099",
+        "12.4836099"
+      ]
+    }
+  ],
+  "Andy’s Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 148344393,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 898930207,
+      "lat": "55.6821592",
+      "lon": "12.5822351",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Andy's Bar",
+      "display_name": "Andy's Bar, Gothersgade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1110, Danmark",
+      "address": {
+        "amenity": "Andy's Bar",
+        "road": "Gothersgade",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1110",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Andy's Bar"
+      },
+      "boundingbox": [
+        "55.6821092",
+        "55.6822092",
+        "12.5821851",
+        "12.5822851"
+      ]
+    }
+  ],
+  "Café Nemoland, Copenhagen, Denmark": [
+    {
+      "place_id": 148748880,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1321111715,
+      "lat": "55.6727811",
+      "lon": "12.6001646",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Nemoland",
+      "display_name": "Café Nemoland, Fabriksområdet, Christiania, Holmen, Amagerbro, København, Københavns Kommune, Region Hovedstaden, 1440, Danmark",
+      "address": {
+        "amenity": "Café Nemoland",
+        "road": "Fabriksområdet",
+        "neighbourhood": "Christiania",
+        "quarter": "Holmen",
+        "suburb": "Amagerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1440",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Nemoland"
+      },
+      "boundingbox": [
+        "55.6727311",
+        "55.6728311",
+        "12.6001146",
+        "12.6002146"
+      ]
+    }
+  ],
+  "Sofiekælderen, Copenhagen, Denmark": [
+    {
+      "place_id": 147675086,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 727708793,
+      "lat": "55.6716209",
+      "lon": "12.5899698",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Sofiekælderen",
+      "display_name": "Sofiekælderen, Overgaden Oven Vandet, Gammelholm, Christianshavn, København, Københavns Kommune, Region Hovedstaden, 1410, Danmark",
+      "address": {
+        "amenity": "Sofiekælderen",
+        "road": "Overgaden Oven Vandet",
+        "quarter": "Gammelholm",
+        "suburb": "Christianshavn",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1410",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Sofiekælderen"
+      },
+      "boundingbox": [
+        "55.6715709",
+        "55.6716709",
+        "12.5899198",
+        "12.5900198"
+      ]
+    }
+  ],
+  "Mojo Blues Bar, Copenhagen, Denmark": [
+    {
+      "place_id": 148425121,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1612954850,
+      "lat": "55.6756583",
+      "lon": "12.5735337",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Mojo Blues Bar",
+      "display_name": "Mojo Blues Bar, Løngangstræde, Vestervold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1468, Danmark",
+      "address": {
+        "amenity": "Mojo Blues Bar",
+        "road": "Løngangstræde",
+        "quarter": "Vestervold",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1468",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Mojo Blues Bar"
+      },
+      "boundingbox": [
+        "55.6756083",
+        "55.6757083",
+        "12.5734837",
+        "12.5735837"
+      ]
+    }
+  ],
+  "The Dubliner Downtown, Copenhagen, Denmark": [],
+  "Klovnen, Copenhagen, Denmark": [],
+  "Tjili Pop, Copenhagen, Denmark": [
+    {
+      "place_id": 148794900,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4009393511,
+      "lat": "55.6863998",
+      "lon": "12.5502327",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Cafe Tjili Pop 1",
+      "display_name": "Cafe Tjili Pop 1, Rantzausgade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 1960, Danmark",
+      "address": {
+        "amenity": "Cafe Tjili Pop 1",
+        "road": "Rantzausgade",
+        "quarter": "De Gamles By",
+        "suburb": "Nørrebro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1960",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Cafe Tjili Pop 1"
+      },
+      "boundingbox": [
+        "55.6863498",
+        "55.6864498",
+        "12.5501827",
+        "12.5502827"
+      ]
+    }
+  ],
+  "Engholm, Copenhagen, Denmark": [],
+  "Kareten, Copenhagen, Denmark": [
+    {
+      "place_id": 148556897,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 532495503,
+      "lat": "55.6647417",
+      "lon": "12.5994220",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Kareten",
+      "display_name": "Kareten, Anders Henriksens Gade, Amagerbro, København, Københavns Kommune, Region Hovedstaden, 1426, Danmark",
+      "address": {
+        "amenity": "Kareten",
+        "road": "Anders Henriksens Gade",
+        "suburb": "Amagerbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1426",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Kareten"
+      },
+      "boundingbox": [
+        "55.6646917",
+        "55.6647917",
+        "12.5993720",
+        "12.5994720"
+      ]
+    }
+  ],
+  "A-vej, Frederiksberg, Denmark": [
+    {
+      "place_id": 147922486,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8143723560,
+      "lat": "55.6790425",
+      "lon": "12.5393640",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "A-vej",
+      "display_name": "A-vej, Dyrlægevej, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 1867, Danmark",
+      "address": {
+        "amenity": "A-vej",
+        "road": "Dyrlægevej",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1867",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "A-vej"
+      },
+      "boundingbox": [
+        "55.6789925",
+        "55.6790925",
+        "12.5393140",
+        "12.5394140"
+      ]
+    }
+  ],
+  "Café Alléenberg, Frederiksberg, Denmark": [
+    {
+      "place_id": 148688544,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 277703258,
+      "lat": "55.6752681",
+      "lon": "12.5328906",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Alléenberg",
+      "display_name": "Alléenberg, Allégade, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 1854, Danmark",
+      "address": {
+        "amenity": "Alléenberg",
+        "road": "Allégade",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1854",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Alléenberg",
+        "name:da": "Alléenberg",
+        "alt_name": "Psykopaten"
+      },
+      "boundingbox": [
+        "55.6752181",
+        "55.6753181",
+        "12.5328406",
+        "12.5329406"
+      ]
+    }
+  ],
+  "Bar Aksel, Frederiksberg, Denmark": [],
+  "Bartof Station, Frederiksberg, Denmark": [
+    {
+      "place_id": 148645148,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7710272256,
+      "lat": "55.6809740",
+      "lon": "12.5331594",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Bartof Station",
+      "display_name": "Bartof Station, Solbjergvej, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 1861, Danmark",
+      "address": {
+        "amenity": "Bartof Station",
+        "road": "Solbjergvej",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1861",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Bartof Station"
+      },
+      "boundingbox": [
+        "55.6809240",
+        "55.6810240",
+        "12.5331094",
+        "12.5332094"
+      ]
+    }
+  ],
+  "Bartof Café, Frederiksberg, Denmark": [
+    {
+      "place_id": 148815869,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 279143817,
+      "lat": "55.6836628",
+      "lon": "12.5245604",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Bartof Café",
+      "display_name": "Bartof Café, Thurøvej, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 2000, Danmark",
+      "address": {
+        "amenity": "Bartof Café",
+        "road": "Thurøvej",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2000",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Bartof Café"
+      },
+      "boundingbox": [
+        "55.6836128",
+        "55.6837128",
+        "12.5245104",
+        "12.5246104"
+      ]
+    }
+  ],
+  "Cafe Moccador, Frederiksberg, Denmark": [
+    {
+      "place_id": 149094807,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 277364372,
+      "lat": "55.6817592",
+      "lon": "12.5343154",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Café Moccador",
+      "display_name": "Café Moccador, Falkoner Allé, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 1860, Danmark",
+      "address": {
+        "amenity": "Café Moccador",
+        "road": "Falkoner Allé",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1860",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Café Moccador"
+      },
+      "boundingbox": [
+        "55.6817092",
+        "55.6818092",
+        "12.5342654",
+        "12.5343654"
+      ]
+    }
+  ],
+  "Det Gamle Posthus, Frederiksberg, Denmark": [
+    {
+      "place_id": 149187192,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1200013170,
+      "lat": "55.6936967",
+      "lon": "12.5321763",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Det Gamle Posthus",
+      "display_name": "Det Gamle Posthus, Borups Allé, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 1954, Danmark",
+      "address": {
+        "amenity": "Det Gamle Posthus",
+        "road": "Borups Allé",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1954",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Det Gamle Posthus"
+      },
+      "boundingbox": [
+        "55.6936467",
+        "55.6937467",
+        "12.5321263",
+        "12.5322263"
+      ]
+    }
+  ],
+  "Frederik VI, Frederiksberg, Denmark": [
+    {
+      "place_id": 148626324,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3286415949,
+      "lat": "55.6738535",
+      "lon": "12.5437949",
+      "category": "amenity",
+      "type": "pub",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Frederik VI",
+      "display_name": "Frederik VI, Alhambravej, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 1826, Danmark",
+      "address": {
+        "amenity": "Frederik VI",
+        "road": "Alhambravej",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1826",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Frederik VI"
+      },
+      "boundingbox": [
+        "55.6738035",
+        "55.6739035",
+        "12.5437449",
+        "12.5438449"
+      ]
+    }
+  ],
+  "Hos Robert, Frederiksberg, Denmark": [
+    {
+      "place_id": 147907239,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7334707798,
+      "lat": "55.6702078",
+      "lon": "12.5371716",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "Hos Robert",
+      "display_name": "Hos Robert, Rahbeks Allé, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 1801, Danmark",
+      "address": {
+        "amenity": "Hos Robert",
+        "road": "Rahbeks Allé",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1801",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "Hos Robert",
+        "name:da": "Hos Robert",
+        "alt_name": "Cafe Robert"
+      },
+      "boundingbox": [
+        "55.6701578",
+        "55.6702578",
+        "12.5371216",
+        "12.5372216"
+      ]
+    }
+  ],
+  "The Old Irish Pub, Smallegade, Frederiksberg, Denmark": [
+    {
+      "place_id": 147905055,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 279901270,
+      "lat": "55.6786581",
+      "lon": "12.5325728",
+      "category": "amenity",
+      "type": "bar",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "amenity",
+      "name": "The Old Irish Pub",
+      "display_name": "The Old Irish Pub, Smallegade, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 1861, Danmark",
+      "address": {
+        "amenity": "The Old Irish Pub",
+        "road": "Smallegade",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1861",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "namedetails": {
+        "name": "The Old Irish Pub"
+      },
+      "boundingbox": [
+        "55.6786081",
+        "55.6787081",
+        "12.5325228",
+        "12.5326228"
+      ]
+    }
+  ],
+  "Pilestræde 43, 1112 København, Denmark": [
+    {
+      "place_id": 149022555,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 340538865,
+      "lat": "55.6811370",
+      "lon": "12.5792480",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "43, Pilestræde, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1112, Danmark",
+      "address": {
+        "house_number": "43",
+        "road": "Pilestræde",
+        "quarter": "Gammelholm",
+        "suburb": "Indre By",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1112",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "boundingbox": [
+        "55.6810870",
+        "55.6811870",
+        "12.5791980",
+        "12.5792980"
+      ]
+    }
+  ],
+  "Istedgade 109, 1650 København, Denmark": [
+    {
+      "place_id": 148794882,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 340520608,
+      "lat": "55.6676240",
+      "lon": "12.5484800",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "109, Istedgade, Den Gule By, Vesterbro, København, Københavns Kommune, Region Hovedstaden, 1650, Danmark",
+      "address": {
+        "house_number": "109",
+        "road": "Istedgade",
+        "quarter": "Den Gule By",
+        "suburb": "Vesterbro",
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "1650",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "boundingbox": [
+        "55.6675740",
+        "55.6676740",
+        "12.5484300",
+        "12.5485300"
+      ]
+    }
+  ],
+  "Borups Allé 121, 2000 Frederiksberg, Denmark": [
+    {
+      "place_id": 147733356,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 340572903,
+      "lat": "55.6937310",
+      "lon": "12.5320500",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 8.19920653085682e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "121, Borups Allé, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 2000, Danmark",
+      "address": {
+        "house_number": "121",
+        "road": "Borups Allé",
+        "town": "Frederiksberg",
+        "municipality": "Frederiksberg Kommune",
+        "state": "Region Hovedstaden",
+        "ISO3166-2-lvl4": "DK-84",
+        "postcode": "2000",
+        "country": "Danmark",
+        "country_code": "dk"
+      },
+      "boundingbox": [
+        "55.6936810",
+        "55.6937810",
+        "12.5320000",
+        "12.5321000"
+      ]
+    }
+  ]
+}

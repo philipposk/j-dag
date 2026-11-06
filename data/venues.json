@@ -1,0 +1,1749 @@
+[
+  {
+    "name": "4tallet",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Alpehytten",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.682048,
+    "lng": 12.582457,
+    "address": "Store Regnegade, 1110, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 8119069621,
+      "query": "Alpehytten, Copenhagen, Denmark",
+      "matched_name": "Alpehytten",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Andys Bar",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6821592,
+    "lng": 12.5822351,
+    "address": "Gothersgade, 1110, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 898930207,
+      "query": "Andy’s Bar, Copenhagen, Denmark",
+      "matched_name": "Andy's Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Bankeråt",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6834082,
+    "lng": 12.5651843,
+    "address": "Ahlefeldtsgade 27–29, 1359 København K",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 25440922,
+      "query": "Bankeråt, Copenhagen, Denmark",
+      "matched_name": "Bankeråt",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Barcelona Bar",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "BARkowski",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6846268,
+    "lng": 12.5675944,
+    "address": "Nørre Farimagsgade, 1363, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 3372385621,
+      "query": "BARkowski, Copenhagen, Denmark",
+      "matched_name": "Barkowski",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Barrdrew",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6850036,
+    "lng": 12.5677383,
+    "address": "Frederiksborggade, 1363, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 9710167696,
+      "query": "Barrdrew, Copenhagen, Denmark",
+      "matched_name": "BarrDrew",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Basement Bar",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6818705,
+    "lng": 12.5825994,
+    "address": "Store Regnegade, 1110, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 898939487,
+      "query": "Basement Bar, Copenhagen, Denmark",
+      "matched_name": "Basement",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Bird & The Churchkey",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6776418,
+    "lng": 12.5780759,
+    "address": "Gammel Strand, 1202, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 3773088919,
+      "query": "Bird & The Churchkey, Copenhagen, Denmark",
+      "matched_name": "The Bird and the Churchkey",
+      "score": 0.842
+    }
+  },
+  {
+    "name": "Borgerly",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Cafe Guldhornene",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6772854,
+    "lng": 12.5693007,
+    "address": "Vestergade, 1456, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 687312669,
+      "query": "Cafe Guldhornene, Copenhagen, Denmark",
+      "matched_name": "Cafè Guldhornene",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Katz",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6760515,
+    "lng": 12.5750716,
+    "address": "Frederiksholms Kanal 1, 1220 København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 281253914,
+      "query": "Cafe Katz, Copenhagen, Denmark",
+      "matched_name": "Cafe Katz",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Nemoland Christiania",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6727811,
+    "lng": 12.6001646,
+    "address": "Fabriksområdet, 1440, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1321111715,
+      "query": "Café Nemoland, Copenhagen, Denmark",
+      "matched_name": "Café Nemoland",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Sofie Kælderen",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6716209,
+    "lng": 12.5899698,
+    "address": "Overgaden Oven Vandet, 1410, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 727708793,
+      "query": "Sofiekælderen, Copenhagen, Denmark",
+      "matched_name": "Sofiekælderen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Sommersko",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6821782,
+    "lng": 12.586836,
+    "address": "Palægade, 1261, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 12871228301,
+      "query": "Cafe Sommersko, Copenhagen, Denmark",
+      "matched_name": "Sommersko",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Camping Boltens Gård",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6817711,
+    "lng": 12.5846229,
+    "address": "Boltens Gård, 1104, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 12912713635,
+      "query": "Camping Boltens Gård, Copenhagen, Denmark",
+      "matched_name": "Camping Boltensgård",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Centre Stage",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Cph Downtown",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6759488,
+    "lng": 12.5742396,
+    "address": "Vandkunsten, 1467, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 415895215,
+      "query": "Copenhagen Downtown Hostel, Copenhagen, Denmark",
+      "matched_name": "Copenhagen Downtown Hostel",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cucaracha Bar CPH",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6823061,
+    "lng": 12.5816691,
+    "address": "Gothersgade, 1111, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 898933924,
+      "query": "Cucaracha Bar CPH, Copenhagen, Denmark",
+      "matched_name": "Cucaracha Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Den Jyske Ambassade",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Det Elektriske Hjørne",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6815478,
+    "lng": 12.5822074,
+    "address": "Store Regnegade, 1110, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 301511854,
+      "query": "Det Elektriske Hjørne, Copenhagen, Denmark",
+      "matched_name": "Det Elektriske Hjørne",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Drop inn – Moving music",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6763998,
+    "lng": 12.5733293,
+    "address": "Kompagnistræde, 1465, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 279472194,
+      "query": "Drop Inn, Copenhagen, Denmark",
+      "matched_name": "Drop Inn",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Floss",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6781561,
+    "lng": 12.5698566,
+    "address": "Larsbjørnsstræde, 1454, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 2837243901,
+      "query": "Floss, Copenhagen, Denmark",
+      "matched_name": "Floss",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Foreningen Studenterhuset",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6813499,
+    "lng": 12.5764715,
+    "address": "Købmagergade 52, 1150 København K",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "way",
+      "osm_id": 40630575,
+      "query": "Studenterhuset, Copenhagen, Denmark",
+      "matched_name": "Studenterhuset",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Funchs Vinstue",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6845001,
+    "lng": 12.5674404,
+    "address": "Nørre Farimagsgade, 1363, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1462189989,
+      "query": "Funchs Vinstue, Copenhagen, Denmark",
+      "matched_name": "Funchs Vinstue",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Generator Hostel Copenhagen",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6829255,
+    "lng": 12.5826069,
+    "address": "Adelgade, 1110, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1683620829,
+      "query": "Generator Copenhagen, Copenhagen, Denmark",
+      "matched_name": "Generator Copenhagen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Heidis Bier Bar",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6773855,
+    "lng": 12.5694568,
+    "address": "Vestergade, 1456, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 687313455,
+      "query": "Heidi’s Bier Bar, Copenhagen, Denmark",
+      "matched_name": "Heidi's Bier Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Hermans Bar",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6788527,
+    "lng": 12.5722171,
+    "address": "Nørregade, 1167, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 12825973670,
+      "query": "Hermans Bar, Copenhagen, Denmark",
+      "matched_name": "Eldorado Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Høvlen 77",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Jagtstuen",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6839289,
+    "lng": 12.5684807,
+    "address": "Vendersgade, 1363, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1462221515,
+      "query": "Jagtstuen, Copenhagen, Denmark",
+      "matched_name": "Jagtstuen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Jailhouse",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6788802,
+    "lng": 12.5700342,
+    "address": "Studiestræde, 1167, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 4015755825,
+      "query": "Jailhouse, Copenhagen, Denmark",
+      "matched_name": "Born 12/ Jailhouse CPH",
+      "score": 0.75
+    }
+  },
+  {
+    "name": "Kanal Bodega",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6719928,
+    "lng": 12.5905788,
+    "address": "Overgaden Oven Vandet, 1410, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 727708821,
+      "query": "Kanal Bodega, Copenhagen, Denmark",
+      "matched_name": "Kanal Bodega",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Kayak Bar",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.675205,
+    "lng": 12.586764,
+    "address": "Christians Brygge, 1059, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 4012815277,
+      "query": "Kayak Bar, Copenhagen, Denmark",
+      "matched_name": "Kayak Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Liams Irish Pub",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Masken",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6781756,
+    "lng": 12.5686176,
+    "address": "Studiestræde, 1453, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1596733408,
+      "query": "Masken, Copenhagen, Denmark",
+      "matched_name": "Masken Bar",
+      "score": 0.8
+    }
+  },
+  {
+    "name": "Mc Joys Pub",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "MJ Gothersgade",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Mojo",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6756583,
+    "lng": 12.5735337,
+    "address": "Løngangstræde, 1468, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1612954850,
+      "query": "Mojo Blues Bar, Copenhagen, Denmark",
+      "matched_name": "Mojo Blues Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Nørreport Bodega",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.682486,
+    "lng": 12.571489,
+    "address": "Nørre Voldgade 70, 1358 København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1591124412,
+      "query": "Nørreport Bodega, Copenhagen, Denmark",
+      "matched_name": "Nørreport Bodega",
+      "score": 1.0
+    },
+    "coordinate_note": "User-supplied street address and coordinates, cross-checked against OSM venue"
+  },
+  {
+    "name": "Palmehaven",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "address": "Pilestræde 43, 1112 København",
+    "lat": 55.681137,
+    "lng": 12.579248,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Pilestræde 43, 1112 København, Denmark",
+      "osm_type": "node",
+      "osm_id": 340538865,
+      "address_source": "User-provided verified venue address",
+      "matched_address": "43, Pilestræde, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1112, Danmark"
+    }
+  },
+  {
+    "name": "Rabalder Bar CPH",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.68209,
+    "lng": 12.5824986,
+    "address": "Gothersgade, 1110, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 8117602439,
+      "query": "Rabalder Bar CPH, Copenhagen, Denmark",
+      "matched_name": "Rabalder Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Rosengårdens Bodega",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Sjus Bar CPH",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6810813,
+    "lng": 12.5798685,
+    "address": "Pilestræde, 1112, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 413370338,
+      "query": "Sjus Bar CPH, Copenhagen, Denmark",
+      "matched_name": "Sjus Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Southern Cross Pub",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6752286,
+    "lng": 12.5724216,
+    "address": "Løngangstræde, 1468, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 4575935451,
+      "query": "Southern Cross Pub, Copenhagen, Denmark",
+      "matched_name": "Southern Cross Pub",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "The Dubliner",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "The Globe",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.681795,
+    "lng": 12.5709215,
+    "address": "Nørregade, 1165, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 2165235074,
+      "query": "The Globe, Copenhagen, Denmark",
+      "matched_name": "The Globe",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Tyrolia Bier Klub",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Victoria Pub",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Wall Street Pub",
+    "district": "KØBENHAVN K",
+    "verified": true,
+    "lat": 55.6816577,
+    "lng": 12.584914,
+    "address": "Gothersgade, 1104, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 4715837029,
+      "query": "Wall Street Pub, Copenhagen, Denmark",
+      "matched_name": "Wall Street Pub",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Wessel Kro",
+    "district": "KØBENHAVN K",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Axelborg Bodega",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6754287,
+    "lng": 12.5644398,
+    "address": "Axeltorv, 1609, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 893959430,
+      "query": "Axelborg Bodega, Copenhagen, Denmark",
+      "matched_name": "Axelborg Bodega",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Bar 42",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Bar 180",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Blomsten",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "address": "Istedgade 109, 1650 København",
+    "lat": 55.667624,
+    "lng": 12.54848,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Istedgade 109, 1650 København, Denmark",
+      "osm_type": "node",
+      "osm_id": 340520608,
+      "address_source": "https://cafeblomsten.dk/Kontakt",
+      "matched_address": "109, Istedgade, Den Gule By, Vesterbro, København, Københavns Kommune, Region Hovedstaden, 1650, Danmark"
+    }
+  },
+  {
+    "name": "Bryggerens",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6673534,
+    "lng": 12.5335681,
+    "address": "Ny Carlsberg Vej, 1799, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 12833708898,
+      "query": "Bryggerens, Copenhagen, Denmark",
+      "matched_name": "Bryggerens",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Ludwigsen",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6709507,
+    "lng": 12.5436884,
+    "address": "Vesterbrogade, 1752, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 738821350,
+      "query": "Cafe Ludwigsen, Copenhagen, Denmark",
+      "matched_name": "Café Ludwigsen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Skammekrogen",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.671735,
+    "lng": 12.5547646,
+    "address": "Vesterbro Torv, 1659, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 899018814,
+      "query": "Cafe Skammekrogen, Copenhagen, Denmark",
+      "matched_name": "Skammekrogen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Camping Kødbyen",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Club Mambo",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6750928,
+    "lng": 12.5721856,
+    "address": "Løngangstræde, 1552, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 280464811,
+      "query": "Club Mambo, Copenhagen, Denmark",
+      "matched_name": "Club Mambo",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Grotten",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6675503,
+    "lng": 12.5553934,
+    "address": "Sommerstedgade, 1718, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 683192044,
+      "query": "Grotten, Copenhagen, Denmark",
+      "matched_name": "Café Grotten",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Jernbanecafeen",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6721637,
+    "lng": 12.5636709,
+    "address": "Reventlowsgade, 1651, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 727436488,
+      "query": "Jernbanecafeen, Copenhagen, Denmark",
+      "matched_name": "Jernbanecafeen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Larsens Plaz",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Maximum",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "MEININGER Hotel Copenhagen",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Nevermind – Axeltorv",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Next – House Next Bar Copenhagen",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6696312,
+    "lng": 12.5709088,
+    "address": "Polititorvet, 1567, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 10055230050,
+      "query": "Next House Copenhagen, Copenhagen, Denmark",
+      "matched_name": "Next House",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Old Irish Pub Karaokebar",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Oscar Bar og Cafe",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Pinden bodega",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6733784,
+    "lng": 12.56272,
+    "address": "Reventlowsgade, 1651, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 12891709281,
+      "query": "Pinden bodega, Copenhagen, Denmark",
+      "matched_name": "Pinden Bodega",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Proud Mary CPH",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.675785,
+    "lng": 12.567133,
+    "address": "Vesterbrogade, 1608, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 8107469773,
+      "query": "Proud Mary CPH, Copenhagen, Denmark",
+      "matched_name": "Proud Mary",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Pub & Sport",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6782361,
+    "lng": 12.5668224,
+    "address": "Vester Voldgade, 1551, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 279690426,
+      "query": "Pub & Sport, Copenhagen, Denmark",
+      "matched_name": "Pub & Sport",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Restaurant Klubben",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6711195,
+    "lng": 12.5457687,
+    "address": "Enghavevej, 1624, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 340502719,
+      "query": "Restaurant Klubben, Copenhagen, Denmark",
+      "matched_name": "Restaurant Klubben",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Steel House",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.676257,
+    "lng": 12.560096,
+    "address": "Herholdtsgade, 1605, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 5039784175,
+      "query": "Steel House, Copenhagen, Denmark",
+      "matched_name": "Steel House",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Studiecafeen Humlen",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "The Goat",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6719584,
+    "lng": 12.5547149,
+    "address": "Vesterbro Torv, 1659, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 281255286,
+      "query": "The Goat, Copenhagen, Denmark",
+      "matched_name": "The Goat",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "The Old English Pub Karaokebar",
+    "district": "KØBENHAVN V",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "The Old Irish Pub Vesterbrogade",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6754762,
+    "lng": 12.5662861,
+    "address": "Vesterbrogade, 1608, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 895776321,
+      "query": "The Old Irish Pub Vesterbrogade, Copenhagen, Denmark",
+      "matched_name": "The Old Irish Pub Vesterbrogade",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "The Scottish Pub",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6759526,
+    "lng": 12.567219,
+    "address": "Vesterbrogade, 1608, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 281539863,
+      "query": "The Scottish Pub, Copenhagen, Denmark",
+      "matched_name": "The Scottish Pub",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "The Shamrock Inn – The Irish Pub",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.67592,
+    "lng": 12.56586,
+    "address": "Jernbanegade, 1608, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 3404321338,
+      "query": "The Shamrock Inn, Copenhagen, Denmark",
+      "matched_name": "The Shamrock Inn",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Zeppelin Bar",
+    "district": "KØBENHAVN V",
+    "verified": true,
+    "lat": 55.6722464,
+    "lng": 12.5558859,
+    "address": "Vesterbrogade, 1616, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 4883742491,
+      "query": "Zeppelin Bar, Copenhagen, Denmark",
+      "matched_name": "Zeppelin",
+      "score": 0.842
+    }
+  },
+  {
+    "name": "Barbarian",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.687525,
+    "lng": 12.559342,
+    "address": "Blågårdsgade, 1370, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 8117602447,
+      "query": "Barbarian, Copenhagen, Denmark",
+      "matched_name": "Barbarian",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Baren RHK",
+    "district": "KØBENHAVN N + NV",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Bip Bip Bar",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.6889032,
+    "lng": 12.559758,
+    "address": "Fælledvej, 1371, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 7061980768,
+      "query": "Bip Bip Bar, Copenhagen, Denmark",
+      "matched_name": "Bip Bip Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Castro",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.6986296,
+    "lng": 12.5420351,
+    "address": "Nørrebrogade, 2200, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 8712878659,
+      "query": "Cafe Castro, Copenhagen, Denmark",
+      "matched_name": "Café Castro",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Fuglereden",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.7047135,
+    "lng": 12.5264504,
+    "address": "Frederikssundsvej, 2400, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 8124919089,
+      "query": "Cafe Fuglereden, Copenhagen, Denmark",
+      "matched_name": "Café Fuglereden",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Heimdal",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.7007099,
+    "lng": 12.5417497,
+    "address": "Mimersgade, 2200, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1369021923,
+      "query": "Cafe Heimdal, Copenhagen, Denmark",
+      "matched_name": "Cafe Heimdal",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Klovnen",
+    "district": "KØBENHAVN N + NV",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Cafe Lille Peter",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.6957863,
+    "lng": 12.5439384,
+    "address": "Søllerødgade, 2200, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 664252432,
+      "query": "Cafe Lille Peter, Copenhagen, Denmark",
+      "matched_name": "Café Lille Peter",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Stefanshus",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.6953457,
+    "lng": 12.543356,
+    "address": "Nordbanegade, 2200, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 335962972,
+      "query": "Cafe Stefanshus, Copenhagen, Denmark",
+      "matched_name": "Café Stefanshus",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Franks Kro",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.6927267,
+    "lng": 12.5675736,
+    "address": "Fredensgade, 1357, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 10699341087,
+      "query": "Franks Kro, Copenhagen, Denmark",
+      "matched_name": "Franks Kro",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Glentekroen",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.6979088,
+    "lng": 12.5354754,
+    "address": "Glentevej, 2400, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 7296739573,
+      "query": "Glentekroen, Copenhagen, Denmark",
+      "matched_name": "Glentekroen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Léanowski Bar",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.689782,
+    "lng": 12.560259,
+    "address": "Fælledvej, 1371, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 8124949018,
+      "query": "Léanowski Bar, Copenhagen, Denmark",
+      "matched_name": "Léanowski Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Mimers Bodega",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.6983406,
+    "lng": 12.5503495,
+    "address": "Thorsgade, 2200, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 4170928389,
+      "query": "Mimers Bodega, Copenhagen, Denmark",
+      "matched_name": "Mimers Bodega",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Nørre Bodega",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.6950589,
+    "lng": 12.5479618,
+    "address": "Uffesgade, 2200, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1109570885,
+      "query": "Nørre Bodega, Copenhagen, Denmark",
+      "matched_name": "Nørre Bodega",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Rust",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.6912247,
+    "lng": 12.559252,
+    "address": "Guldbergsgade, 1371, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 705923959,
+      "query": "Rust, Copenhagen, Denmark",
+      "matched_name": "Rust",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Studenterhuset Sigurds Bar",
+    "district": "KØBENHAVN N + NV",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Temple Bar",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.689562,
+    "lng": 12.556587,
+    "address": "Nørrebrogade, 1973, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1136433325,
+      "query": "Temple Bar, Copenhagen, Denmark",
+      "matched_name": "Temple Bar",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Tjilipop",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6863998,
+    "lng": 12.5502327,
+    "address": "Rantzausgade, 1960, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 4009393511,
+      "query": "Tjili Pop, Copenhagen, Denmark",
+      "matched_name": "Cafe Tjili Pop 1",
+      "score": 0.941
+    }
+  },
+  {
+    "name": "Understellet",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.688325,
+    "lng": 12.5598233,
+    "address": "Nørrebrogade, 1371, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 2163836323,
+      "query": "Understellet, Copenhagen, Denmark",
+      "matched_name": "Understellet",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Western Bar Diligencen",
+    "district": "KØBENHAVN N + NV",
+    "verified": true,
+    "lat": 55.684931,
+    "lng": 12.558795,
+    "address": "Korsgade, 1635, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1463848266,
+      "query": "Diligencen, Copenhagen, Denmark",
+      "matched_name": "Diligencen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Amager Pub",
+    "district": "KØBENHAVN S + SV",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Anker",
+    "district": "KØBENHAVN S + SV",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Cafe Engholm",
+    "district": "KØBENHAVN S + SV",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Cafe Femøren",
+    "district": "KØBENHAVN S + SV",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Jaguar Bodega",
+    "district": "KØBENHAVN S + SV",
+    "verified": true,
+    "lat": 55.6643102,
+    "lng": 12.6032096,
+    "address": "Holmbladsgade, 1426, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1358980017,
+      "query": "Jaguar Bodega, Copenhagen, Denmark",
+      "matched_name": "Jaguaren",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Post Bodegaen",
+    "district": "KØBENHAVN S + SV",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Restaurant Kareten",
+    "district": "KØBENHAVN S + SV",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6647417,
+    "lng": 12.599422,
+    "address": "Anders Henriksens Gade, 1426, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 532495503,
+      "query": "Kareten, Copenhagen, Denmark",
+      "matched_name": "Kareten",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Restaurant Sundby Sejl",
+    "district": "KØBENHAVN S + SV",
+    "verified": true,
+    "lat": 55.6644204,
+    "lng": 12.6318053,
+    "address": "Søanemonestien, 1441, Sundbyerne",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 9067487941,
+      "query": "Restaurant Sundby Sejl, Copenhagen, Denmark",
+      "matched_name": "Restaurant Sundby Sejl",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Børges Bodega",
+    "district": "KØBENHAVN Ø",
+    "verified": true,
+    "lat": 55.7104835,
+    "lng": 12.5610308,
+    "address": "Lyngbyvej, 2100, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 976747659,
+      "query": "Børges Bodega, Copenhagen, Denmark",
+      "matched_name": "Børges Bodega",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Chevy’s Bar",
+    "district": "KØBENHAVN Ø",
+    "verified": true,
+    "lat": 55.7037349,
+    "lng": 12.5900058,
+    "address": "Nordre Frihavnsgade, 2150, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 4558623948,
+      "query": "Chevy’s Bar, Copenhagen, Denmark",
+      "matched_name": "Chevy's",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Foreningen Cafedrift",
+    "district": "KØBENHAVN Ø",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Halifax Trianglen",
+    "district": "KØBENHAVN Ø",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Hermod Bodega",
+    "district": "KØBENHAVN Ø",
+    "verified": true,
+    "lat": 55.7078925,
+    "lng": 12.5778792,
+    "address": "Vordingborggade, 2100, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 6036542117,
+      "query": "Hermod Bodega, Copenhagen, Denmark",
+      "matched_name": "Hermod Bodega",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Lumskebuksen",
+    "district": "KØBENHAVN Ø",
+    "verified": true,
+    "lat": 55.7039381,
+    "lng": 12.5570419,
+    "address": "Lersø Parkallé, 2200, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "way",
+      "osm_id": 147291402,
+      "query": "Lumskebuksen, Copenhagen, Denmark",
+      "matched_name": "Lumskebuksen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "A.V.F. Landbohøjskolen",
+    "district": "FREDERIKSBERG",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6790425,
+    "lng": 12.539364,
+    "address": "Dyrlægevej, 1867, Frederiksberg",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 8143723560,
+      "query": "A-vej, Frederiksberg, Denmark",
+      "matched_name": "A-vej",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Alleenberg",
+    "district": "FREDERIKSBERG",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6752681,
+    "lng": 12.5328906,
+    "address": "Allégade, 1854, Frederiksberg",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 277703258,
+      "query": "Café Alléenberg, Frederiksberg, Denmark",
+      "matched_name": "Alléenberg",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Bar Aksel",
+    "district": "FREDERIKSBERG",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Bartof Station",
+    "district": "FREDERIKSBERG",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.680974,
+    "lng": 12.5331594,
+    "address": "Solbjergvej, 1861, Frederiksberg",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 7710272256,
+      "query": "Bartof Station, Frederiksberg, Denmark",
+      "matched_name": "Bartof Station",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Bartof",
+    "district": "FREDERIKSBERG",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6836628,
+    "lng": 12.5245604,
+    "address": "Thurøvej, 2000, Frederiksberg",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 279143817,
+      "query": "Bartof Café, Frederiksberg, Denmark",
+      "matched_name": "Bartof Café",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Moccador",
+    "district": "FREDERIKSBERG",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6817592,
+    "lng": 12.5343154,
+    "address": "Falkoner Allé, 1860, Frederiksberg",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 277364372,
+      "query": "Cafe Moccador, Frederiksberg, Denmark",
+      "matched_name": "Café Moccador",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Cafe Viggo",
+    "district": "FREDERIKSBERG",
+    "verified": true,
+    "lat": 55.6740755,
+    "lng": 12.5497061,
+    "address": "Værnedamsvej, 1619, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 279143826,
+      "query": "Cafe Viggo, Copenhagen, Denmark",
+      "matched_name": "Café Viggo",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Det Gamle Posthus",
+    "district": "FREDERIKSBERG",
+    "verified": true,
+    "lat": 55.693731,
+    "lng": 12.53205,
+    "address": "Borups Allé 121, 2000 Frederiksberg",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Borups Allé 121, 2000 Frederiksberg, Denmark",
+      "osm_type": "node",
+      "osm_id": 340572903,
+      "address_source": "https://www.krak.dk/det+gamle+posthus+frederiksberg/66776801/firma",
+      "matched_address": "121, Borups Allé, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 2000, Danmark"
+    }
+  },
+  {
+    "name": "Frederik VI",
+    "district": "FREDERIKSBERG",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6738535,
+    "lng": 12.5437949,
+    "address": "Alhambravej, 1826, Frederiksberg",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 3286415949,
+      "query": "Frederik VI, Frederiksberg, Denmark",
+      "matched_name": "Frederik VI",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Hos Robert",
+    "district": "FREDERIKSBERG",
+    "verified": true,
+    "reason": "No unambiguous matching OpenStreetMap venue found",
+    "lat": 55.6702078,
+    "lng": 12.5371716,
+    "address": "Rahbeks Allé, 1801, Frederiksberg",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 7334707798,
+      "query": "Hos Robert, Frederiksberg, Denmark",
+      "matched_name": "Hos Robert",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "The Old Irish Pub Smallegade",
+    "district": "FREDERIKSBERG",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Cafe Cire",
+    "district": "VALBY + VANLØSE",
+    "verified": true,
+    "lat": 55.6665053,
+    "lng": 12.5148218,
+    "address": "Valby Langgade, 1805, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 282821186,
+      "query": "Cafe Cire, Copenhagen, Denmark",
+      "matched_name": "Cafe Ciré",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Hotel Fy & Bi",
+    "district": "VALBY + VANLØSE",
+    "verified": true,
+    "lat": 55.6664428,
+    "lng": 12.5145524,
+    "address": "Valby Langgade, 1805, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 282821200,
+      "query": "Hotel Fy & Bi, Copenhagen, Denmark",
+      "matched_name": "Hotel Fy & Bi",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Mølle Cafeen",
+    "district": "VALBY + VANLØSE",
+    "verified": true,
+    "lat": 55.6653765,
+    "lng": 12.5171005,
+    "address": "Mølle Allé, 1805, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 496287667,
+      "query": "Mølle Cafeen, Copenhagen, Denmark",
+      "matched_name": "Mølle Cafeen",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Nanok",
+    "district": "VALBY + VANLØSE",
+    "verified": true,
+    "lat": 55.6668132,
+    "lng": 12.5048845,
+    "address": "Valby Langgade, 2500, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 1619265824,
+      "query": "Nanok, Copenhagen, Denmark",
+      "matched_name": "Nanok Bar",
+      "score": 0.769
+    }
+  },
+  {
+    "name": "Nykro",
+    "district": "VALBY + VANLØSE",
+    "verified": false,
+    "reason": "No unambiguous matching OpenStreetMap venue found"
+  },
+  {
+    "name": "Snoopy Bodega",
+    "district": "VALBY + VANLØSE",
+    "verified": true,
+    "lat": 55.6826112,
+    "lng": 12.4914551,
+    "address": "Linde Allé, 2720, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 571267064,
+      "query": "Snoopy Bodega, Copenhagen, Denmark",
+      "matched_name": "Snoopy Bodega",
+      "score": 1.0
+    }
+  },
+  {
+    "name": "Støvlen",
+    "district": "VALBY + VANLØSE",
+    "verified": true,
+    "lat": 55.6918978,
+    "lng": 12.4835599,
+    "address": "Jyllingevej, 2720, København",
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap",
+      "osm_type": "node",
+      "osm_id": 13017757562,
+      "query": "Støvlen, Copenhagen, Denmark",
+      "matched_name": "Støvlen",
+      "score": 1.0
+    }
+  }
+]
