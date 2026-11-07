@@ -1668,7 +1668,9 @@
       "address_source": "https://www.corner.inc/place/phvsmrjZiFFo ; https://politiken.dk/ibyen/anmeldelser/cafeanmeldelser/art10486139/",
       "note": "Only Anker venue found in S+SV; it is a café-bar (medium confidence)",
       "matched_address": "1A, Mozarts Plads, Frederiksholm, Carlsberg Byen, København, Københavns Kommune, Region Hovedstaden, 2450, Danmark"
-    }
+    },
+    "tentative": true,
+    "tentativeNote": "Likely match: only Anker venue found in København S/SV (café-bar). Not confirmed as the listed J-Day bar."
   },
   {
     "name": "Cafe Engholm",

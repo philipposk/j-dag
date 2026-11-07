@@ -36,3 +36,7 @@ test('every address override is mapped with a cited source and a matching street
  for(const [name,o] of Object.entries(overrides)){const v=venues.find(v=>v.name===name);assert.ok(v,name);assert.ok(v.verified,name);assert.ok(/https?:\/\//.test(o.source)||/^User-provided/.test(o.source),name);
   const street=o.address.split(/\s\d/)[0].toLowerCase();assert.ok(v.geocoded.matched_address.toLowerCase().includes(street),name);}
 });
+test('tentative venues are flagged, not presented as confirmed',()=>{
+ const a=venues.find(v=>v.name==='Anker');assert.equal(a.tentative,true);
+ const src=fs.readFileSync(new URL('../src/main.js',import.meta.url),'utf8');assert.ok(src.includes('v.tentative'));
+});
