@@ -1,32 +1,52 @@
-# Community-added bars (approved t29 + t30, 2026-11-07)
+# Community-added bars (approved t29 + t30, corrected by parent review, 2026-11-07)
 
-Supersedes the mailto and email-only designs. Status: design + draft migration; nothing applied to Supabase/Vercel yet.
+Supersedes the mailto and email-only designs (PR #6 history).
 
 ## Behaviour
-- "Missing a bar?" form (EN/DA): bar name (req, ≤120), address (req, ≤200), source link (opt, http/https, ≤500). No visitor
-  email, no GPS/search text sent. Hidden honeypot + min fill time.
-- Server (`/api/community-bars`, Vercel function) geocodes the address itself (Nominatim, Copenhagen bbox, 1 req/s),
-  rejects out-of-area or unresolvable addresses (hold → "couldn't check that address"), dedupes against the official
-  list and existing community entries (accent/case-folded name + ≤75 m, or same OSM id), then inserts. The client never
-  sends coordinates.
-- Accepted entries show immediately as **Community-added · unverified** pins (distinct colour, legend) and in a separate
-  list with "Report". Copy: "Added by visitors. Not checked: we don't know if it takes part, is open or is accessible."
-- Official list, count (132, 2026), Anker caveat, SEO pages unchanged; nearest-bar uses official bars by default with an
-  opt-in "include community bars" checkbox.
-- Report: reason (closed / not taking part / wrong place / spam / other) + optional note ≤300. Stored privately; one
-  report never deletes. An entry is auto-hidden only at ≥3 distinct-reporter reports (hashed IP+day salt); owner can
-  restore/remove. Duplicate reports from the same reporter are ignored.
-- Notifications (fixed recipients in code, no client control): new bar → filippos@6x7.gr; new unique report →
-  dev@6x7.gr with bar, reason, note, link (no IP). Global cap 20 mails/day; the row is stored first and an email failure
-  only sets `notified_at = null` (never claimed delivered).
-- Owner moderation: SQL/Supabase dashboard (service role) only; no public admin endpoint in this PR.
+- Section "Community-added · unverified" / "Tilføjet af besøgende · ikke bekræftet" after the official full list:
+  count, legend swatch, unverified note, list (name, address, optional source link `rel="nofollow ugc"`), "Show on map",
+  "Report". Distinct dashed purple pins. Official list, 132 count, Anker caveat, SEO pages unchanged.
+- "Closest" uses official bars only; a checkbox opts community bars in (shown with the unverified tag).
+- "Missing a bar?" form: name (≤120), address (≤200), optional http(s) link (≤500). No visitor email or location.
+  Hidden honeypot; the client waits until 3.2 s after opening so the server's 3 s trap never hits a real person.
+- Server (`api/community-bars.js` → `server/community.js`) re-validates, rate-limits, rejects names on the official list
+  (folded case/accents/Danish letters; partial names within 300 m), geocodes the address itself with Nominatim
+  (bounded to the Copenhagen box, `countrycodes=dk`), rejects not-found/outside, then calls `jdag_add_bar`, which
+  under an advisory lock dedupes by idempotency key, same OSM element, or same folded name within 150 m.
+  Client coordinates are never read.
+- Copy says plainly: the address lookup does not confirm the bar exists, takes part, is open or is accessible.
+- Reports: reason (closed / not taking part / wrong place / spam / other) + note ≤300. Stored privately, one per
+  reporter per bar. Nothing is hidden automatically. Each new unique report emails **dev@6x7.gr** (fixed) with bar,
+  address, reason, note, id, map link — never IP or hash. Max 20 emails/day (Postgres counter). The report is stored
+  first; `notified_at` is set only after Resend accepts the send. New bars send no email.
 
-## Abuse limits (distributed, in Postgres)
-- Per hashed IP: 3 submissions/10 min, 10/day; 10 reports/day. Global: 50 submissions/day. Body ≤4 KB, Origin allowlist,
-  idempotency key unique per submission.
+## Security
+- Tables in private schema `jdag` (not exposed to the Data API; no anon/authenticated grants; RLS on, no policies).
+- Server calls `public.jdag_*` RPCs: SECURITY INVOKER, `search_path = ''`, EXECUTE revoked from public/anon/authenticated,
+  granted to service_role only. Tested against the real migration in PGlite (`test/sql.test.js`).
+- Service-role key, Resend key and salt are used only when `VERCEL_ENV === 'production'`. Previews/local answer 503
+  (fail closed) and write nothing.
+- Raw IPs are never stored: `sha256(JDAG_IP_SALT | ip)`. Rate counters are deleted after 2 days, geocache after 30
+  (pg_cron job `jdag-cleanup`).
+- Limits: per IP 3 adds/10 min, 10/day, 10 reports/day; global 50 adds/day, 200 reports/day, 1000 visible bars;
+  Nominatim 1 request/s globally (`jdag_nominatim_slot`) + 30-day cache; body ≤4 KB; Origin must be
+  https://j-dag.6x7.gr in production; JSON only.
+- All visitor text is rendered with `textContent`; source links only http(s).
 
-## Resources (existing only)
-- Supabase project `6x7` (fmrnqepyyjucnfbrqawl, eu-central-1), new schema `jdag` (tables + SECURITY DEFINER RPCs), RLS on,
-  anon may only `select` from view `jdag.public_bars` (sanitized fields). See `supabase/jdag-community.sql`.
-- Vercel project `j-dag` env (none today): SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY (6x7 project), RESEND_API_KEY (same
-  Resend account as 6x7.gr; 6x7.gr has a Resend DKIM record), JDAG_MAIL_FROM (e.g. `J-dag <hello@6x7.gr>`), JDAG_IP_SALT.
+## Owner moderation (no web admin)
+In Supabase → SQL editor (project 6x7):
+```sql
+select id, name, address, source_url, status, created_at from jdag.community_bars order by created_at desc;
+select r.created_at, b.name, r.reason, r.note from jdag.reports r join jdag.community_bars b on b.id = r.bar_id order by r.created_at desc;
+update jdag.community_bars set status = 'hidden'  where id = '<uuid>';   -- hide
+update jdag.community_bars set status = 'visible' where id = '<uuid>';   -- restore
+update jdag.community_bars set status = 'removed' where id = '<uuid>';   -- remove for good (kept for dedupe/audit)
+select * from jdag.reports where notified_at is null;                    -- reports whose email did not go out
+```
+Promoting a bar to the official list stays a manual edit of `data/venues.json` with a real source.
+
+## Deployment (needs approval; nothing applied yet)
+1. Apply `supabase/jdag-community.sql` to project `6x7` (fmrnqepyyjucnfbrqawl); run Supabase security advisors after.
+2. Vercel project `j-dag`, **Production only**: `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` (6x7 project), `RESEND_API_KEY`
+   (default key; restricted to sending), `JDAG_MAIL_FROM` (e.g. `J-dag <hello@6x7.gr>`), `JDAG_IP_SALT` (random ≥32 chars).
+3. Redeploy; check GET `/api/community-bars` = 200 `{bars:[]}`; one owner-approved real report test to dev@6x7.gr.

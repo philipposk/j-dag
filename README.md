@@ -90,6 +90,6 @@ itself is the best way to raise coverage.
 - `vercel.json` sets security headers including a CSP that allows only OpenStreetMap tiles, Nominatim and Google Fonts. `vite preview` uses the same headers so you can test it locally.
 - When the bar list changes year, update the count/year in `public/llms.txt` and the share image.
 
-## Missing a bar?
+## Community-added bars
 
-Below the full list, a collapsed "Missing a bar?" / "Mangler der en bar?" form takes a bar name, address and optional http(s) source link and opens the visitor's own email app with a prepared message to filippos@6x7.gr (`src/suggest.js`). Nothing is sent by the site and no request is made; "Copy text" uses the clipboard when allowed and otherwise shows the text selected for manual copying. Suggestions are checked by hand. They never change `data/venues.json` or the map automatically. Design notes: `docs/missing-bar.md`.
+Visitors can add a missing bar (name, address, optional link) and it appears at once as **community-added · unverified**, with its own pins, list and a Report button. The server geocodes and checks the address (Copenhagen only), rejects duplicates of the official list and of earlier additions, and rate-limits in Postgres. Reports are stored and emailed to dev@6x7.gr; nothing is hidden automatically. The official 2026 list is never changed by this. Design, security, moderation SQL and deployment steps: `docs/missing-bar.md`; schema: `supabase/jdag-community.sql`.

@@ -1,5 +1,5 @@
 import { applyHeadCopy } from './seo-copy.js';
-import { mountSuggest } from './suggest.js';
+import { mountCommunity } from './community.js';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './style.css';
@@ -18,7 +18,7 @@ const copy = {
  da: {eyebrow:'J-DAG BARGUIDE · KØBENHAVN',title:'Lidt jul.\nEn bar rundt om hjørnet.',intro:'Den første juleøl fortjener en kort gåtur. Find din nærmeste bar på J-dagslisten.',locate:'Brug min placering',or:'eller find et sted',label:'Adresse, station eller bydel',placeholder:'Prøv Nørreport Station',search:'Find barer',example:'Start ved Nørreport Station ↗',privacy:'Din GPS-placering bliver i din browser. Adressesøgninger sendes til OpenStreetMaps Nominatim. Kortfliser hentes fra OpenStreetMap.',mapTitle:'Din blå-hvide aften på kortet.',closest:'NÆRMESTE BAR PÅ LISTEN',before:'Hvor starter du?',beforeText:'Del din placering eller skriv et sted for at finde den nærmeste bar på listen. Ingen konto, ingen sporing.',directions:'Rute til fods ↗',nearby:'Andre barer i nærheden',more:(n,r)=>`Vis ${n} mere (${r} tilbage)`,allShown:'Alle barer på listen vises, nærmeste først.',all:'Hele listen',unverified:'Ikke på kortet — placering ikke bekræftet',disclaimer:'På listen betyder ikke åben lige nu. Nisser, huer og gratis øl er ikke garanteret alle steder hele tiden.',estimated:'Nærmeste betyder korteste afstand i luftlinje. Minutterne er et groft skøn til fods (afstand × 1,3), ikke en beregnet rute — Google Maps viser den rigtige rute.',found:'Du starter ved',none:'Intet match i København. Prøv en gadeadresse eller et stationsnavn.',error:'Søgning er ikke tilgængelig lige nu. Del din placering eller prøv igen om lidt.',locating:'Finder din placering…',denied:'Placering blev ikke delt. Du kan skrive et sted i stedet.',outside:'Guiden dækker København. Du ser ud til at være langt væk — skriv et sted i København.',searching:'Finder dit udgangspunkt…',choose:'Vælg dit udgangspunkt:',pick:'Vis på kortet',mapped:'barer på kortet',listYear:'stedliste',min:'min til fods',approx:'Ca.',story:'Mere end en øl. En meget dansk tradition.',storyLead:'Hvorfor de blå huer, og hvad er der egentlig i glasset?',why:'Hvorfor findes J-dag?',whyText:'Reklamen kom først. Kampagnen “God jul og godt Tub’år” blev så populær, at Tuborg skabte Julebryg i 1981. Thomas Tingstrup formaliserede J-dag i 1990, inspireret af Beaujolais Nouveau og den uformelle P-dag for påskebryg. I 1999 flyttede frigivelsen fra anden onsdag kl. 23.59 til første fredag i november kl. 20.59.',beer:'Er det melasse?',beerText:'Nej — karamelsmagen kommer fra karamelmalt, ikke melasse. Tuborg Julebryg er en mørk, undergæret pilsner af wienertypen på 5,6 %, brygget med lager-, münchener- og karamelmalt og tilsat engelsk lakrids. Duft af karamel, korn, lakrids og et strejf af solbær.',blend:'Den oprindelige blanding fra 1981 bestod af Tuborg Guld, Fine Festival og KB hvidtøl (taget fra før tilsætning af sukker). Lakrids har været med fra starten.',footer:'Uafhængig guide — ikke en officiel Tuborg-side. 18+ · Drik ansvarligt. Kom sikkert hjem.',credit:'Stedliste: Mig og KBH',facts:'Historien hos lex.dk',product:'Øldetaljer fra Carlsberg',status:'6. NOV 2026 · FØRSTE SKÆNKNING 20.59',tentative:'Kun sandsynlig placering — bedste match, ikke bekræftet.',coverage:'Kun placeringer på kortet (én, Anker, er et sandsynligt match, ikke bekræftet). Ubekræftede steder står nedenfor og tæller ikke med i nærmeste bar.',filters:'Filtre',fName:'Barnavn',fDistrict:'Område',fAll:'Alle områder',fRadius:'Maks. afstand',fAny:'Alle',fNeedStart:'(vælg et startpunkt)',fSmoking:'Rygning',fSmInside:'Tilladt indenfor (inkl. eget rum)',fSmOutside:'Kun udenfor',fSmNone:'Ikke tilladt',fOutdoor:'Har udendørs servering',fWheel:'Kørestolsadgang',fWheelYes:'Ja',fWheelSome:'Ja eller delvis',fReset:'Nulstil filtre',fCount:(n,t)=>`${n} af ${t} barer passer`,fUnknown:'Filtre for rygning, udendørs servering og kørestol medtager kun barer, hvor OpenStreetMap har oplysningen; andre er “ukendt”, ikke “nej”.',fCoverage:(s,o,w)=>`Kendt indtil videre: rygning ${s}, udendørs servering ${o}, kørestol ${w} af 132 barer.`,noMatch:'Ingen bar på listen passer til filtrene.',dSmoking:'Rygning',dOutdoor:'Udendørs servering',dWheel:'Kørestol',dHours:'Normale åbningstider',dPrice:'Ølpris (menukort)',dUnknown:'Ukendt',dYes:'Ja',dNo:'Nej',dLimited:'Delvis',sm:{yes:'Tilladt indenfor',separated:'Rygeområde indenfor',isolated:'Eget rygerum',dedicated:'Rygerbar',outside:'Kun udenfor',no:'Ikke tilladt'},dHoursNote:'Normale tider fra OpenStreetMap; J-dag kan afvige.',dSource:'Detaljer',dChecked:'tjekket',dSizeUnknown:'størrelse ikke oplyst',enrichTitle:'Bardetaljer',enrichText:'Rygning, udendørs servering, kørestolsadgang og normale åbningstider kommer fra OpenStreetMap (ODbL), matchet til hver bar på navn inden for 80 m af nålen. Manglende oplysninger vises som ukendt. Ølpriser vises kun, hvor vi har læst dem på barens eget menukort.',sourceTitle:'Hvor barlisten kommer fra',sourceText:'Barerne stammer fra Mig og KBH’s J-dagsartikel og opdateres hvert efterår. Kortnåle er geokodet med OpenStreetMap; barer uden match står på listen men rangeres ikke.',sourceArticle:'Læs kildeartiklen ↗',fetched:'Liste hentet',code:'Kildekode på GitHub ↗',listFor:'J-dagsliste'}
 };
 const t = () => copy[language];
-let relabelSuggest = null;
+let relabelSuggest = null, community = null;
 document.querySelector('#app').innerHTML = `
  <div class="snow" aria-hidden="true"></div><header class="shell header"><a class="brand" href="/"><img src="/hat.svg" alt="" width="38" height="38">J-dag<span>·</span>KBH</a><nav aria-label="Language"><button id="en" class="lang active" lang="en">EN</button><button id="da" class="lang" lang="da">DA</button></nav></header>
  <main class="shell"><section class="hero"><div class="hero-copy"><h1 class="eyebrow" data-copy="eyebrow"></h1><p class="hero-title" data-copy="title"></p><p class="intro" data-copy="intro"></p><div class="event-date"><span class="spark">✦</span><span data-copy="status"></span><span class="zone">Copenhagen</span></div></div><div class="hero-art" aria-hidden="true"><div class="orbit"></div><img src="/hat.svg" alt=""><span class="star star-a">✦</span><span class="star star-b">✧</span><span class="art-caption">SKÅL, KØBENHAVN</span></div></section>
@@ -43,7 +43,7 @@ for (const v of verified) {
  marker.on('click',() => { selected = v; renderClosest(v); });markers.set(v.name,marker);
 }
 const matching = v => matchesFilters(v, filters, origin);
-const rankedNow = () => origin ? rankVenues(venues.filter(matching), origin) : [];
+const rankedNow = () => origin ? rankVenues([...venues, ...(community?.included() ?? [])].filter(matching), origin) : [];
 function detailsHtml(v) {
  const d=venueDetails(v),u=`<span class="unknown">${t().dUnknown}</span>`;
  const yn=x=>x===true?t().dYes:x===false?t().dNo:u;
@@ -60,7 +60,7 @@ function renderClosest(v) {
  const distance = origin ? distanceMeters(origin,v) : null;
  const nearest = ranked[0]?.name === v.name;
  const walking = distance === null ? null : walkingEstimate(distance);
- el.innerHTML = `<p class="eyebrow">${nearest?t().closest:escape(v.district)}</p><h3>${escape(v.name)}</h3><p class="address">${escape(v.address)}</p>${v.tentative?`<p class="aside-note">${t().tentative}</p>`:''}${detailsHtml(v)}${distance === null ? '' : `<div class="walk"><strong>${Math.max(1,Math.ceil(walking/80))}</strong><span>${t().min}<small>${t().approx} ${formatDistance(walking)}</small></span></div>`}<a class="button primary directions" href="${escape(directionsLink(v,origin))}" target="_blank" rel="noreferrer">${t().directions}</a><p class="aside-note">${t().disclaimer}</p>${distance === null ? '' : `<p class="aside-note">${t().estimated}</p>`}`;
+ el.innerHTML = `<p class="eyebrow">${nearest?t().closest:escape(v.community?community.label():v.district)}</p><h3>${escape(v.name)}</h3><p class="address">${escape(v.address)}</p>${v.community?`<p class="aside-note community-tag">${escape(community.label())}</p>`:''}${v.tentative?`<p class="aside-note">${t().tentative}</p>`:''}${detailsHtml(v)}${distance === null ? '' : `<div class="walk"><strong>${Math.max(1,Math.ceil(walking/80))}</strong><span>${t().min}<small>${t().approx} ${formatDistance(walking)}</small></span></div>`}<a class="button primary directions" href="${escape(directionsLink(v,origin))}" target="_blank" rel="noreferrer">${t().directions}</a><p class="aside-note">${t().disclaimer}</p>${distance === null ? '' : `<p class="aside-note">${t().estimated}</p>`}`;
  for (const [name, marker] of markers) marker.setStyle({radius:name===v.name?10:6,fillColor:name===v.name?'#c79143':'#214f7d',weight:name===v.name?3:2});
 }
 function setOrigin(at,label) {
@@ -95,7 +95,7 @@ function renderNearby(ranked=rankedNow(),focusFrom=-1) {
  const {items,remaining,next}=nearbyPage(ranked,nearbyShown);
  const list=document.querySelector('#nearby');
  list.setAttribute('aria-label',t().nearby);
- list.innerHTML=items.map((v,i)=>`<li><button class="nearby-card" data-venue="${escape(v.name)}"><span class="eyebrow">${i+2}. ${formatDistance(walkingEstimate(v.distance))} · ~${Math.max(1,Math.ceil(walkingEstimate(v.distance)/80))} min</span><strong>${escape(v.name)}</strong><span>${escape(v.address)}</span>${v.tentative?`<small class="tentative-tag">${t().tentative}</small>`:''}<span class="nearby-action">${t().pick} ↗</span></button></li>`).join('');
+ list.innerHTML=items.map((v,i)=>`<li><button class="nearby-card" data-venue="${escape(v.name)}"><span class="eyebrow">${i+2}. ${formatDistance(walkingEstimate(v.distance))} · ~${Math.max(1,Math.ceil(walkingEstimate(v.distance)/80))} min</span><strong>${escape(v.name)}</strong><span>${escape(v.address)}</span>${v.community?`<small class="community-tag">${escape(community.label())}</small>`:''}${v.tentative?`<small class="tentative-tag">${t().tentative}</small>`:''}<span class="nearby-action">${t().pick} ↗</span></button></li>`).join('');
  list.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>selectVenue(b.dataset.venue)));
  const more=document.querySelector('#nearby-more'),done=document.querySelector('#nearby-done');
  more.hidden=remaining===0;more.textContent=remaining?t().more(next,remaining):'';
@@ -103,7 +103,7 @@ function renderNearby(ranked=rankedNow(),focusFrom=-1) {
  if(focusFrom>=0)list.querySelectorAll('button')[focusFrom]?.focus();
 }
 document.querySelector('#nearby-more').addEventListener('click',()=>{const from=nearbyShown;nearbyShown+=NEARBY_STEP;renderNearby(undefined,from);});
-function selectVenue(name) { const v=verified.find(v=>v.name===name);if(!v)return;selected=v;renderClosest(v);map.setView([v.lat,v.lng],17);markers.get(name).openPopup(); }
+function selectVenue(name) { const v=verified.find(v=>v.name===name)??community?.find(name);if(!v)return;selected=v;renderClosest(v);map.setView([v.lat,v.lng],17);if(v.community)community.openPin(name);else markers.get(name).openPopup(); }
 function feedback(message,error=false) {const el=document.querySelector('#feedback');el.textContent=message;el.classList.toggle('error',error);}
 let busy=false,lastSearch=0;
 async function search(query) {
@@ -145,5 +145,6 @@ function renderLanguage() {
  refreshResults(false,true);
 }
 for (const lang of ['en','da'])document.querySelector(`#${lang}`).addEventListener('click',()=>{language=lang;history.replaceState(null,'',(lang==='da'?'/da/':'/')+location.search+location.hash);renderLanguage();});
-relabelSuggest = mountSuggest(document.querySelector('#suggest-host'), () => language);
+community = mountCommunity({ host: document.querySelector('#suggest-host'), map, L, getLang: () => language, onChange: () => { if (origin) refreshResults(false, true); }, onSelect: v => { selected = v; renderClosest(v); } });
+relabelSuggest = community.relabel;
 renderLanguage();

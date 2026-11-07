@@ -18,3 +18,12 @@ h1.eyebrow{font-family:'DM Sans',system-ui,sans-serif;margin:0 0 1em}
 .suggest-hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
 .suggest-actions .button[disabled]{opacity:.6;cursor:progress}
 #suggest-status[data-state=sent]{color:#bfe6c4}#suggest-status[data-state=failed],#suggest-status[data-state=rate],#suggest-status[data-state=unavailable]{color:#ffb3a6}
+.community{border-bottom:1px solid #ffffff20;padding:20px 0}.community h2{font-size:22px;margin-bottom:6px}.community .count{opacity:.7;font-size:15px}
+.community-swatch{display:inline-block;width:12px;height:12px;border-radius:50%;background:#4b2a7a;border:2px dashed #b98cff;vertical-align:middle}
+.community-include{display:flex;gap:8px;align-items:center;font-size:14px;margin:10px 0}.community-include input{width:20px;height:20px}
+.community-list{list-style:none;padding:0;margin:0 0 12px;display:grid;gap:10px}.community-list li{display:grid;gap:2px;padding:10px 12px;border:1px dashed #b98cff80;border-radius:12px}
+.community-list li>span{font-size:14px;opacity:.85}.community-actions{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin-top:4px}
+.community-actions .text-button,.community-actions a{min-height:32px;color:#e3d2ff}
+.community-tag{color:#d8c2ff}
+.report-form{display:grid;gap:6px;margin-top:8px;max-width:480px}.report-form select,.report-form textarea{font:inherit;padding:8px 10px;border-radius:10px;border:1px solid #ffffff40;background:#ffffff10;color:inherit}
+.report-form select option{color:#102c51}.report-form .button{min-height:44px;justify-self:start}.report-form .button:not(.primary){background:transparent;color:inherit;border:1px solid #ffffff70}
