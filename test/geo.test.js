@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { distanceMeters, rankVenues, walkingEstimate, directionsLink } from '../src/geo.js';
+import { distanceMeters, rankVenues, walkingEstimate, directionsLink, TRAVEL_MODES } from '../src/geo.js';
 const venues = JSON.parse(fs.readFileSync(new URL('../data/venues.json',import.meta.url)));
 test('distance calculation is symmetric and zero at same point',()=>{
  const a={lat:55.68,lng:12.57}, b={lat:55.69,lng:12.58};
@@ -24,4 +24,10 @@ test('walking estimate labelled heuristic, directions request real walking route
  assert.equal(walkingEstimate(100),130);
  const u=new URL(directionsLink({lat:55.682486,lng:12.571489},{lat:55.6832,lng:12.5717}));
  assert.equal(u.searchParams.get('travelmode'),'walking');assert.equal(u.searchParams.get('origin'),'55.6832,12.5717');
+});
+test('every travel mode produces an official Maps URL with that mode, and unknown modes fall back to walking',()=>{
+ for(const m of TRAVEL_MODES){const u=new URL(directionsLink({lat:55.68,lng:12.57},{lat:55.69,lng:12.58},m));assert.equal(u.origin+u.pathname,'https://www.google.com/maps/dir/');assert.equal(u.searchParams.get('api'),'1');assert.equal(u.searchParams.get('travelmode'),m);}
+ assert.deepEqual(TRAVEL_MODES,['walking','bicycling','transit','driving']);
+ assert.equal(new URL(directionsLink({lat:1,lng:2},null,'teleport')).searchParams.get('travelmode'),'walking');
+ assert.equal(new URL(directionsLink({lat:1,lng:2})).searchParams.has('origin'),false);
 });

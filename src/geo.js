@@ -11,8 +11,10 @@ export function rankVenues(venues, at) {
 }
 export function walkingEstimate(meters) { return Math.max(20, Math.round(meters * 1.3 / 10) * 10); }
 export function formatDistance(meters) { return meters < 1000 ? `${Math.round(meters / 10) * 10} m` : `${(meters / 1000).toFixed(1)} km`; }
-export function directionsLink(v, at) {
-  const p = new URLSearchParams({ api: '1', destination: `${v.lat},${v.lng}`, travelmode: 'walking' });
+export const TRAVEL_MODES = ['walking', 'bicycling', 'transit', 'driving'];
+export function directionsLink(v, at, mode = 'walking') {
+  if (!TRAVEL_MODES.includes(mode)) mode = 'walking';
+  const p = new URLSearchParams({ api: '1', destination: `${v.lat},${v.lng}`, travelmode: mode });
   if (at) p.set('origin', `${at.lat},${at.lng}`);
   return `https://www.google.com/maps/dir/?${p}`;
 }
