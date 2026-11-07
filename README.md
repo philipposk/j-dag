@@ -89,3 +89,7 @@ itself is the best way to raise coverage.
 - `public/robots.txt` allows all crawlers (it is not access control), `public/sitemap.xml` lists the two canonical pages, `public/llms.txt` is a short factual summary, `public/og.png` is the 1200×630 share image.
 - `vercel.json` sets security headers including a CSP that allows only OpenStreetMap tiles, Nominatim and Google Fonts. `vite preview` uses the same headers so you can test it locally.
 - When the bar list changes year, update the count/year in `public/llms.txt` and the share image.
+
+## Community-added bars
+
+Visitors can add a missing bar (name, address, optional link) and it appears at once as **community-added · unverified**, with its own pins, list and a Report button. The server geocodes and checks the address (Copenhagen only), rejects duplicates of the official list and of earlier additions, and rate-limits in Postgres. Reports are stored and emailed to dev@6x7.gr; nothing is hidden automatically. The official 2026 list is never changed by this. Design, security, moderation SQL and deployment steps: `docs/missing-bar.md`; schema: `supabase/jdag-community.sql`.

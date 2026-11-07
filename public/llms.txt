@@ -7,5 +7,6 @@
 - The bar list (132 bars, 2026) comes from Mig og KBH: https://migogkbh.dk/oel-og-nisser-paa-j-dag-i-koebenhavn/ . Being listed does not mean a bar is open or serving at a given time.
 - "Closest" is straight-line distance from the user's location or typed address; walking minutes are an estimate.
 - Optional details (smoking, outdoor seating, wheelchair access, usual opening hours) come from OpenStreetMap (ODbL) and are often unknown.
+- Visitors can add missing bars. These show separately as "community-added · unverified" and are not part of the official list or its count; nobody has checked that they take part or are open.
 - Source code: https://github.com/philipposk/j-dag
 - Independent guide, not an official Tuborg website. Made by 6×7 (https://6x7.gr).
