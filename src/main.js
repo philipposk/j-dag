@@ -1,3 +1,4 @@
+import { applyHeadCopy } from './seo-copy.js';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './style.css';
@@ -123,7 +124,7 @@ document.querySelector('#search-form').addEventListener('submit',e=>{e.preventDe
 document.querySelector('#example').addEventListener('click',()=>{document.querySelector('#query').value='Nørreport Station';search('Nørreport Station');});
 document.querySelector('#locate').addEventListener('click',()=>{if(!navigator.geolocation){feedback(t().denied,true);return;}feedback(t().locating);const b=document.querySelector('#locate');b.disabled=true;navigator.geolocation.getCurrentPosition(p=>{b.disabled=false;setOrigin({lat:p.coords.latitude,lng:p.coords.longitude},language==='da'?'din placering':'your location');},()=>{b.disabled=false;feedback(t().denied,true);},{enableHighAccuracy:true,timeout:12000,maximumAge:60000});});
 function renderLanguage() {
- document.documentElement.lang=language;
+ document.documentElement.lang=language;applyHeadCopy(language);
  document.querySelectorAll('[data-copy]').forEach(el=>{el.textContent=t()[el.dataset.copy];});
  document.querySelector('#query').placeholder=t().placeholder;
  document.querySelector('#fetched').textContent=new Intl.DateTimeFormat(language,{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Copenhagen'}).format(new Date(metadata.fetchedAt));
