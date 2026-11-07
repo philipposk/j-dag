@@ -2,8 +2,19 @@
   {
     "name": "4tallet",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Højbro Plads 3A, 1200 København K",
+    "lat": 55.678721,
+    "lng": 12.580075,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Højbro Plads 3, 1200 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 736978448,
+      "address_source": "https://www.4talletlive.dk/ ; https://jazz.dk/en/copenhagen-jazz-festival-2026/venues/121/",
+      "note": "Listed as 4tallet; official name 4tallet Live; OSM lacks 3A; geocoded at Højbro Plads 3 (same building)",
+      "matched_address": "3, Højbro Plads, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1200, Danmark"
+    }
   },
   {
     "name": "Alpehytten",
@@ -57,8 +68,19 @@
   {
     "name": "Barcelona Bar",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Gothersgade 35, 1123 København K",
+    "lat": 55.682182,
+    "lng": 12.582156,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Gothersgade 35, 1123 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340509232,
+      "address_source": "https://barcelonabar.dk/contact/",
+      "note": null,
+      "matched_address": "35, Gothersgade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1123, Danmark"
+    }
   },
   {
     "name": "BARkowski",
@@ -127,8 +149,19 @@
   {
     "name": "Borgerly",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Borgergade 93, 1300 København K",
+    "lat": 55.686465,
+    "lng": 12.58738,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Borgergade 93, 1300 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 3890864654,
+      "address_source": "https://www.postage.dk/virksomhed/1446632-cafe-borgerly/ ; https://www.krak.dk/caf%c3%a9+borgerly+k%c3%b8benhavn+k/303743740/firma",
+      "note": "Café Borgerly",
+      "matched_address": "93, Borgergade, Nyboder, Indre By, København, Københavns Kommune, Region Hovedstaden, 1300, Danmark"
+    }
   },
   {
     "name": "Cafe Guldhornene",
@@ -231,8 +264,19 @@
   {
     "name": "Centre Stage",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Studiestræde 24, 1455 København K",
+    "lat": 55.678421,
+    "lng": 12.568763,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Studiestræde 24, 1455 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340551933,
+      "address_source": "https://www.centrestage.dk/ ; https://www.visitcopenhagen.dk/koebenhavn/planlaeg-din-tur/centre-stage-gdk436188",
+      "note": "Former Cosy Bar premises",
+      "matched_address": "24, Studiestræde, Pisserenden, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1455, Danmark"
+    }
   },
   {
     "name": "Cph Downtown",
@@ -269,8 +313,19 @@
   {
     "name": "Den Jyske Ambassade",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Gothersgade 8A, 1123 København K",
+    "lat": 55.681751,
+    "lng": 12.584664,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Gothersgade 8A, 1123 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340509188,
+      "address_source": "https://denjyskeambassadekbh.dk/legal",
+      "note": null,
+      "matched_address": "8A, Gothersgade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1123, Danmark"
+    }
   },
   {
     "name": "Det Elektriske Hjørne",
@@ -404,8 +459,19 @@
   {
     "name": "Høvlen 77",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Prinsessegade 77, 1422 København K",
+    "lat": 55.675791,
+    "lng": 12.600013,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Prinsessegade 77, 1422 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340539513,
+      "address_source": "https://www.hoevlen77.dk/om-hoevlen/",
+      "note": "Official page confirms J-Dag 6 Nov",
+      "matched_address": "77, Prinsessegade, Holmen, Amagerbro, København, Københavns Kommune, Region Hovedstaden, 1422, Danmark"
+    }
   },
   {
     "name": "Jagtstuen",
@@ -474,8 +540,19 @@
   {
     "name": "Liams Irish Pub",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Gothersgade 15, 1123 København K",
+    "lat": 55.681676,
+    "lng": 12.584014,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Gothersgade 15, 1123 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340509209,
+      "address_source": "https://liamspub.dk/en/copenhagen/aboutus",
+      "note": null,
+      "matched_address": "15, Gothersgade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1123, Danmark"
+    }
   },
   {
     "name": "Masken",
@@ -496,14 +573,36 @@
   {
     "name": "Mc Joys Pub",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Nyhavn 47, 1051 København K",
+    "lat": 55.679935,
+    "lng": 12.591318,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Nyhavn 47, 1051 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340535135,
+      "address_source": "https://mcjoys.dk/contact-us/ ; https://visitnyhavn.com/da/a-z/mcjoys-choice/",
+      "note": "Trades as McJoy's Choice / McJoys Nyhavn",
+      "matched_address": "47, Nyhavn, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1051, Danmark"
+    }
   },
   {
     "name": "MJ Gothersgade",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Gothersgade 26, 1123 København K",
+    "lat": 55.682066,
+    "lng": 12.583296,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Gothersgade 26, 1123 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340509220,
+      "address_source": "https://www.mojoe.cafe/kontakt.aspx",
+      "note": "Legal name MJ Gothersgade ApS, trading as Mojoe Kitchen & Bar",
+      "matched_address": "26, Gothersgade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1123, Danmark"
+    }
   },
   {
     "name": "Mojo",
@@ -552,6 +651,7 @@
       "osm_type": "node",
       "osm_id": 340538865,
       "address_source": "User-provided verified venue address",
+      "note": null,
       "matched_address": "43, Pilestræde, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1112, Danmark"
     }
   },
@@ -574,8 +674,19 @@
   {
     "name": "Rosengårdens Bodega",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Rosengården 11, 1174 København K",
+    "lat": 55.68224,
+    "lng": 12.572532,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Rosengården 11, 1174 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340541542,
+      "address_source": "https://www.kultunaut.dk/perl/sted/type-nynaut/nr-8628 ; https://2pos.dk/127764/91392",
+      "note": null,
+      "matched_address": "11, Rosengården, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1174, Danmark"
+    }
   },
   {
     "name": "Sjus Bar CPH",
@@ -612,8 +723,19 @@
   {
     "name": "The Dubliner",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Amagertorv 5, 1160 København K",
+    "lat": 55.678657,
+    "lng": 12.578908,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Amagertorv 5, 1160 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340486118,
+      "address_source": "https://thedubliner.dk/kontakt/",
+      "note": null,
+      "matched_address": "5, Amagertorv, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1160, Danmark"
+    }
   },
   {
     "name": "The Globe",
@@ -634,14 +756,36 @@
   {
     "name": "Tyrolia Bier Klub",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Vestergade 12, 1456 København K",
+    "lat": 55.677815,
+    "lng": 12.570313,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Vestergade 12, 1456 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 340565003,
+      "address_source": "https://tyrolia.dk/en/legal ; https://www.krak.dk/tyrolia+bier+klub+k%c3%b8benhavn+k/66547183/firma",
+      "note": null,
+      "matched_address": "12, Vestergade, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1456, Danmark"
+    }
   },
   {
     "name": "Victoria Pub",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Gammeltorv 26, 1457 København K",
+    "lat": 55.677886,
+    "lng": 12.571982,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Gammeltorv 26, 1457 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 13329503701,
+      "address_source": "https://victoriapub.dk/contact/",
+      "note": null,
+      "matched_address": "26, Gammeltorv, Nørrevold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1457, Danmark"
+    }
   },
   {
     "name": "Wall Street Pub",
@@ -662,8 +806,19 @@
   {
     "name": "Wessel Kro",
     "district": "KØBENHAVN K",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Sværtegade 7, 1118 København K",
+    "lat": 55.681172,
+    "lng": 12.580741,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Sværtegade 7, 1118 København K, Denmark",
+      "osm_type": "node",
+      "osm_id": 1499782123,
+      "address_source": "http://www.wesselskro.dk/ ; https://www.visitcopenhagen.dk/koebenhavn/planlaeg-din-tur/wessels-kro-gdk792757",
+      "note": "Official spelling Wessels Kro",
+      "matched_address": "7, Sværtegade, Gammelholm, Indre By, København, Københavns Kommune, Region Hovedstaden, 1118, Danmark"
+    }
   },
   {
     "name": "Axelborg Bodega",
@@ -684,14 +839,36 @@
   {
     "name": "Bar 42",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Sønder Boulevard 42, 1720 København V",
+    "lat": 55.667244,
+    "lng": 12.553439,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Sønder Boulevard 42, 1720 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 340553750,
+      "address_source": "https://bar42.dk/bes-g-os",
+      "note": null,
+      "matched_address": "42, Sønder Boulevard, Den Gule By, Vesterbro, København, Københavns Kommune, Region Hovedstaden, 1720, Danmark"
+    }
   },
   {
     "name": "Bar 180",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Axeltorv 9, 1609 København V",
+    "lat": 55.676418,
+    "lng": 12.563694,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Axeltorv 9, 1609 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 340488483,
+      "address_source": "https://bar180.dk/ ; https://www.proff.dk/firma/bar-180-aps/k%C3%B8benhavn-v/restauranter-og-cafeer/0QB4V2I10KE",
+      "note": null,
+      "matched_address": "9, Axeltorv, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1609, Danmark"
+    }
   },
   {
     "name": "Blomsten",
@@ -706,6 +883,7 @@
       "osm_type": "node",
       "osm_id": 340520608,
       "address_source": "https://cafeblomsten.dk/Kontakt",
+      "note": null,
       "matched_address": "109, Istedgade, Den Gule By, Vesterbro, København, Københavns Kommune, Region Hovedstaden, 1650, Danmark"
     }
   },
@@ -760,8 +938,19 @@
   {
     "name": "Camping Kødbyen",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Kødboderne 9, 1711 København V",
+    "lat": 55.666904,
+    "lng": 12.559044,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Kødboderne 9, 1711 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 3364416012,
+      "address_source": "https://camping.bar/venues/kodbyen/ ; https://www.visitcopenhagen.dk/koebenhavn/planlaeg-din-tur/koedbyen-camping-bar-gdk1127001",
+      "note": null,
+      "matched_address": "9, Kødboderne, Den Gule By, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1714, Danmark"
+    }
   },
   {
     "name": "Club Mambo",
@@ -814,26 +1003,70 @@
   {
     "name": "Larsens Plaz",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Gammel Kongevej 43, 1610 København V",
+    "lat": 55.674121,
+    "lng": 12.551146,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Gammel Kongevej 43, 1610 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 340507929,
+      "address_source": "https://larsensplaz.dk/kontakt",
+      "note": null,
+      "matched_address": "43, Gammel Kongevej, København, Frederiksberg Kommune, Region Hovedstaden, 1610, Danmark"
+    }
   },
   {
     "name": "Maximum",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Dybbølsbro 3, 1577 København V",
+    "lat": 55.663655,
+    "lng": 12.560182,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Dybbølsbro 3, 1577 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 9898343422,
+      "address_source": "https://bowlnfun.dk/centre/kbh/",
+      "note": "Maximum København entertainment centre (opened 14 Aug 2026)",
+      "matched_address": "3, Dybbølsbro, Den Gule By, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1577, Danmark"
+    }
   },
   {
     "name": "MEININGER Hotel Copenhagen",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Colbjørnsensgade 5-11, 1652 København V",
+    "lat": 55.67287,
+    "lng": 12.56193,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Colbjørnsensgade 5, 1652 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 340498295,
+      "address_source": "https://www.meininger-hotels.com/en/hotels/copenhagen/hotel-copenhagen/",
+      "note": "Official range 5-11; geocoded at no. 5 within that range",
+      "matched_address": "5, Colbjørnsensgade, Postbyen, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1652, Danmark"
+    }
   },
   {
     "name": "Nevermind – Axeltorv",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Axeltorv 3, 1609 København V",
+    "lat": 55.675659,
+    "lng": 12.564111,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Axeltorv 3, 1609 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 340488466,
+      "address_source": "https://nevermindbar.dk/ ; https://www.krak.dk/never+mind+k%c3%b8benhavn+v/66857477/firma",
+      "note": null,
+      "matched_address": "3, Axeltorv, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1609, Danmark"
+    }
   },
   {
     "name": "Next – House Next Bar Copenhagen",
@@ -854,14 +1087,36 @@
   {
     "name": "Old Irish Pub Karaokebar",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Vesterbrogade 2B, 1620 København V",
+    "lat": 55.675583,
+    "lng": 12.566548,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Vesterbrogade 2B, 1620 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 340563877,
+      "address_source": "https://oldirishpub.dk/da/karaokebar-Kobenhavn/page/forside",
+      "note": "Same building as The Old English Pub",
+      "matched_address": "2B, Vesterbrogade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1620, Danmark"
+    }
   },
   {
     "name": "Oscar Bar og Cafe",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Regnbuepladsen 9, 1550 København V",
+    "lat": 55.675738,
+    "lng": 12.571633,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Regnbuepladsen 9, 1550 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 3185218883,
+      "address_source": "https://www.oscarbarcafe.dk/ ; https://oscarbarcafe.resos.com/booking",
+      "note": null,
+      "matched_address": "9, Regnbuepladsen, Vestervold, Indre By, København, Københavns Kommune, Region Hovedstaden, 1550, Danmark"
+    }
   },
   {
     "name": "Pinden bodega",
@@ -946,8 +1201,19 @@
   {
     "name": "Studiecafeen Humlen",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Humletorvet 3, 1799 København V",
+    "lat": 55.664299,
+    "lng": 12.536157,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Humletorvet 3, 1799 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 3258846617,
+      "address_source": "https://www.proff.dk/firma/studiecafeen-campus-carlsberg-humlen/k%C3%B8benhavn-v/barer-og-puber/0MJZPWI01X8",
+      "note": "Studiecafeen Campus Carlsberg, Humlen (KP Campus Carlsberg)",
+      "matched_address": "3, Humletorvet, Humleby, Den Gule By, Carlsberg Byen, København, Københavns Kommune, Region Hovedstaden, 1799, Danmark"
+    }
   },
   {
     "name": "The Goat",
@@ -968,8 +1234,19 @@
   {
     "name": "The Old English Pub Karaokebar",
     "district": "KØBENHAVN V",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Vesterbrogade 2B, 1620 København V",
+    "lat": 55.675583,
+    "lng": 12.566548,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Vesterbrogade 2B, 1620 København V, Denmark",
+      "osm_type": "node",
+      "osm_id": 340563877,
+      "address_source": "https://promillegang.dk/sted/the-old-english-pub-vesterbrogade-koebenhavn-v ; https://openhours.dk/spots/the-old-english-pub-kbenhavn-v-vesterbrogade-662cdc2866",
+      "note": "Same building as Old Irish Pub Karaokebar",
+      "matched_address": "2B, Vesterbrogade, Vestervold, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1620, Danmark"
+    }
   },
   {
     "name": "The Old Irish Pub Vesterbrogade",
@@ -1054,8 +1331,19 @@
   {
     "name": "Baren RHK",
     "district": "KØBENHAVN N + NV",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Jagtvej 120, 2200 København N",
+    "lat": 55.699579,
+    "lng": 12.55545,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Jagtvej 120, 2200 København N, Denmark",
+      "osm_type": "node",
+      "osm_id": 340521047,
+      "address_source": "https://www.rhk.dk/kontakt/ ; https://www.rhk.dk/baren/",
+      "note": "Bar at Rigshospitalets Kollegium; pin is the dormitory address",
+      "matched_address": "120, Jagtvej, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark"
+    }
   },
   {
     "name": "Bip Bip Bar",
@@ -1124,8 +1412,19 @@
   {
     "name": "Cafe Klovnen",
     "district": "KØBENHAVN N + NV",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Rantzausgade 70, 2200 København N",
+    "lat": 55.688762,
+    "lng": 12.543787,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Rantzausgade 70, 2200 København N, Denmark",
+      "osm_type": "node",
+      "osm_id": 340540352,
+      "address_source": "https://www.proff.dk/firma/cafe-klovnen-aps/k%C3%B8benhavn-n/barer-og-puber/GU93CZI01X8 ; https://cafeklovnen.dk/",
+      "note": null,
+      "matched_address": "70, Rantzausgade, De Gamles By, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark"
+    }
   },
   {
     "name": "Cafe Lille Peter",
@@ -1258,8 +1557,19 @@
   {
     "name": "Studenterhuset Sigurds Bar",
     "district": "KØBENHAVN N + NV",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Sigurdsgade 36, 2200 København N",
+    "lat": 55.703416,
+    "lng": 12.55665,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Sigurdsgade 36, 2200 København N, Denmark",
+      "osm_type": "node",
+      "osm_id": 760588784,
+      "address_source": "https://www.kultunaut.dk/perl/sted/type-nynaut/nr-2201952 ; https://www.postage.dk/virksomhed/1049120-foreningen-studenterhuset-sigurds-bar/",
+      "note": null,
+      "matched_address": "36, Sigurdsgade, Lyngbyvejskvarteret, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2200, Danmark"
+    }
   },
   {
     "name": "Temple Bar",
@@ -1329,26 +1639,72 @@
   {
     "name": "Amager Pub",
     "district": "KØBENHAVN S + SV",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Amagerbrogade 29, 2300 København S",
+    "lat": 55.665775,
+    "lng": 12.599456,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Amagerbrogade 29, 2300 København S, Denmark",
+      "osm_type": "node",
+      "osm_id": 340485568,
+      "address_source": "https://www.hotelamager.dk/contact-us.html ; https://denmarkguide.dk/copenhagen/pub/amager-pub/",
+      "note": "Pub in Hotel Amager; hotel lists no. 29, guides list no. 31 (adjacent)",
+      "matched_address": "29, Amagerbrogade, Amagerbro, København, Københavns Kommune, Region Hovedstaden, 2300, Danmark"
+    }
   },
   {
     "name": "Anker",
     "district": "KØBENHAVN S + SV",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Mozarts Plads 1A, 2450 København SV",
+    "lat": 55.648638,
+    "lng": 12.534906,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Mozarts Plads 1A, 2450 København SV, Denmark",
+      "osm_type": "node",
+      "osm_id": 7264309422,
+      "address_source": "https://www.corner.inc/place/phvsmrjZiFFo ; https://politiken.dk/ibyen/anmeldelser/cafeanmeldelser/art10486139/",
+      "note": "Only Anker venue found in S+SV; it is a café-bar (medium confidence)",
+      "matched_address": "1A, Mozarts Plads, Frederiksholm, Carlsberg Byen, København, Københavns Kommune, Region Hovedstaden, 2450, Danmark"
+    },
+    "tentative": true,
+    "tentativeNote": "Likely match: only Anker venue found in København S/SV (café-bar). Not confirmed as the listed J-Day bar."
   },
   {
     "name": "Cafe Engholm",
     "district": "KØBENHAVN S + SV",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Borgbjergsvej 28, 2450 København SV",
+    "lat": 55.650993,
+    "lng": 12.536421,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Borgbjergsvej 28, 2450 København SV, Denmark",
+      "osm_type": "node",
+      "osm_id": 340493241,
+      "address_source": "https://danmarkm.com/cafe-engholm-i23713.html ; https://goodbite.dk/koebenhavn-sv/cafe/cafe-engholmen/",
+      "note": "Also spelled Café Engholmen",
+      "matched_address": "28, Borgbjergsvej, Frederiksholm, Carlsberg Byen, København, Københavns Kommune, Region Hovedstaden, 2450, Danmark"
+    }
   },
   {
     "name": "Cafe Femøren",
     "district": "KØBENHAVN S + SV",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Amagerbrogade 170, 2300 København S",
+    "lat": 55.65343,
+    "lng": 12.610842,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Amagerbrogade 170, 2300 København S, Denmark",
+      "osm_type": "node",
+      "osm_id": 340485763,
+      "address_source": "https://amagerbutikkerne.dk/medlemmer/cafe-5-oeren/ ; https://www.kultunaut.dk/perl/sted/type-nynaut/nr-2014161",
+      "note": "Trades as Cafe 5-øren (not the Femøren beach area)",
+      "matched_address": "170, Amagerbrogade, Sundbyøster, Sundbyerne, Københavns Kommune, Region Hovedstaden, 2300, Danmark"
+    }
   },
   {
     "name": "Jaguar Bodega",
@@ -1369,8 +1725,19 @@
   {
     "name": "Post Bodegaen",
     "district": "KØBENHAVN S + SV",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Lyongade 25, 2300 København S",
+    "lat": 55.661714,
+    "lng": 12.610249,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Lyongade 25, 2300 København S, Denmark",
+      "osm_type": "node",
+      "osm_id": 340529912,
+      "address_source": "https://virmo.dk/firma/41010606-post-bodegaen-is ; https://2pos.dk/186272/698",
+      "note": null,
+      "matched_address": "25, Lyongade, Amagerbro, Sundbyerne, Københavns Kommune, Region Hovedstaden, 2300, Danmark"
+    }
   },
   {
     "name": "Restaurant Kareten",
@@ -1440,14 +1807,36 @@
   {
     "name": "Foreningen Cafedrift",
     "district": "KØBENHAVN Ø",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Universitetsparken 15C, 2100 København Ø",
+    "lat": 55.702557,
+    "lng": 12.559537,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Universitetsparken 15, 2100 København Ø, Denmark",
+      "osm_type": "node",
+      "osm_id": 340558929,
+      "address_source": "https://cafeen.org/privatlivspolitik",
+      "note": "Foreningen til Cafédrift af 1993 runs Caféen? at Universitetsparken; OSM lacks 15C; geocoded at Universitetsparken 15 (HCØ campus building)",
+      "matched_address": "15, Universitetsparken, Lyngbyvejskvarteret, Nørrebro, København, Københavns Kommune, Region Hovedstaden, 2100, Danmark"
+    }
   },
   {
     "name": "Halifax Trianglen",
     "district": "KØBENHAVN Ø",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Trianglen 1, 2100 København Ø",
+    "lat": 55.698981,
+    "lng": 12.577809,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Trianglen 1, 2100 København Ø, Denmark",
+      "osm_type": "node",
+      "osm_id": 754126114,
+      "address_source": "https://halifax.dk/restauranter/halifax-osterbro/ ; https://www.facebook.com/halifaxtrianglen",
+      "note": "1st floor",
+      "matched_address": "1, Trianglen, Østervold, Østerbro, København, Københavns Kommune, Region Hovedstaden, 2100, Danmark"
+    }
   },
   {
     "name": "Hermod Bodega",
@@ -1518,8 +1907,19 @@
   {
     "name": "Bar Aksel",
     "district": "FREDERIKSBERG",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Godthåbsvej 29, 2000 Frederiksberg",
+    "lat": 55.686145,
+    "lng": 12.534563,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Godthåbsvej 29, 2000 Frederiksberg, Denmark",
+      "osm_type": "node",
+      "osm_id": 340575922,
+      "address_source": "https://www.kultunaut.dk/perl/sted/type-nynaut/nr-8603457",
+      "note": "Some listings give 29A",
+      "matched_address": "29, Godthåbsvej, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 2000, Danmark"
+    }
   },
   {
     "name": "Bartof Station",
@@ -1601,6 +2001,7 @@
       "osm_type": "node",
       "osm_id": 340572903,
       "address_source": "https://www.krak.dk/det+gamle+posthus+frederiksberg/66776801/firma",
+      "note": null,
       "matched_address": "121, Borups Allé, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 2000, Danmark"
     }
   },
@@ -1641,8 +2042,19 @@
   {
     "name": "The Old Irish Pub Smallegade",
     "district": "FREDERIKSBERG",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Smallegade 2B, 2000 Frederiksberg",
+    "lat": 55.678651,
+    "lng": 12.529044,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Smallegade 2, 2000 Frederiksberg, Denmark",
+      "osm_type": "node",
+      "osm_id": 11697680169,
+      "address_source": "https://oldirishpub.dk/da/frederiksberg/page/kontakt",
+      "note": "OSM lacks 2B; geocoded at Smallegade 2",
+      "matched_address": "2, Smallegade, Frederiksberg, Frederiksberg Kommune, Region Hovedstaden, 2000, Danmark"
+    }
   },
   {
     "name": "Cafe Cire",
@@ -1711,8 +2123,19 @@
   {
     "name": "Nykro",
     "district": "VALBY + VANLØSE",
-    "verified": false,
-    "reason": "No unambiguous matching OpenStreetMap venue found"
+    "verified": true,
+    "address": "Vigerslevvej 136, 2500 Valby",
+    "lat": 55.662556,
+    "lng": 12.48251,
+    "geocoded": {
+      "source": "Nominatim / OpenStreetMap address match",
+      "query": "Vigerslevvej 136, 2500 Valby, Denmark",
+      "osm_type": "node",
+      "osm_id": 340566823,
+      "address_source": "https://promillegang.dk/sted/ny-kro-vigerslevvej-valby ; https://www.bars10.com/DK/Copenhagen/110397254092494/NyKro-Vigerslev",
+      "note": "Also written Ny Kro",
+      "matched_address": "136, Vigerslevvej, Vigerslev, København, Københavns Kommune, Region Hovedstaden, 2500, Danmark"
+    }
   },
   {
     "name": "Snoopy Bodega",
