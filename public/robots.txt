@@ -1,0 +1,5 @@
+# Public site: everything may be crawled. This file is guidance for crawlers, not access control.
+User-agent: *
+Allow: /
+
+Sitemap: https://j-dag.6x7.gr/sitemap.xml
