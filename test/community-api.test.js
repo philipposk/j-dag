@@ -37,7 +37,7 @@ test('out-of-area, unknown address, geocoder down, store down: nothing stored',a
   assert.equal((await handleCommunity(post(bar({address:'Stortorget 1, Malmö'})),d)).body.status,'area');
   assert.equal((await handleCommunity(post(bar({address:'Nowhere 999'})),d)).body.status,'address');
   const down=await setup({geoThrow:true});assert.equal((await handleCommunity(post(bar()),down.d)).status,503);
-  const broken={...d,store:{...d.store,rateHit:async()=>{throw new Error('db')}}};assert.equal((await handleCommunity(post(bar()),broken)).status,503);
+  const broken={...d,store:{...d.store,admit:async()=>{throw new Error('db')}}};assert.equal((await handleCommunity(post(bar()),broken)).status,503);
   assert.equal((await rows(db,'select count(*)::int n from jdag.community_bars'))[0].n,0);
 });
 test('fails closed without store or salt; spam traps; request checks',async()=>{const {d}=await setup();
@@ -79,6 +79,12 @@ test('email budget caps notifications at 20/day but still stores reports',async(
   const ids=[];for(let i=0;i<3;i++)ids.push((await handleCommunity(post(bar({name:'Cap '+i,address:'Vej '+i}),{'x-real-ip':'5.5.5.'+i}),d)).body.bar.id);
   let n=0;for(const id of ids)for(let i=0;i<9;i++){await handleCommunity(post({action:'report',barId:id,reason:'other',startedAt:T0},{'x-real-ip':`4.4.${n}.${i}`}),d);}n++;
   assert.equal(mails.length,20);assert.equal((await rows(db,'select count(*)::int n from jdag.reports'))[0].n,27);
+});
+test('many identities cannot exhaust storage: global add budget is checked first',async()=>{const {d,db}=await setup();
+  const st=[];for(let i=0;i<60;i++)st.push((await handleCommunity(post(bar({name:'Many '+i,address:'Gade '+i}),{'x-real-ip':'10.0.0.'+i}),d)).status);
+  assert.equal(st.filter(s=>s===201).length,50);assert.equal(st.filter(s=>s===429).length,10);
+  assert.equal((await rows(db,"select count(*)::int n from jdag.rate_events where kind='add'"))[0].n,50);
+  assert.equal((await rows(db,'select count(*)::int n from jdag.community_bars'))[0].n,50);
 });
 test('production-only wiring: previews get no store, mailer or credentials use',async()=>{
   const env={SUPABASE_URL:'https://x.supabase.co',SUPABASE_SERVICE_ROLE_KEY:'k',RESEND_API_KEY:'r',JDAG_MAIL_FROM:'J <a@6x7.gr>'};

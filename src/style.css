@@ -27,3 +27,4 @@ h1.eyebrow{font-family:'DM Sans',system-ui,sans-serif;margin:0 0 1em}
 .community-tag{color:#d8c2ff}
 .report-form{display:grid;gap:6px;margin-top:8px;max-width:480px}.report-form select,.report-form textarea{font:inherit;padding:8px 10px;border-radius:10px;border:1px solid #ffffff40;background:#ffffff10;color:inherit}
 .report-form select option{color:#102c51}.report-form .button{min-height:44px;justify-self:start}.report-form .button:not(.primary){background:transparent;color:inherit;border:1px solid #ffffff70}
+.community .privacy{margin-top:8px}.community .privacy summary{cursor:pointer;font-size:14px}

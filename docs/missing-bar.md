@@ -26,12 +26,24 @@ Supersedes the mailto and email-only designs (PR #6 history).
   granted to service_role only. Tested against the real migration in PGlite (`test/sql.test.js`).
 - Service-role key, Resend key and salt are used only when `VERCEL_ENV === 'production'`. Previews/local answer 503
   (fail closed) and write nothing.
-- Raw IPs are never stored: `sha256(JDAG_IP_SALT | ip)`. Rate counters are deleted after 2 days, geocache after 30
-  (pg_cron job `jdag-cleanup`).
-- Limits: per IP 3 adds/10 min, 10/day, 10 reports/day; global 50 adds/day, 200 reports/day, 1000 visible bars;
+- Raw IPs are never stored. A salted hash `sha256(JDAG_IP_SALT | ip)` (pseudonymous, not anonymous) is kept only in
+  `rate_events` (deleted after 2 days) and on `reports` for duplicate-report prevention (reports deleted after 30 days).
+  Community bars store no submitter identifier. Geocode cache (addresses only) is deleted after 30 days. All by
+  `public.jdag_cleanup()` via pg_cron job `jdag-cleanup` (daily 03:17 UTC).
+- Admission is one atomic call, `jdag_admit`: the global budget is checked first and a rejected attempt writes nothing,
+  so rows per kind are bounded by the global limit per day however many IPs try.
+- Limits: per IP 3 adds/10 min, 10/day, 10 reports/day; global 50 adds/day, 200 reports/day, 1000 visible bars
+  (GET returns all of them, up to that same cap);
   Nominatim 1 request/s globally (`jdag_nominatim_slot`) + 30-day cache; body ≤4 KB; Origin must be
   https://j-dag.6x7.gr in production; JSON only.
-- All visitor text is rendered with `textContent`; source links only http(s).
+- All visitor text is rendered with `textContent`; source links only http(s), `rel="nofollow ugc noopener noreferrer"`.
+- Community bars are addressed by UUID everywhere in the UI (cards, pins, selection), so two entries with the same name
+  in different places never get mixed up.
+
+## Privacy (shown in EN/DA under "Privacy for additions and reports")
+Public: bar name, address, link. Sent to Nominatim: the address. Private: reports (reason, note), kept ≤30 days,
+emailed to dev@6x7.gr via Resend. Salted IP hash: ≤2 days for rate limits, ≤30 days with a report. Not collected:
+IP itself, GPS/location, email, accounts. Storage: Supabase (EU, eu-central-1); hosting: Vercel.
 
 ## Owner moderation (no web admin)
 In Supabase → SQL editor (project 6x7):

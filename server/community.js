@@ -7,7 +7,8 @@ export const MAX_BODY = 4096;
 export const SITE = 'https://j-dag.6x7.gr';
 const ORIGINS = [SITE];
 const DEV_ORIGIN = /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/;
-const MIN_FILL_MS = 3000, MAX_FILL_MS = 6 * 3600_000, MAIL_PER_DAY = 20;
+const MIN_FILL_MS = 3000, MAX_FILL_MS = 6 * 3600_000, MAIL_PER_DAY = 20, DAY = 86400;
+export const LIMITS = { addGlobal: 50, reportGlobal: 200, visible: 1000 }; // visible = SQL cap in jdag_add_bar/jdag_list_bars
 const reply = (status, body, headers = {}) => ({ status, body, headers: { 'Cache-Control': 'no-store', ...headers } });
 const hdr = (h, k) => h?.[k] ?? h?.[k.toLowerCase()];
 
@@ -23,7 +24,7 @@ export async function handleCommunity(req, d) {
   const { env, now = Date.now, store, hashIp } = d;
   if (req.method === 'GET') {
     if (!store) return reply(503, { error: 'unavailable' });
-    try { const bars = await store.listBars(500);
+    try { const bars = await store.listBars(LIMITS.visible);
       return reply(200, { bars: bars.map(b => ({ id: b.id, name: b.name, address: b.address, sourceUrl: b.source_url ?? null, lat: b.lat, lng: b.lng, createdAt: b.created_at })) },
         { 'Cache-Control': 'public, max-age=0, s-maxage=30' });
     } catch { return reply(503, { error: 'unavailable' }); }
@@ -57,8 +58,8 @@ async function addBar(p, who, { store, geocode, official }) {
   const name = cleanField(f.name), address = cleanField(f.address), source = cleanField(f.source);
   const idem = /^[A-Za-z0-9-]{8,64}$/.test(String(p.key ?? '')) ? String(p.key) : null;
   if (!idem) return reply(400, { error: 'key' });
-  if (!(await store.rateHit('add', who, 3, 600)) || !(await store.rateHit('add-day', who, 10, 86400)) || !(await store.rateHit('add-all', 'global', 50, 86400)))
-    return reply(429, { error: 'rate' });
+  // Global budget first, atomically; rejected attempts store nothing.
+  if ((await store.admit('add', who, LIMITS.addGlobal, DAY, 3, 600, 10, DAY)) !== 'ok') return reply(429, { error: 'rate' });
   const pre = isOfficialDuplicate(name, null, official);
   if (pre) return reply(409, { status: 'official', name: pre.name });
   const g = await geocode(address);
@@ -67,7 +68,7 @@ async function addBar(p, who, { store, geocode, official }) {
   if (!inBbox(g.lat, g.lng)) return reply(422, { status: 'area' });
   const near = isOfficialDuplicate(name, g, official);
   if (near) return reply(409, { status: 'official', name: near.name });
-  const r = await store.addBar({ name, nameKey: foldName(name).slice(0, 120), address, source, lat: g.lat, lng: g.lng, osmRef: g.osmRef ?? null, idem, who });
+  const r = await store.addBar({ name, nameKey: foldName(name).slice(0, 120), address, source, lat: g.lat, lng: g.lng, osmRef: g.osmRef ?? null, idem });
   if (r.status === 'duplicate') return reply(409, { status: 'duplicate', name: r.name });
   if (r.status === 'full') return reply(503, { error: 'full' });
   return reply(201, { status: 'added', bar: { id: r.id, name, address, sourceUrl: source || null, lat: g.lat, lng: g.lng } });
@@ -77,14 +78,14 @@ async function addReport(p, who, { store, mailer }) {
   const r = { barId: p.barId, reason: p.reason, note: p.note };
   const errors = validateReport(r);
   if (Object.keys(errors).length) return reply(400, { error: 'fields', errors });
-  if (!(await store.rateHit('report', who, 10, 86400)) || !(await store.rateHit('report-all', 'global', 200, 86400))) return reply(429, { error: 'rate' });
+  if ((await store.admit('report', who, LIMITS.reportGlobal, DAY, 10, DAY, 10, DAY)) !== 'ok') return reply(429, { error: 'rate' });
   const res = await store.addReport({ barId: r.barId, reason: r.reason, note: cleanField(r.note), who });
   if (res.status === 'missing') return reply(404, { status: 'missing' });
   if (res.status === 'duplicate') return reply(200, { status: 'already' });
   // Stored. Notify the owner only within the daily mail budget; a failed email leaves notified_at empty.
   if (mailer) {
     try {
-      if (await store.rateHit('mail', 'global', MAIL_PER_DAY, 86400)) {
+      if ((await store.admit('mail', 'global', MAIL_PER_DAY, DAY, MAIL_PER_DAY, DAY, MAIL_PER_DAY, DAY)) === 'ok') {
         const sent = await mailer({ to: [REPORT_RECIPIENT], subject: `J-dag report: ${res.bar_name}`.slice(0, 150),
           idempotencyKey: `jdag-report-${res.report_id}`,
           text: [`A visitor reported a community-added bar (nothing was hidden automatically).`, '',

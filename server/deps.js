@@ -13,8 +13,8 @@ export function makeStore(env, fetchFn = fetch) {
   };
   return {
     listBars: n => rpc('jdag_list_bars', { p_limit: n }),
-    rateHit: (kind, key, limit, windowS) => rpc('jdag_rate_hit', { p_kind: kind, p_key: key, p_limit: limit, p_window_s: windowS }).then(v => v === true),
-    addBar: b => rpc('jdag_add_bar', { p_name: b.name, p_name_key: b.nameKey, p_address: b.address, p_source_url: b.source, p_lat: b.lat, p_lng: b.lng, p_osm_ref: b.osmRef, p_idem_key: b.idem, p_submitter_hash: b.who }),
+    admit: (kind, key, gl, gs, sl, ss, ll, ls) => rpc('jdag_admit', { p_kind: kind, p_key: key, p_global_limit: gl, p_global_s: gs, p_short_limit: sl, p_short_s: ss, p_long_limit: ll, p_long_s: ls }),
+    addBar: b => rpc('jdag_add_bar', { p_name: b.name, p_name_key: b.nameKey, p_address: b.address, p_source_url: b.source, p_lat: b.lat, p_lng: b.lng, p_osm_ref: b.osmRef, p_idem_key: b.idem }),
     addReport: r => rpc('jdag_add_report', { p_bar_id: r.barId, p_reason: r.reason, p_note: r.note, p_reporter_hash: r.who }),
     markReportNotified: id => rpc('jdag_mark_report_notified', { p_report_id: id }),
     nominatimSlot: () => rpc('jdag_nominatim_slot', {}).then(v => v === true),

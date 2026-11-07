@@ -10,7 +10,7 @@ async function db(){const d=new PGlite();
   await d.exec(sql);return d;}
 const H='a'.repeat(64),H2='b'.repeat(64);
 const asRole=async(d,role,q,p=[])=>{await d.exec(`set role ${role}`);try{return await d.query(q,p);}finally{await d.exec('reset role');}};
-const add=(d,o={})=>asRole(d,'service_role',`select public.jdag_add_bar($1,$2,$3,$4,$5,$6,$7,$8,$9) r`,[o.name??'Bodega Ærø',o.key??'bodega aero','Øster Allé 5',o.src??null,o.lat??55.69,o.lng??12.57,o.osm??null,o.idem??'i1',H]).then(r=>r.rows[0].r);
+const add=(d,o={})=>asRole(d,'service_role',`select public.jdag_add_bar($1,$2,$3,$4,$5,$6,$7,$8) r`,[o.name??'Bodega Ærø',o.key??'bodega aero','Øster Allé 5',o.src??null,o.lat??55.69,o.lng??12.57,o.osm??null,o.idem??'i1']).then(r=>r.rows[0].r);
 test('migration applies; anon/authenticated cannot read tables or execute RPCs',async()=>{const d=await db();
   for(const role of ['anon','authenticated']){
     await assert.rejects(asRole(d,role,'select * from jdag.community_bars'));
@@ -18,7 +18,7 @@ test('migration applies; anon/authenticated cannot read tables or execute RPCs',
     await assert.rejects(asRole(d,role,`select public.jdag_add_report('00000000-0000-0000-0000-000000000000','spam',null,'${H}')`));
   }
   const f=await d.query(`select proname, prosecdef, proconfig from pg_proc where proname like 'jdag_%'`);
-  assert.equal(f.rows.length,8);for(const r of f.rows){assert.equal(r.prosecdef,false,r.proname);assert.deepEqual(r.proconfig,['search_path=""'],r.proname);}
+  assert.equal(f.rows.length,9);for(const r of f.rows){assert.equal(r.prosecdef,false,r.proname);assert.deepEqual(r.proconfig,['search_path=""'],r.proname);}
   const rls=await d.query(`select relname, relrowsecurity from pg_class c join pg_namespace n on n.oid=c.relnamespace where nspname='jdag' and relkind='r'`);
   assert.equal(rls.rows.length,5);for(const r of rls.rows)assert.equal(r.relrowsecurity,true,r.relname);
   assert.equal((await d.query('select count(*)::int n from cron.jobs')).rows[0].n,1);
@@ -46,9 +46,30 @@ test('reports: one per reporter, never hides the bar, missing bar handled',async
   assert.equal((await asRole(d,'service_role',`select public.jdag_add_report('00000000-0000-0000-0000-000000000000','spam',null,$1) r`,[H])).rows[0].r.status,'missing');
   await assert.rejects(asRole(d,'service_role',`select public.jdag_add_report($1,'evil',null,$2)`,[id,H2]));
 });
+test('list returns all visible bars up to the 1000 cap; add refuses the 1001st',async()=>{const d=await db();
+  await d.exec(`insert into jdag.community_bars(name,name_key,address,lat,lng,idem_key) select 'B'||g,'b '||g,'Gade '||g,55.62+g*0.0001,12.5,'k'||g from generate_series(1,999) g`);
+  assert.equal((await add(d,{idem:'last'})).status,'added');
+  const n=async()=> (await asRole(d,'service_role','select count(*)::int n from public.jdag_list_bars(1000)')).rows[0].n;
+  assert.equal(await n(),1000);assert.equal((await add(d,{idem:'over',name:'New',key:'new'})).status,'full');
+  const ids=(await asRole(d,'service_role','select id from public.jdag_list_bars(1000)')).rows.map(r=>r.id);assert.equal(new Set(ids).size,1000);
+});
+test('retention: cleanup deletes old rate events, reports and cache; bars have no submitter identifier',async()=>{const d=await db();const {id}=await add(d);
+  await asRole(d,'service_role',`select public.jdag_add_report($1,'spam',null,$2)`,[id,H]);
+  await d.exec(`insert into jdag.rate_events(kind,key_hash,at) values ('add','x',now()-interval '3 days'),('add','y',now());
+    insert into jdag.geocache values ('old','{}',now()-interval '31 days'); update jdag.reports set created_at=now()-interval '31 days';`);
+  await asRole(d,'service_role','select public.jdag_cleanup()');
+  const c=async t=>(await d.query(`select count(*)::int n from jdag.${t}`)).rows[0].n;
+  assert.equal(await c('rate_events'),1);assert.equal(await c('reports'),0);assert.equal(await c('geocache'),0);assert.equal(await c('community_bars'),1);
+  const cols=(await d.query(`select column_name from information_schema.columns where table_schema='jdag' and table_name='community_bars'`)).rows.map(r=>r.column_name);
+  assert.ok(!cols.some(c=>/hash|ip/.test(c)),cols.join());
+});
 test('rate limit and Nominatim slot',async()=>{const d=await db();
-  const hit=()=>asRole(d,'service_role',`select public.jdag_rate_hit('add',$1,2,600) r`,[H]).then(r=>r.rows[0].r);
-  assert.equal(await hit(),true);assert.equal(await hit(),true);assert.equal(await hit(),false);
+  const admit=(key,g=5)=>asRole(d,'service_role',`select public.jdag_admit('add',$1,$2,86400,2,600,10,86400) r`,[key,g]).then(r=>r.rows[0].r);
+  assert.equal(await admit(H),'ok');assert.equal(await admit(H),'ok');assert.equal(await admit(H),'key');
+  for(let i=0;i<3;i++)assert.equal(await admit(String(i).repeat(64)),'ok');
+  // Global budget (5) now used up: 200 fresh identities are all rejected and write nothing.
+  for(let i=0;i<200;i++)assert.equal(await admit('f'+String(i).padStart(63,'0')),'global');
+  assert.equal((await d.query('select count(*)::int n from jdag.rate_events')).rows[0].n,5);
   const slot=()=>asRole(d,'service_role','select public.jdag_nominatim_slot() r').then(r=>r.rows[0].r);
   assert.equal(await slot(),true);assert.equal(await slot(),false);
 });

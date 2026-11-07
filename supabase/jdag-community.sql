@@ -19,7 +19,6 @@ create table jdag.community_bars (
   osm_ref text check (osm_ref is null or osm_ref ~ '^(node|way|relation)/[0-9]{1,15}$'),
   status text not null default 'visible' check (status in ('visible','hidden','removed')),
   idem_key text not null unique check (char_length(idem_key) <= 80),
-  submitter_hash text not null check (char_length(submitter_hash) = 64),
   created_at timestamptz not null default now()
 );
 create index on jdag.community_bars (status, created_at desc);
@@ -46,17 +45,23 @@ alter table jdag.geocache enable row level security;
 alter table jdag.nominatim_clock enable row level security;
 -- No policies on purpose: anon/authenticated get nothing. service_role bypasses RLS.
 grant select, insert, update on all tables in schema jdag to service_role;
-grant delete on jdag.rate_events, jdag.geocache to service_role;
+grant delete on jdag.rate_events, jdag.geocache, jdag.reports to service_role;
 
--- Returns false when `key` already has `lim` events of `kind` within `window_s`, else records one.
-create function public.jdag_rate_hit(p_kind text, p_key text, p_limit int, p_window_s int)
-returns boolean language plpgsql security invoker set search_path = '' as $$
+-- Atomic admission for one attempt of `kind` by `key`. The global budget is checked FIRST and a rejected attempt
+-- writes nothing, so rows per kind are bounded by p_global_limit per window no matter how many identities try.
+-- Returns 'ok' (one row recorded), 'global' or 'key'.
+create function public.jdag_admit(p_kind text, p_key text, p_global_limit int, p_global_s int,
+  p_short_limit int, p_short_s int, p_long_limit int, p_long_s int)
+returns text language plpgsql security invoker set search_path = '' as $$
 begin
-  perform pg_advisory_xact_lock(hashtextextended('jdag_rate:' || p_kind || ':' || p_key, 0));
-  if (select count(*) from jdag.rate_events where kind = p_kind and key_hash = p_key
-      and at > now() - make_interval(secs => p_window_s)) >= p_limit then return false; end if;
+  perform pg_advisory_xact_lock(hashtextextended('jdag_admit:' || p_kind, 0));
+  if (select count(*) from jdag.rate_events where kind = p_kind and at > now() - make_interval(secs => p_global_s)) >= p_global_limit
+    then return 'global'; end if;
+  if (select count(*) from jdag.rate_events where kind = p_kind and key_hash = p_key and at > now() - make_interval(secs => p_short_s)) >= p_short_limit
+    or (select count(*) from jdag.rate_events where kind = p_kind and key_hash = p_key and at > now() - make_interval(secs => p_long_s)) >= p_long_limit
+    then return 'key'; end if;
   insert into jdag.rate_events(kind, key_hash) values (p_kind, p_key);
-  return true;
+  return 'ok';
 end $$;
 
 -- Global 1 request/second gate for Nominatim (usage policy). True = caller may make one request now.
@@ -78,7 +83,7 @@ $$;
 -- Inserts a community bar unless it duplicates one (same folded name within 150 m, or same OSM element).
 -- Serialized with an advisory lock so two concurrent identical submissions cannot both insert.
 create function public.jdag_add_bar(p_name text, p_name_key text, p_address text, p_source_url text,
-  p_lat double precision, p_lng double precision, p_osm_ref text, p_idem_key text, p_submitter_hash text)
+  p_lat double precision, p_lng double precision, p_osm_ref text, p_idem_key text)
 returns jsonb language plpgsql security invoker set search_path = '' as $$
 declare existing jdag.community_bars; new_id uuid;
 begin
@@ -91,18 +96,18 @@ begin
       power(radians(b.lng - p_lng) * cos(radians(p_lat)), 2)) < 150)) limit 1;
   if found then return jsonb_build_object('status', 'duplicate', 'id', existing.id, 'name', existing.name); end if;
   if (select count(*) from jdag.community_bars where status = 'visible') >= 1000 then return jsonb_build_object('status', 'full'); end if;
-  insert into jdag.community_bars(name, name_key, address, source_url, lat, lng, osm_ref, idem_key, submitter_hash)
-  values (p_name, p_name_key, p_address, nullif(p_source_url, ''), p_lat, p_lng, p_osm_ref, p_idem_key, p_submitter_hash)
+  insert into jdag.community_bars(name, name_key, address, source_url, lat, lng, osm_ref, idem_key)
+  values (p_name, p_name_key, p_address, nullif(p_source_url, ''), p_lat, p_lng, p_osm_ref, p_idem_key)
   returning id into new_id;
   return jsonb_build_object('status', 'added', 'id', new_id);
 end $$;
 
 -- Public list (sanitized columns only), bounded.
-create function public.jdag_list_bars(p_limit int default 500)
+create function public.jdag_list_bars(p_limit int default 1000)
 returns table (id uuid, name text, address text, source_url text, lat double precision, lng double precision, created_at timestamptz)
 language sql stable security invoker set search_path = '' as $$
   select id, name, address, source_url, lat, lng, created_at from jdag.community_bars
-  where status = 'visible' order by created_at desc limit least(greatest(coalesce(p_limit, 500), 1), 1000);
+  where status = 'visible' order by created_at desc, id limit least(greatest(coalesce(p_limit, 1000), 1), 1000);
 $$;
 
 -- Stores a report (one per reporter per bar). Never hides anything.
@@ -117,21 +122,27 @@ begin
   if rid is null then return jsonb_build_object('status', 'duplicate'); end if;
   return jsonb_build_object('status', 'added', 'report_id', rid, 'bar_name', bar.name, 'bar_address', bar.address);
 end $$;
+-- Retention: rate events 2 days, reports (incl. reporter hash) 30 days, geocode cache 30 days.
+create function public.jdag_cleanup()
+returns void language sql security invoker set search_path = '' as $$
+  delete from jdag.rate_events where at < now() - interval '2 days';
+  delete from jdag.reports where created_at < now() - interval '30 days';
+  delete from jdag.geocache where at < now() - interval '30 days';
+$$;
 create function public.jdag_mark_report_notified(p_report_id bigint)
 returns void language sql security invoker set search_path = '' as $$
   update jdag.reports set notified_at = now() where id = p_report_id;
 $$;
 
 do $$ declare f text; begin
-  foreach f in array array['jdag_rate_hit(text,text,int,int)','jdag_nominatim_slot()','jdag_geocache_get(text)',
-    'jdag_geocache_put(text,jsonb)','jdag_add_bar(text,text,text,text,double precision,double precision,text,text,text)',
+  foreach f in array array['jdag_admit(text,text,int,int,int,int,int,int)','jdag_cleanup()','jdag_nominatim_slot()','jdag_geocache_get(text)',
+    'jdag_geocache_put(text,jsonb)','jdag_add_bar(text,text,text,text,double precision,double precision,text,text)',
     'jdag_list_bars(int)','jdag_add_report(uuid,text,text,text)','jdag_mark_report_notified(bigint)'] loop
     execute format('revoke all on function public.%s from public, anon, authenticated', f);
     execute format('grant execute on function public.%s to service_role', f);
   end loop;
 end $$;
 
--- Daily cleanup of rate counters and old geocode cache (pg_cron is already installed in this project).
-select cron.schedule('jdag-cleanup', '17 3 * * *',
-  $$delete from jdag.rate_events where at < now() - interval '2 days'; delete from jdag.geocache where at < now() - interval '30 days';$$);
+-- Daily retention job (pg_cron is already installed in this project).
+select cron.schedule('jdag-cleanup', '17 3 * * *', 'select public.jdag_cleanup()');
 commit;

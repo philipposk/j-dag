@@ -20,6 +20,8 @@ const COPY = {
     reportTitle: 'Report this entry', reason: 'Reason', note: 'Note (optional)', reportSend: 'Send report', cancel: 'Cancel', reporting: 'Sending…',
     reasons: { closed: 'Closed / doesn’t exist', not_participating: 'Not taking part in J-Day', wrong_place: 'Wrong address or pin', spam: 'Spam or offensive', other: 'Other' },
     reported: 'Thanks. The report was saved for the site owner to review. Nothing is removed automatically.', already: 'You already reported this one.', missing: 'This entry is no longer listed.',
+    privacyTitle: 'Privacy for additions and reports',
+    privacy: 'Bars you add (name, address, link) are public on this page. To place the pin, the address is sent to OpenStreetMap’s Nominatim service. Reports (reason and note) are private: they are kept for up to 30 days and emailed to the site owner at dev@6x7.gr through Resend. To limit abuse we store a salted hash of your IP address — pseudonymous, not anonymous — for up to 2 days for rate limits, and with a report for up to 30 days to stop duplicate reports. We don’t store the IP itself and don’t collect your location, email or an account. Data is stored with Supabase in the EU; the site is hosted on Vercel, which processes requests as any web host does.',
     rrate: 'Too many reports from here today.', runavailable: 'Reporting isn’t available right now.' },
   da: { summary: 'Mangler der en bar?', intro: 'Kender du en J-dagsbar, der ikke er på listen? Tilføj den. Den vises med det samme som tilføjet af besøgende og ikke bekræftet.',
     name: 'Barens navn', address: 'Adresse i København', source: 'Link der viser, at den deltager (valgfrit)', required: 'skal udfyldes',
@@ -37,6 +39,8 @@ const COPY = {
     reportTitle: 'Anmeld dette forslag', reason: 'Årsag', note: 'Bemærkning (valgfri)', reportSend: 'Send anmeldelse', cancel: 'Annullér', reporting: 'Sender…',
     reasons: { closed: 'Lukket / findes ikke', not_participating: 'Deltager ikke i J-dag', wrong_place: 'Forkert adresse eller nål', spam: 'Spam eller stødende', other: 'Andet' },
     reported: 'Tak. Anmeldelsen er gemt, så ejeren af siden kan se på den. Intet fjernes automatisk.', already: 'Du har allerede anmeldt dette forslag.', missing: 'Forslaget er ikke længere på listen.',
+    privacyTitle: 'Privatliv for tilføjelser og anmeldelser',
+    privacy: 'Barer du tilføjer (navn, adresse, link), er offentlige på siden. For at placere nålen sendes adressen til OpenStreetMaps Nominatim-tjeneste. Anmeldelser (årsag og bemærkning) er private: de gemmes i op til 30 dage og sendes på e-mail til ejeren af siden på dev@6x7.gr via Resend. For at begrænse misbrug gemmer vi en saltet hash af din IP-adresse — pseudonym, ikke anonym — i op til 2 dage til hastighedsgrænser og sammen med en anmeldelse i op til 30 dage for at undgå dobbelte anmeldelser. Vi gemmer ikke selve IP-adressen og indsamler ikke din placering, e-mail eller en konto. Data gemmes hos Supabase i EU; siden hostes af Vercel, som behandler forespørgsler som enhver webhost.',
     rrate: 'For mange anmeldelser herfra i dag.', runavailable: 'Anmeldelse er ikke mulig lige nu.' },
 };
 const waitFrom = async t0 => { const left = t0 + 3200 - Date.now(); if (left > 0) await new Promise(r => setTimeout(r, left)); }; // server rejects sub-3s forms
@@ -90,10 +94,12 @@ export function mountCommunity({ host, map, L, getLang, onChange = () => {}, onS
 <p class="suggest-hp" aria-hidden="true"><label>Website <input name="website" tabindex="-1" autocomplete="off"></label></p>
 <p class="small-note" id="suggest-disclosure" data-s="disclosure"></p>
 <p class="suggest-actions"><button class="button primary" type="submit" id="suggest-send" aria-describedby="suggest-disclosure"></button></p>
-<p id="suggest-status" role="status" aria-live="polite" tabindex="-1"></p></form></details></section>`;
+<p id="suggest-status" role="status" aria-live="polite" tabindex="-1"></p></form></details>
+<details class="privacy" id="community-privacy"><summary data-s="privacyTitle"></summary><p class="small-note" data-s="privacy"></p></details></section>`;
   const $ = s => host.querySelector(s), form = $('#suggest-form'), status = $('#suggest-status'), btn = $('#suggest-send'), list = $('#community-list');
   const session = (globalThis.crypto?.randomUUID?.() ?? String(Math.random()).slice(2) + Date.now()).replace(/[^A-Za-z0-9]/g, '').slice(0, 24);
   const layer = L.layerGroup().addTo(map), pins = new Map();
+  const drafts = new Map(); // report drafts survive re-render (e.g. language switch)
   let bars = [], loadState = 'loading', lastErrors = {}, lastStatus = null, busy = false, startedAt = 0, openReport = null;
   $('#suggest').addEventListener('toggle', () => { if (!startedAt) startedAt = Date.now(); });
   $('#community-include').addEventListener('change', () => onChange());
@@ -128,15 +134,18 @@ export function mountCommunity({ host, map, L, getLang, onChange = () => {}, onS
     const send = document.createElement('button'); send.className = 'button primary'; send.type = 'submit'; send.textContent = c().reportSend;
     const cancel = document.createElement('button'); cancel.className = 'button'; cancel.type = 'button'; cancel.textContent = c().cancel; cancel.addEventListener('click', () => { openReport = null; renderList(); });
     const st = document.createElement('p'); st.setAttribute('role', 'status'); st.tabIndex = -1;
-    const opened = Date.now();
+    const dr = drafts.get(v.id) ?? { reason: '', note: '', opened: Date.now(), msg: null, done: false }; drafts.set(v.id, dr);
+    sel.value = dr.reason; note.value = dr.note; const opened = dr.opened;
+    sel.addEventListener('change', () => { dr.reason = sel.value; }); note.addEventListener('input', () => { dr.note = note.value; });
+    if (dr.msg) st.textContent = c()[dr.msg]; if (dr.done) send.disabled = true;
     f.append(legend, rl, sel, nl, note, hp, send, cancel, st);
     f.addEventListener('submit', async ev => { ev.preventDefault(); if (send.disabled) return;
       const body = { action: 'report', barId: v.id, reason: sel.value, note: note.value, website: hp.value, startedAt: opened };
       if (Object.keys(validateReport(body)).length) { sel.setAttribute('aria-invalid', 'true'); st.textContent = c().fix; sel.focus(); return; }
       send.disabled = true; send.textContent = c().reporting; await waitFrom(opened);
       const key = outcome('report', await postJson(body, fetchFn));
-      send.disabled = false; send.textContent = c().reportSend; st.textContent = c()[key]; st.focus();
-      if (key === 'reported' || key === 'already') { send.disabled = true; } });
+      send.disabled = false; send.textContent = c().reportSend; dr.msg = key; st.textContent = c()[key]; st.focus();
+      if (key === 'reported' || key === 'already') { send.disabled = dr.done = true; } });
     return f; };
   const add = v => { if (!v || bars.some(b => b.id === v.id)) return; bars.unshift(v); pin(v); };
 
@@ -167,7 +176,7 @@ export function mountCommunity({ host, map, L, getLang, onChange = () => {}, onS
   return {
     relabel, label: () => c().tag,
     included: () => ($('#community-include').checked ? bars : []),
-    find: name => bars.find(b => b.name === name),
-    openPin: name => { const v = bars.find(b => b.name === name); if (v) pins.get(v.id)?.openPopup(); },
+    byId: id => bars.find(b => b.id === id),
+    openPin: id => pins.get(id)?.openPopup(),
   };
 }

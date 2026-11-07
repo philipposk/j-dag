@@ -10,13 +10,14 @@ export async function pgStore(){
   const one=async(q,p)=>(await call(q,p))[0].r;
   const store={
     listBars:n=>call('select * from public.jdag_list_bars($1)',[n]),
-    rateHit:(k,key,l,w)=>one('select public.jdag_rate_hit($1,$2,$3,$4) r',[k,key,l,w]),
-    addBar:b=>one('select public.jdag_add_bar($1,$2,$3,$4,$5,$6,$7,$8,$9) r',[b.name,b.nameKey,b.address,b.source,b.lat,b.lng,b.osmRef,b.idem,b.who]),
+    admit:(...a)=>one('select public.jdag_admit($1,$2,$3,$4,$5,$6,$7,$8) r',a),
+    addBar:b=>one('select public.jdag_add_bar($1,$2,$3,$4,$5,$6,$7,$8) r',[b.name,b.nameKey,b.address,b.source,b.lat,b.lng,b.osmRef,b.idem]),
     addReport:r=>one('select public.jdag_add_report($1,$2,$3,$4) r',[r.barId,r.reason,r.note,r.who]),
     markReportNotified:id=>call('select public.jdag_mark_report_notified($1)',[id]),
     nominatimSlot:()=>one('select public.jdag_nominatim_slot() r'),
     geocacheGet:k=>one('select public.jdag_geocache_get($1) r',[k]),
     geocachePut:(k,v)=>call('select public.jdag_geocache_put($1,$2)',[k,v]),
   };
+  store.cleanup=()=>call('select public.jdag_cleanup()');
   return {store,db:d};
 }

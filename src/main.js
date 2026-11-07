@@ -42,6 +42,7 @@ for (const v of verified) {
  popup.append(title,address,link);marker.bindPopup(popup);marker.on('popupopen',()=>{link.href=directionsLink(v,origin);link.textContent=t().directions;});
  marker.on('click',() => { selected = v; renderClosest(v); });markers.set(v.name,marker);
 }
+const venueKey = v => v.community ? `c:${v.id}` : v.name; // community names may repeat; ids don't
 const matching = v => matchesFilters(v, filters, origin);
 const rankedNow = () => origin ? rankVenues([...venues, ...(community?.included() ?? [])].filter(matching), origin) : [];
 function detailsHtml(v) {
@@ -58,7 +59,7 @@ function renderClosest(v) {
  if (!v) {el.innerHTML=`<span class="pin-art" aria-hidden="true">⌖</span><h3>${t().before}</h3><p>${t().beforeText}</p><span class="aside-stars" aria-hidden="true">✧ · ✦ · ✧</span>`;return;}
  const ranked = rankedNow();
  const distance = origin ? distanceMeters(origin,v) : null;
- const nearest = ranked[0]?.name === v.name;
+ const nearest = !!ranked[0] && venueKey(ranked[0]) === venueKey(v);
  const walking = distance === null ? null : walkingEstimate(distance);
  el.innerHTML = `<p class="eyebrow">${nearest?t().closest:escape(v.community?community.label():v.district)}</p><h3>${escape(v.name)}</h3><p class="address">${escape(v.address)}</p>${v.community?`<p class="aside-note community-tag">${escape(community.label())}</p>`:''}${v.tentative?`<p class="aside-note">${t().tentative}</p>`:''}${detailsHtml(v)}${distance === null ? '' : `<div class="walk"><strong>${Math.max(1,Math.ceil(walking/80))}</strong><span>${t().min}<small>${t().approx} ${formatDistance(walking)}</small></span></div>`}<a class="button primary directions" href="${escape(directionsLink(v,origin))}" target="_blank" rel="noreferrer">${t().directions}</a><p class="aside-note">${t().disclaimer}</p>${distance === null ? '' : `<p class="aside-note">${t().estimated}</p>`}`;
  for (const [name, marker] of markers) marker.setStyle({radius:name===v.name?10:6,fillColor:name===v.name?'#c79143':'#214f7d',weight:name===v.name?3:2});
@@ -95,7 +96,7 @@ function renderNearby(ranked=rankedNow(),focusFrom=-1) {
  const {items,remaining,next}=nearbyPage(ranked,nearbyShown);
  const list=document.querySelector('#nearby');
  list.setAttribute('aria-label',t().nearby);
- list.innerHTML=items.map((v,i)=>`<li><button class="nearby-card" data-venue="${escape(v.name)}"><span class="eyebrow">${i+2}. ${formatDistance(walkingEstimate(v.distance))} · ~${Math.max(1,Math.ceil(walkingEstimate(v.distance)/80))} min</span><strong>${escape(v.name)}</strong><span>${escape(v.address)}</span>${v.community?`<small class="community-tag">${escape(community.label())}</small>`:''}${v.tentative?`<small class="tentative-tag">${t().tentative}</small>`:''}<span class="nearby-action">${t().pick} ↗</span></button></li>`).join('');
+ list.innerHTML=items.map((v,i)=>`<li><button class="nearby-card" data-venue="${escape(venueKey(v))}"><span class="eyebrow">${i+2}. ${formatDistance(walkingEstimate(v.distance))} · ~${Math.max(1,Math.ceil(walkingEstimate(v.distance)/80))} min</span><strong>${escape(v.name)}</strong><span>${escape(v.address)}</span>${v.community?`<small class="community-tag">${escape(community.label())}</small>`:''}${v.tentative?`<small class="tentative-tag">${t().tentative}</small>`:''}<span class="nearby-action">${t().pick} ↗</span></button></li>`).join('');
  list.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>selectVenue(b.dataset.venue)));
  const more=document.querySelector('#nearby-more'),done=document.querySelector('#nearby-done');
  more.hidden=remaining===0;more.textContent=remaining?t().more(next,remaining):'';
@@ -103,7 +104,7 @@ function renderNearby(ranked=rankedNow(),focusFrom=-1) {
  if(focusFrom>=0)list.querySelectorAll('button')[focusFrom]?.focus();
 }
 document.querySelector('#nearby-more').addEventListener('click',()=>{const from=nearbyShown;nearbyShown+=NEARBY_STEP;renderNearby(undefined,from);});
-function selectVenue(name) { const v=verified.find(v=>v.name===name)??community?.find(name);if(!v)return;selected=v;renderClosest(v);map.setView([v.lat,v.lng],17);if(v.community)community.openPin(name);else markers.get(name).openPopup(); }
+function selectVenue(key) { const v=key.startsWith('c:')?community?.byId(key.slice(2)):verified.find(v=>v.name===key);if(!v)return;selected=v;renderClosest(v);map.setView([v.lat,v.lng],17);if(v.community)community.openPin(v.id);else markers.get(v.name).openPopup(); }
 function feedback(message,error=false) {const el=document.querySelector('#feedback');el.textContent=message;el.classList.toggle('error',error);}
 let busy=false,lastSearch=0;
 async function search(query) {
