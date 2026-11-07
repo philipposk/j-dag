@@ -81,3 +81,11 @@ Refresh (after the roster refresh each autumn):
 
 Review the printed matches before committing. Contributing corrections to OpenStreetMap
 itself is the best way to raise coverage.
+
+## Search and sharing
+
+- `/` (English) and `/da/` (Danish) are real pages with self-canonicals and `hreflang` alternates. The language toggle switches the URL too.
+- At build time `seo.config.mjs` writes the title, description, Open Graph/Twitter tags, a `WebApplication` JSON-LD block (facts only, no ratings) and a plain HTML version of the heading, explanation and the full bar list into each page. The app replaces it with the interactive version when JavaScript loads.
+- `public/robots.txt` allows all crawlers (it is not access control), `public/sitemap.xml` lists the two canonical pages, `public/llms.txt` is a short factual summary, `public/og.png` is the 1200×630 share image.
+- `vercel.json` sets security headers including a CSP that allows only OpenStreetMap tiles, Nominatim and Google Fonts. `vite preview` uses the same headers so you can test it locally.
+- When the bar list changes year, update the count/year in `public/llms.txt` and the share image.
