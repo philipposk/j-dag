@@ -41,8 +41,9 @@ Supersedes the mailto and email-only designs (PR #6 history).
   in different places never get mixed up.
 
 ## Privacy (shown in EN/DA under "Privacy for additions and reports")
-Public: bar name, address, link. Sent to Nominatim: the address. Private: reports (reason, note), kept ≤30 days,
-emailed to dev@6x7.gr via Resend. Salted IP hash: ≤2 days for rate limits, ≤30 days with a report. Not collected:
+Public: bar name, address, link. Sent to Nominatim: the address. Private: reports (reason, note), emailed to
+dev@6x7.gr via Resend; the stored copy is deleted by the daily cleanup once 30 days old (the emailed copy follows the
+owner's mailbox retention). Salted IP hash: deleted by the daily cleanup after 2 days (rate limits) or with its report after 30 days. Not collected:
 IP itself, GPS/location, email, accounts. Storage: Supabase (EU, eu-central-1); hosting: Vercel.
 
 ## Owner moderation (no web admin)
