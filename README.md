@@ -55,3 +55,7 @@ point. The minutes shown are a rough walking estimate (distance × 1.3). The
 directions button opens Google Maps walking directions (official keyless
 [Maps URLs](https://developers.google.com/maps/documentation/urls/get-started)),
 where the real route, and other travel modes, are available.
+
+Below the closest bar, "Nearby alternatives" shows the next 3 bars; "Show 10 more"
+reveals 10 more per click until every listed bar is shown, nearest first (ties by
+name). A new starting point resets the list to 3.
