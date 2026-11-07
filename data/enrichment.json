@@ -1,0 +1,1738 @@
+{
+ "source": "OpenStreetMap via Overpass API",
+ "license": "ODbL 1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+ "osmFetchedAt": "2026-11-07T03:34:37.207822+00:00",
+ "matchRule": "within 80 m of the venue pin and name token overlap ≥ 0.5; ambiguous matches skipped",
+ "venues": {
+  "alpehytten": {
+   "name": "Alpehytten",
+   "pin": [
+    55.682048,
+    12.582457
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/8119069621",
+    "name": "Alpehytten",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://alpe-hytten.dk/"
+   }
+  },
+  "bankeråt": {
+   "name": "Bankeråt",
+   "pin": [
+    55.6834082,
+    12.5651843
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/25440922",
+    "name": "Bankeråt",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "no",
+    "wheelchair": "no",
+    "opening_hours": "Mo-Fr 10:00-24:00; Sa-Su 10:00-24:00",
+    "website": "https://www.bankeraat.com/"
+   }
+  },
+  "barkowski": {
+   "name": "BARkowski",
+   "pin": [
+    55.6846268,
+    12.5675944
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/3372385621",
+    "name": "Barkowski",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "outside",
+    "outdoor_seating": "yes",
+    "wheelchair": "no",
+    "opening_hours": "Tu-We 16:00-24:00, Th 14:00-02:00, Fr 14:00-05:00, Sa 13:00-05:00, Su 14:00-02:00",
+    "website": "https://barkowskibar.dk/",
+    "check_date": "2025-12-16"
+   }
+  },
+  "barrdrew": {
+   "name": "Barrdrew",
+   "pin": [
+    55.6850036,
+    12.5677383
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/9710167696",
+    "name": "BarrDrew",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "no",
+    "opening_hours": "Mo-Tu,Su off; We 20:00-02:00; Th 17:00-02:00; Fr 16:00-03:00; Sa 17:00-03:00",
+    "website": "https://barrdrew.com/",
+    "check_date": "2025-07-16"
+   }
+  },
+  "basement bar": {
+   "name": "Basement Bar",
+   "pin": [
+    55.6818705,
+    12.5825994
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/898939487",
+    "name": "Basement",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no"
+   }
+  },
+  "bird & the churchkey": {
+   "name": "Bird & The Churchkey",
+   "pin": [
+    55.6776418,
+    12.5780759
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/3773088919",
+    "name": "The Bird and the Churchkey",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Tu-We 16:00-01:00, Th 16:00-02:00, Fr-Sa 16:00-04:00",
+    "website": "https://thebird.dk/"
+   }
+  },
+  "cafe guldhornene": {
+   "name": "Cafe Guldhornene",
+   "pin": [
+    55.6772854,
+    12.5693007
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/687312669",
+    "name": "Cafè Guldhornene",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {}
+  },
+  "cafe katz": {
+   "name": "Cafe Katz",
+   "pin": [
+    55.6760515,
+    12.5750716
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/281253914",
+    "name": "Cafe Katz",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "outdoor_seating": "yes",
+    "wheelchair": "limited",
+    "opening_hours": "10:00-24:00, Fr-Sa 10:00-02:00",
+    "website": "https://katz.dk/",
+    "check_date": "2024-12-29"
+   }
+  },
+  "cafe nemoland christiania": {
+   "name": "Cafe Nemoland Christiania",
+   "pin": [
+    55.6727811,
+    12.6001646
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1321111715",
+    "name": "Café Nemoland",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "limited",
+    "website": "https://www.nemoland.dk/"
+   }
+  },
+  "cafe sommersko": {
+   "name": "Cafe Sommersko",
+   "pin": [
+    55.6821782,
+    12.586836
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/12871228301",
+    "name": "Sommersko",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Mo-Th 09:00-24:00,Fr 09:00-02:00,Sa 11:00-02:00,Su 10:00-23:00",
+    "website": "https://cafesommersko.dk/"
+   }
+  },
+  "camping boltens gård": {
+   "name": "Camping Boltens Gård",
+   "pin": [
+    55.6817711,
+    12.5846229
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/12912713635",
+    "name": "Camping Boltensgård",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {}
+  },
+  "centre stage": {
+   "name": "Centre Stage",
+   "pin": [
+    55.678421,
+    12.568763
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/8144238933",
+    "name": "Centre Stage Bar & Lounge",
+    "distance_m": 2,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Su-Th 16:00-02:00, Fr,Sa 16:00-05:00",
+    "website": "https://www.centrestage.dk/"
+   }
+  },
+  "cph downtown": {
+   "name": "Cph Downtown",
+   "pin": [
+    55.6759488,
+    12.5742396
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/415895215",
+    "name": "Copenhagen Downtown Hostel",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "outside",
+    "wheelchair": "no",
+    "website": "http://www.copenhagendowntown.com/",
+    "check_date": "2023-07-26"
+   }
+  },
+  "cucaracha bar cph": {
+   "name": "Cucaracha Bar CPH",
+   "pin": [
+    55.6823061,
+    12.5816691
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/898933924",
+    "name": "Cucaracha Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "no",
+    "wheelchair": "no"
+   }
+  },
+  "det elektriske hjørne": {
+   "name": "Det Elektriske Hjørne",
+   "pin": [
+    55.6815478,
+    12.5822074
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/301511854",
+    "name": "Det Elektriske Hjørne",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "no",
+    "outdoor_seating": "yes",
+    "wheelchair": "limited",
+    "check_date:opening_hours": "2024-10-24"
+   }
+  },
+  "drop inn – moving music": {
+   "name": "Drop inn – Moving music",
+   "pin": [
+    55.6763998,
+    12.5733293
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/279472194",
+    "name": "Drop Inn",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "wheelchair": "limited",
+    "opening_hours": "Mo,Tu 14:00-24:00, We,Th 14:00-02:00, Fr,Sa 14:00-03:00; Su off",
+    "website": "https://drop-inn.dk/"
+   }
+  },
+  "floss": {
+   "name": "Floss",
+   "pin": [
+    55.6781561,
+    12.5698566
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/2837243901",
+    "name": "Floss",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "wheelchair": "limited"
+   }
+  },
+  "foreningen studenterhuset": {
+   "name": "Foreningen Studenterhuset",
+   "pin": [
+    55.6813499,
+    12.5764715
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/311470440",
+    "name": "Studenterhuset",
+    "distance_m": 21,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "no",
+    "outdoor_seating": "no",
+    "wheelchair": "no",
+    "opening_hours": "Mo-Th 12:00-00:00; Fr, Sa 12:00-02:00; Su 12:00-22:00",
+    "website": "https://studenterhuset.com/"
+   }
+  },
+  "funchs vinstue": {
+   "name": "Funchs Vinstue",
+   "pin": [
+    55.6845001,
+    12.5674404
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1462189989",
+    "name": "Funchs Vinstue",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "outdoor_seating": "yes",
+    "website": "https://www.funchs55.com/",
+    "check_date": "2026-01-28"
+   }
+  },
+  "generator hostel copenhagen": {
+   "name": "Generator Hostel Copenhagen",
+   "pin": [
+    55.6829255,
+    12.5826069
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1683620829",
+    "name": "Generator Copenhagen",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "yes",
+    "website": "https://generatorhostels.com/destinations/copenhagen"
+   }
+  },
+  "heidis bier bar": {
+   "name": "Heidis Bier Bar",
+   "pin": [
+    55.6773855,
+    12.5694568
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/687313455",
+    "name": "Heidi's Bier Bar",
+    "distance_m": 0,
+    "name_score": 0.5
+   },
+   "fields": {
+    "website": "https://www.heidisbierbar.dk"
+   }
+  },
+  "hermans bar": {
+   "name": "Hermans Bar",
+   "pin": [
+    55.6788527,
+    12.5722171
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/12825973670",
+    "name": "Eldorado Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "check_date": "2025-05-10"
+   }
+  },
+  "jagtstuen": {
+   "name": "Jagtstuen",
+   "pin": [
+    55.6839289,
+    12.5684807
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1462221515",
+    "name": "Jagtstuen",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "wheelchair": "no",
+    "opening_hours": "Mo-Su 16:00-02:00"
+   }
+  },
+  "jailhouse": {
+   "name": "Jailhouse",
+   "pin": [
+    55.6788802,
+    12.5700342
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/4015755825",
+    "name": "Born 12/ Jailhouse CPH",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://jailhousecph.dk/",
+    "check_date": "2024-08-10"
+   }
+  },
+  "kanal bodega": {
+   "name": "Kanal Bodega",
+   "pin": [
+    55.6719928,
+    12.5905788
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/727708821",
+    "name": "Kanal Bodega",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no",
+    "check_date": "2025-03-22"
+   }
+  },
+  "kayak bar": {
+   "name": "Kayak Bar",
+   "pin": [
+    55.675205,
+    12.586764
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/4012815277",
+    "name": "Kayak Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "outside",
+    "outdoor_seating": "yes",
+    "wheelchair": "yes",
+    "opening_hours": "Jun-Aug",
+    "website": "https://kayakbar.dk/",
+    "check_date": "2025-04-14"
+   }
+  },
+  "masken": {
+   "name": "Masken",
+   "pin": [
+    55.6781756,
+    12.5686176
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1596733408",
+    "name": "Masken Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Mo-Th 14:00-03:00, Fr,Sa 14:00-05:00"
+   }
+  },
+  "mojo": {
+   "name": "Mojo",
+   "pin": [
+    55.6756583,
+    12.5735337
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1612954850",
+    "name": "Mojo Blues Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "wheelchair": "yes",
+    "website": "https://www.mojo.dk/"
+   }
+  },
+  "nørreport bodega": {
+   "name": "Nørreport Bodega",
+   "pin": [
+    55.682486,
+    12.571489
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1591124412",
+    "name": "Nørreport Bodega",
+    "distance_m": 7,
+    "name_score": 1.0
+   },
+   "fields": {}
+  },
+  "rabalder bar cph": {
+   "name": "Rabalder Bar CPH",
+   "pin": [
+    55.68209,
+    12.5824986
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/8117602439",
+    "name": "Rabalder Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "no",
+    "opening_hours": "15:00 -22:00; Fr-Sa 13:00-22:00",
+    "website": "https://rabalderbar.dk/kobenhavn/",
+    "check_date": "2026-08-29"
+   }
+  },
+  "sjus bar cph": {
+   "name": "Sjus Bar CPH",
+   "pin": [
+    55.6810813,
+    12.5798685
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/413370338",
+    "name": "Sjus Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://sjusbar.dk/",
+    "check_date": "2025-04-21"
+   }
+  },
+  "southern cross pub": {
+   "name": "Southern Cross Pub",
+   "pin": [
+    55.6752286,
+    12.5724216
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/4575935451",
+    "name": "Southern Cross Pub",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://www.southerncross.dk/",
+    "check_date": "2024-12-29"
+   }
+  },
+  "the dubliner": {
+   "name": "The Dubliner",
+   "pin": [
+    55.678657,
+    12.578908
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/10934856603",
+    "name": "Dubliner-NO5",
+    "distance_m": 2,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "wheelchair": "yes",
+    "opening_hours": "10:00+, Fr-Sa 10:00-05:00, Su 11:00+",
+    "website": "https://thedubliner.dk/"
+   }
+  },
+  "the globe": {
+   "name": "The Globe",
+   "pin": [
+    55.681795,
+    12.5709215
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/2165235074",
+    "name": "The Globe",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://www.the-globe.dk/",
+    "check_date": "2025-12-14"
+   }
+  },
+  "tyrolia bier klub": {
+   "name": "Tyrolia Bier Klub",
+   "pin": [
+    55.677815,
+    12.570313
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/8117602443",
+    "name": "Tyrolia",
+    "distance_m": 2,
+    "name_score": 1.0
+   },
+   "fields": {
+    "check_date": "2024-12-29"
+   }
+  },
+  "wall street pub": {
+   "name": "Wall Street Pub",
+   "pin": [
+    55.6816577,
+    12.584914
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/4715837029",
+    "name": "Wall Street Pub",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {}
+  },
+  "axelborg bodega": {
+   "name": "Axelborg Bodega",
+   "pin": [
+    55.6754287,
+    12.5644398
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/893959430",
+    "name": "Axelborg Bodega",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "wheelchair": "no",
+    "opening_hours": "11:00-16:00,16:00+",
+    "website": "http://www.axelborgbodega.dk/",
+    "check_date:opening_hours": "2025-02-28"
+   }
+  },
+  "bryggerens": {
+   "name": "Bryggerens",
+   "pin": [
+    55.6673534,
+    12.5335681
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/12833708898",
+    "name": "Bryggerens",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Tu-Th 14:00-22:00; Fr-Sa 12:00-24:00; Su 10:00-16:00",
+    "website": "https://bryggerensspisekammer.dk"
+   }
+  },
+  "cafe ludwigsen": {
+   "name": "Cafe Ludwigsen",
+   "pin": [
+    55.6709507,
+    12.5436884
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/738821350",
+    "name": "Café Ludwigsen",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "wheelchair": "no",
+    "opening_hours": "Mo-We 14:00-02:00, Fr,Sa 14:00-05:00, Su 14:00-02:00, Th 14:00-04:00",
+    "website": "https://www.cafeludwigsen.dk/"
+   }
+  },
+  "cafe skammekrogen": {
+   "name": "Cafe Skammekrogen",
+   "pin": [
+    55.671735,
+    12.5547646
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/899018814",
+    "name": "Skammekrogen",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no",
+    "check_date": "2025-06-19"
+   }
+  },
+  "camping kødbyen": {
+   "name": "Camping Kødbyen",
+   "pin": [
+    55.666904,
+    12.559044
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/5299629819",
+    "name": "Camping Kødbyen - Minigolf, bar & burgers",
+    "distance_m": 8,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "wheelchair": "yes",
+    "website": "https://www.camping.bar/da",
+    "check_date": "2025-03-25"
+   }
+  },
+  "club mambo": {
+   "name": "Club Mambo",
+   "pin": [
+    55.6750928,
+    12.5721856
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/280464811",
+    "name": "Club Mambo",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://www.clubmambo.dk/"
+   }
+  },
+  "grotten": {
+   "name": "Grotten",
+   "pin": [
+    55.6675503,
+    12.5553934
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/683192044",
+    "name": "Café Grotten",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "opening_hours": "Mo-We 10:00-02:00, Th-Sa 10:00-05:00",
+    "website": "http://www.cafegrotten.dk/",
+    "check_date": "2025-04-11"
+   }
+  },
+  "jernbanecafeen": {
+   "name": "Jernbanecafeen",
+   "pin": [
+    55.6721637,
+    12.5636709
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/727436488",
+    "name": "Jernbanecafeen",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "wheelchair": "no",
+    "opening_hours": "Mo-Su,PH 07:00-02:00",
+    "website": "http://www.jernbanecafeen.dk"
+   }
+  },
+  "larsens plaz": {
+   "name": "Larsens Plaz",
+   "pin": [
+    55.674121,
+    12.551146
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/735030034",
+    "name": "Larsen's Plaz",
+    "distance_m": 10,
+    "name_score": 0.5
+   },
+   "fields": {
+    "wheelchair": "no",
+    "opening_hours": "Tu-Th 18:00-01:00, Fr,Sa 18:00-04:00",
+    "check_date": "2026-06-21",
+    "check_date:opening_hours": "2026-06-21"
+   }
+  },
+  "meininger hotel copenhagen": {
+   "name": "MEININGER Hotel Copenhagen",
+   "pin": [
+    55.67287,
+    12.56193
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/3513411225",
+    "name": "Meiniger Hotel Copenhagen (former Urban House Copenhagen)",
+    "distance_m": 77,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "yes",
+    "website": "https://www.meininger-hotels.com/en/hotels/copenhagen/hotel-copenhagen-urban-house/"
+   }
+  },
+  "oscar bar og cafe": {
+   "name": "Oscar Bar og Cafe",
+   "pin": [
+    55.675738,
+    12.571633
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/893968357",
+    "name": "Oscar",
+    "distance_m": 4,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "limited",
+    "opening_hours": "11:00-23:00; Fr-Sa 11:00-02:00",
+    "website": "https://www.oscarbarcafe.dk/"
+   }
+  },
+  "pinden bodega": {
+   "name": "Pinden bodega",
+   "pin": [
+    55.6733784,
+    12.56272
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/12891709281",
+    "name": "Pinden Bodega",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "check_date:opening_hours": "2026-06-21"
+   }
+  },
+  "proud mary cph": {
+   "name": "Proud Mary CPH",
+   "pin": [
+    55.675785,
+    12.567133
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/8107469773",
+    "name": "Proud Mary",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "limited",
+    "website": "https://proudmarypub.dk/"
+   }
+  },
+  "pub & sport": {
+   "name": "Pub & Sport",
+   "pin": [
+    55.6782361,
+    12.5668224
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/279690426",
+    "name": "Pub & Sport",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "limited",
+    "opening_hours": "Mo-Th 16:00-01:00, Fr 15:00-03:00,Sa 13:00-03:00,Su 14:00-23:00",
+    "website": "https://www.pubogsport.dk/"
+   }
+  },
+  "restaurant klubben": {
+   "name": "Restaurant Klubben",
+   "pin": [
+    55.6711195,
+    12.5457687
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/340502719",
+    "name": "Restaurant Klubben",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "opening_hours": "11:00-23:00",
+    "website": "https://www.restaurant-klubben.dk/",
+    "check_date:opening_hours": "2025-08-02"
+   }
+  },
+  "steel house": {
+   "name": "Steel House",
+   "pin": [
+    55.676257,
+    12.560096
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/5039784175",
+    "name": "Steel House",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "yes",
+    "website": "https://www.steelhousecopenhagen.com/",
+    "check_date": "2026-10-19"
+   }
+  },
+  "studiecafeen humlen": {
+   "name": "Studiecafeen Humlen",
+   "pin": [
+    55.664299,
+    12.536157
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/7331734359",
+    "name": "Humlen",
+    "distance_m": 40,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "no",
+    "check_date:opening_hours": "2024-09-22"
+   }
+  },
+  "the goat": {
+   "name": "The Goat",
+   "pin": [
+    55.6719584,
+    12.5547149
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/281255286",
+    "name": "The Goat",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "website": "https://www.thegoat.dk/",
+    "check_date": "2026-07-17"
+   }
+  },
+  "the old english pub karaokebar": {
+   "name": "The Old English Pub Karaokebar",
+   "pin": [
+    55.675583,
+    12.566548
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/895777978",
+    "name": "The Old English Pub",
+    "distance_m": 8,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "limited",
+    "check_date": "2025-10-30"
+   }
+  },
+  "the old irish pub vesterbrogade": {
+   "name": "The Old Irish Pub Vesterbrogade",
+   "pin": [
+    55.6754762,
+    12.5662861
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/895776321",
+    "name": "The Old Irish Pub Vesterbrogade",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no",
+    "website": "https://oldirishpub.dk/"
+   }
+  },
+  "the scottish pub": {
+   "name": "The Scottish Pub",
+   "pin": [
+    55.6759526,
+    12.567219
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/281539863",
+    "name": "The Scottish Pub",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "yes",
+    "opening_hours": "Mo-Th 12:00-03:00; Fr-Sa 12:00-04:30; Su 12:00-02:00",
+    "website": "https://thescottishpub.dk/"
+   }
+  },
+  "the shamrock inn – the irish pub": {
+   "name": "The Shamrock Inn – The Irish Pub",
+   "pin": [
+    55.67592,
+    12.56586
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/3404321338",
+    "name": "The Shamrock Inn",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "opening_hours": "Mo 15:00-02:00,Tu 15:00-01:01; We 15:00-02:00,Th 15:00-03:00,Fr 12:30-05:00,Sa 13:30-05:00, Su 15:00-01:00",
+    "website": "https://theshamrockinn.dk/"
+   }
+  },
+  "zeppelin bar": {
+   "name": "Zeppelin Bar",
+   "pin": [
+    55.6722464,
+    12.5558859
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/4883742491",
+    "name": "Zeppelin",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no",
+    "website": "https://zeppelincph.dk/welcome-to-copenhagens-finest-rock-bar/",
+    "check_date": "2025-11-15"
+   }
+  },
+  "barbarian": {
+   "name": "Barbarian",
+   "pin": [
+    55.687525,
+    12.559342
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/8117602447",
+    "name": "Barbarian",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://barberianscph.com/"
+   }
+  },
+  "bip bip bar": {
+   "name": "Bip Bip Bar",
+   "pin": [
+    55.6889032,
+    12.559758
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/7061980768",
+    "name": "Bip Bip Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Mo-We 15:00-00:00; Th 15:00-01:00; Fr 15:00-03:00; Sa 12:00-04:00",
+    "website": "https://bipbipbar.dk/"
+   }
+  },
+  "cafe castro": {
+   "name": "Cafe Castro",
+   "pin": [
+    55.6986296,
+    12.5420351
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/8712878659",
+    "name": "Café Castro",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Su-Th 10:00-22:00; Fr,Sa 10:00-23:00",
+    "website": "https://cafecastro.dk/",
+    "check_date:opening_hours": "2026-10-01"
+   }
+  },
+  "cafe fuglereden": {
+   "name": "Cafe Fuglereden",
+   "pin": [
+    55.7047135,
+    12.5264504
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/8124919089",
+    "name": "Café Fuglereden",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Mo-We 12:00-24:00, Th-Sa 12:00-02:00, Su 12:00-17:00",
+    "website": "https://cafefuglereden.dk/"
+   }
+  },
+  "cafe heimdal": {
+   "name": "Cafe Heimdal",
+   "pin": [
+    55.7007099,
+    12.5417497
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1369021923",
+    "name": "Cafe Heimdal",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "wheelchair": "no",
+    "check_date:opening_hours": "2026-07-06"
+   }
+  },
+  "cafe lille peter": {
+   "name": "Cafe Lille Peter",
+   "pin": [
+    55.6957863,
+    12.5439384
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/664252432",
+    "name": "Café Lille Peter",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "wheelchair": "limited",
+    "opening_hours": "08:00-24:00",
+    "check_date": "2025-07-24"
+   }
+  },
+  "cafe stefanshus": {
+   "name": "Cafe Stefanshus",
+   "pin": [
+    55.6953457,
+    12.543356
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/335962972",
+    "name": "Café Stefanshus",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "wheelchair": "limited",
+    "opening_hours": "Su-Th 11:00-24:00, Fr,Sa 11:00-02:00",
+    "website": "http://www.acedesign.dk/stefanshus/"
+   }
+  },
+  "franks kro": {
+   "name": "Franks Kro",
+   "pin": [
+    55.6927267,
+    12.5675736
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/10699341087",
+    "name": "Franks Kro",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {}
+  },
+  "glentekroen": {
+   "name": "Glentekroen",
+   "pin": [
+    55.6979088,
+    12.5354754
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/7296739573",
+    "name": "Glentekroen",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {}
+  },
+  "léanowski bar": {
+   "name": "Léanowski Bar",
+   "pin": [
+    55.689782,
+    12.560259
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/8124949018",
+    "name": "Léanowski Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "check_date:opening_hours": "2024-10-25"
+   }
+  },
+  "mimers bodega": {
+   "name": "Mimers Bodega",
+   "pin": [
+    55.6983406,
+    12.5503495
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/4170928389",
+    "name": "Mimers Bodega",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "limited",
+    "opening_hours": "Mo-We 12:00-22:00; Th-Fr 12:00-24:00; Sa 11:00-24:00; Su 11:00-22:00"
+   }
+  },
+  "nørre bodega": {
+   "name": "Nørre Bodega",
+   "pin": [
+    55.6950589,
+    12.5479618
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1109570885",
+    "name": "Nørre Bodega",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "limited",
+    "opening_hours": "Mo-Su 10:00-05:00",
+    "check_date": "2025-10-30"
+   }
+  },
+  "rust": {
+   "name": "Rust",
+   "pin": [
+    55.6912247,
+    12.559252
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/705923959",
+    "name": "Rust",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no",
+    "opening_hours": "Fr,Sa 23:00-04:00",
+    "website": "https://rust.dk/",
+    "check_date:opening_hours": "2026-07-05"
+   }
+  },
+  "temple bar": {
+   "name": "Temple Bar",
+   "pin": [
+    55.689562,
+    12.556587
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1136433325",
+    "name": "Temple Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no",
+    "opening_hours": "Mo-Su 15:00-24:00",
+    "website": "https://templebar.dk",
+    "check_date": "2024-10-27"
+   }
+  },
+  "understellet": {
+   "name": "Understellet",
+   "pin": [
+    55.688325,
+    12.5598233
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/2163836323",
+    "name": "Understellet",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "isolated",
+    "wheelchair": "no",
+    "opening_hours": "Mo-Su 17:00-05:00",
+    "website": "http://www.understellet.dk/",
+    "check_date": "2024-10-11"
+   }
+  },
+  "western bar diligencen": {
+   "name": "Western Bar Diligencen",
+   "pin": [
+    55.684931,
+    12.558795
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1463848266",
+    "name": "Diligencen",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "limited",
+    "opening_hours": "Mo-Fr 08:00-24:00; Sa-Su 10:00-24:00"
+   }
+  },
+  "anker": {
+   "name": "Anker",
+   "pin": [
+    55.648638,
+    12.534906
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/12042126583",
+    "name": "Anker Sydhavnen",
+    "distance_m": 1,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "outside",
+    "outdoor_seating": "yes",
+    "opening_hours": "Mo-We 08:00-18:00; Th,Fr 08:00-20:00; Sa 10:00-22:00; Su 10:00-18:00"
+   }
+  },
+  "jaguar bodega": {
+   "name": "Jaguar Bodega",
+   "pin": [
+    55.6643102,
+    12.6032096
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1358980017",
+    "name": "Jaguaren",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "wheelchair": "yes",
+    "check_date": "2023-09-29"
+   }
+  },
+  "restaurant kareten": {
+   "name": "Restaurant Kareten",
+   "pin": [
+    55.6647417,
+    12.599422
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/532495503",
+    "name": "Kareten",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "outside",
+    "opening_hours": "Tu-Th 17:00-22:00; Fr,Sa 17:00-23:00",
+    "website": "https://kareten.dk/kareten/"
+   }
+  },
+  "restaurant sundby sejl": {
+   "name": "Restaurant Sundby Sejl",
+   "pin": [
+    55.6644204,
+    12.6318053
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/9067487941",
+    "name": "Restaurant Sundby Sejl",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://restaurantsundbysejl.dk/"
+   }
+  },
+  "børges bodega": {
+   "name": "Børges Bodega",
+   "pin": [
+    55.7104835,
+    12.5610308
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/976747659",
+    "name": "Børges Bodega",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "no",
+    "wheelchair": "no",
+    "opening_hours": "Mo-Su 15:00-20:00"
+   }
+  },
+  "chevy’s bar": {
+   "name": "Chevy’s Bar",
+   "pin": [
+    55.7037349,
+    12.5900058
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/4558623948",
+    "name": "Chevy's",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "outdoor_seating": "yes",
+    "wheelchair": "no",
+    "opening_hours": "Mo-We 10:00-22:00; Th-Sa 10:00-02:00; Su off"
+   }
+  },
+  "halifax trianglen": {
+   "name": "Halifax Trianglen",
+   "pin": [
+    55.698981,
+    12.577809
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/2120227780",
+    "name": "Halifax",
+    "distance_m": 5,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "outside",
+    "outdoor_seating": "yes",
+    "wheelchair": "limited",
+    "opening_hours": "Mo-Sa 11:30-22:00; Su 11:30-21:00",
+    "website": "https://www.halifax.nu/"
+   }
+  },
+  "hermod bodega": {
+   "name": "Hermod Bodega",
+   "pin": [
+    55.7078925,
+    12.5778792
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/6036542117",
+    "name": "Hermod Bodega",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "outdoor_seating": "no",
+    "wheelchair": "no",
+    "opening_hours": "Mo-We 12:00-02:00, Th-Sa 12:00-05:00, Su 12:00-22:00",
+    "check_date:opening_hours": "2023-09-28"
+   }
+  },
+  "lumskebuksen": {
+   "name": "Lumskebuksen",
+   "pin": [
+    55.7039381,
+    12.5570419
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/way/147291402",
+    "name": "Lumskebuksen",
+    "distance_m": 5,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Mo-Th 11:00-02:00; Fr-Sa 11:00-05:00; Su 11:00-23:00",
+    "website": "https://www.lumskebuksen.dk/"
+   }
+  },
+  "alleenberg": {
+   "name": "Alleenberg",
+   "pin": [
+    55.6752681,
+    12.5328906
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/277703258",
+    "name": "Alléenberg",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "outdoor_seating": "yes",
+    "wheelchair": "no",
+    "opening_hours": "Tu-Sa 22:00-05:00",
+    "website": "https://www.alleenberg.dk/",
+    "check_date": "2026-03-08"
+   }
+  },
+  "bartof station": {
+   "name": "Bartof Station",
+   "pin": [
+    55.680974,
+    12.5331594
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/7710272256",
+    "name": "Bartof Station",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://bartofstation.dk/#",
+    "check_date:opening_hours": "2025-05-12"
+   }
+  },
+  "cafe bartof": {
+   "name": "Cafe Bartof",
+   "pin": [
+    55.6836628,
+    12.5245604
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/279143817",
+    "name": "Bartof Café",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "no",
+    "outdoor_seating": "yes",
+    "wheelchair": "no",
+    "website": "http://bartofcafe.dk",
+    "check_date": "2026-04-23"
+   }
+  },
+  "cafe moccador": {
+   "name": "Cafe Moccador",
+   "pin": [
+    55.6817592,
+    12.5343154
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/277364372",
+    "name": "Café Moccador",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no",
+    "website": "https://www.cafemoccador.com/"
+   }
+  },
+  "cafe viggo": {
+   "name": "Cafe Viggo",
+   "pin": [
+    55.6740755,
+    12.5497061
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/279143826",
+    "name": "Café Viggo",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no",
+    "opening_hours": "Mo-We 10:30-24:00, Th 10:30-01:00, Fr 10:30-02:00, Sa 11:00-02:00",
+    "website": "https://cafeviggo.com/"
+   }
+  },
+  "det gamle posthus": {
+   "name": "Det Gamle Posthus",
+   "pin": [
+    55.693731,
+    12.53205
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1200013170",
+    "name": "Det Gamle Posthus",
+    "distance_m": 9,
+    "name_score": 1.0
+   },
+   "fields": {
+    "opening_hours": "Mo-Th 10:00-23:00; Fr,Sa 10:00-24:00; Su 12:00-20:00"
+   }
+  },
+  "frederik vi": {
+   "name": "Frederik VI",
+   "pin": [
+    55.6738535,
+    12.5437949
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/3286415949",
+    "name": "Frederik VI",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "no",
+    "outdoor_seating": "yes",
+    "wheelchair": "no",
+    "opening_hours": "Su-Th 11:00-01:00, Fr-Sa 11:00-02:00",
+    "website": "https://www.frederik-vi.dk/"
+   }
+  },
+  "hos robert": {
+   "name": "Hos Robert",
+   "pin": [
+    55.6702078,
+    12.5371716
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/7334707798",
+    "name": "Hos Robert",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "opening_hours": "Mo-Th 13:00-22:00; Fr,Sa 13:00-02:00"
+   }
+  },
+  "cafe cire": {
+   "name": "Cafe Cire",
+   "pin": [
+    55.6665053,
+    12.5148218
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/282821186",
+    "name": "Cafe Ciré",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "outside",
+    "outdoor_seating": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  "hotel fy & bi": {
+   "name": "Hotel Fy & Bi",
+   "pin": [
+    55.6664428,
+    12.5145524
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/282821200",
+    "name": "Hotel Fy & Bi",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "limited",
+    "opening_hours": "11:30-16:00+ \"lunch to 16:00, dinner later\"",
+    "website": "https://www.hotelfyogbi.dk/"
+   }
+  },
+  "mølle cafeen": {
+   "name": "Mølle Cafeen",
+   "pin": [
+    55.6653765,
+    12.5171005
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/496287667",
+    "name": "Mølle Cafeen",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "wheelchair": "no",
+    "check_date:opening_hours": "2022-02-22"
+   }
+  },
+  "nanok": {
+   "name": "Nanok",
+   "pin": [
+    55.6668132,
+    12.5048845
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/1619265824",
+    "name": "Nanok Bar",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "website": "https://www.nanokbodega.com/"
+   }
+  },
+  "snoopy bodega": {
+   "name": "Snoopy Bodega",
+   "pin": [
+    55.6826112,
+    12.4914551
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/571267064",
+    "name": "Snoopy Bodega",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes",
+    "wheelchair": "yes",
+    "opening_hours": "08:00-02:00",
+    "website": "https://snoopy-bodega.business.site/",
+    "check_date": "2025-04-10"
+   }
+  },
+  "støvlen": {
+   "name": "Støvlen",
+   "pin": [
+    55.6918978,
+    12.4835599
+   ],
+   "osm": {
+    "url": "https://www.openstreetmap.org/node/13017757562",
+    "name": "Støvlen",
+    "distance_m": 0,
+    "name_score": 1.0
+   },
+   "fields": {
+    "smoking": "yes"
+   }
+  }
+ }
+}
