@@ -15,4 +15,6 @@ h1.eyebrow{font-family:'DM Sans',system-ui,sans-serif;margin:0 0 1em}
 .suggest input,.suggest textarea{width:100%;box-sizing:border-box;font:inherit;padding:10px 12px;border-radius:10px;border:1px solid #ffffff40;background:#ffffff10;color:inherit}
 .suggest input[aria-invalid=true]{border-color:#ff9b8a}.suggest-err{display:block;color:#ffb3a6;font-size:13px;min-height:1em}
 .suggest-actions{display:flex;flex-wrap:wrap;gap:10px}.suggest-actions .button{min-height:44px}
-.suggest-actions .button:not(.primary){background:transparent;color:inherit;border:1px solid #ffffff70}
+.suggest-hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.suggest-actions .button[disabled]{opacity:.6;cursor:progress}
+#suggest-status[data-state=sent]{color:#bfe6c4}#suggest-status[data-state=failed],#suggest-status[data-state=rate],#suggest-status[data-state=unavailable]{color:#ffb3a6}

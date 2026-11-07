@@ -145,5 +145,5 @@ function renderLanguage() {
  refreshResults(false,true);
 }
 for (const lang of ['en','da'])document.querySelector(`#${lang}`).addEventListener('click',()=>{language=lang;history.replaceState(null,'',(lang==='da'?'/da/':'/')+location.search+location.hash);renderLanguage();});
-relabelSuggest = mountSuggest(document.querySelector('#suggest-host'), () => language, metadata.year);
+relabelSuggest = mountSuggest(document.querySelector('#suggest-host'), () => language);
 renderLanguage();
