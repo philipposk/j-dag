@@ -48,14 +48,10 @@ Vite static build on Vercel, project `j-dag` in Filippos' projects. Custom domai
 
 Independent project, not an official Tuborg site. Venue roster credited to Mig og KBH; coordinates © OpenStreetMap contributors (ODbL 1.0). History: https://lex.dk/J-dag . Beer details: https://www.carlsberggroup.com/products/tuborg/tuborg-julebryg . 18+ / drink responsibly.
 
-## Travel modes and cost
+## How "closest" works
 
-The Walk / Bike / Transit / Car selector changes the Google Maps directions link
-(official [Maps URLs](https://developers.google.com/maps/documentation/urls/get-started),
-no API key, no billing). "Closest" is always ranked by straight-line distance; real
-travel times are shown only inside Google Maps. Ranking every bar by real per-mode
-travel time would need the paid Routes API Compute Route Matrix (billed per
-origin × destination element, ~94 elements per search; 10,000 free elements/month,
-then $5 per 1,000 — see the [pricing list](https://developers.google.com/maps/billing-and-pricing/pricing)).
-The Maps Embed API is free but needs an API key on a billing-enabled Google Cloud
-project and only shows one route at a time, so it is not used.
+"Closest" is the shortest straight-line distance from your GPS or typed starting
+point. The minutes shown are a rough walking estimate (distance × 1.3). The
+directions button opens Google Maps walking directions (official keyless
+[Maps URLs](https://developers.google.com/maps/documentation/urls/get-started)),
+where the real route, and other travel modes, are available.
