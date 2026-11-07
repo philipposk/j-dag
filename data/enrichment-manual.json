@@ -1,0 +1,40 @@
+{
+ "note": "Hand-checked facts and rejected OSM matches. Each fact needs a source URL and checked date; never add a value you did not read on the source.",
+ "rejectMatches": [
+  {
+   "venue": "Next – House Next Bar Copenhagen",
+   "osm": "node/10054226779",
+   "reason": "OSM element is the restaurant Next EATERY, not the bar"
+  },
+  {
+   "venue": "Rosengårdens Bodega",
+   "osm": "node/9642934828",
+   "reason": "OSM element is Rosengaardens Vinstue; could not confirm it is the same venue"
+  }
+ ],
+ "facts": {
+  "centre stage": {
+   "beerPrice": [
+    {
+     "item": "Tuborg Classic 4.6% draft",
+     "size": "50 cl",
+     "priceDkk": 60,
+     "source": "https://www.centrestage.dk/menu",
+     "checked": "2026-11-07"
+    }
+   ]
+  },
+  "bar 42": {
+   "beerPrice": [
+    {
+     "item": "Stor fadøl (large draft), regular & Classic",
+     "size": null,
+     "priceDkk": 50,
+     "source": "https://bar42.dk/menu",
+     "checked": "2026-11-07",
+     "note": "Menu does not state the glass size"
+    }
+   ]
+  }
+ }
+}

@@ -59,3 +59,25 @@ where the real route, and other travel modes, are available.
 Below the closest bar, "Nearby alternatives" shows the next 3 bars; "Show 10 more"
 reveals 10 more per click until every listed bar is shown, nearest first (ties by
 name). A new starting point resets the list to 3.
+
+## Filters and bar details (free data only)
+
+- Name, area and max-distance filters work on every bar. Distance needs a starting point.
+- Smoking, outdoor seating, wheelchair access and usual hours come from OpenStreetMap
+  (ODbL, © OpenStreetMap contributors), stored in `data/enrichment.json`, separate from the
+  roster and keyed by venue name plus the pin it was matched to. If a venue's pin moves
+  more than 50 m (e.g. after the yearly refresh), its old details are ignored until re-matched.
+- Unknown is shown as unknown. Attribute filters only include bars where the detail is known.
+- Smoking follows OSM's `smoking=*` values exactly; outdoor seating never implies smoking.
+- No "open now" filter: special J-Day hours are not in OSM, so usual hours are shown as text.
+- Beer prices: only hand-read from a bar's own menu, with source and date, in
+  `data/enrichment-manual.json` (`facts`). No price sorting until enough bars list the same
+  product and size. Wrong OSM matches go in `rejectMatches` with a reason.
+
+Refresh (after the roster refresh each autumn):
+
+    python3 scripts/enrich-osm.py --refresh   # one Overpass request, cached in data/osm-cache.json (gitignored)
+    npm test && npm run build
+
+Review the printed matches before committing. Contributing corrections to OpenStreetMap
+itself is the best way to raise coverage.
