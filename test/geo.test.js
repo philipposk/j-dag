@@ -31,3 +31,8 @@ test('every travel mode produces an official Maps URL with that mode, and unknow
  assert.equal(new URL(directionsLink({lat:1,lng:2},null,'teleport')).searchParams.get('travelmode'),'walking');
  assert.equal(new URL(directionsLink({lat:1,lng:2})).searchParams.has('origin'),false);
 });
+test('every address override is mapped with a cited source and a matching street',()=>{
+ const overrides=JSON.parse(fs.readFileSync(new URL('../data/overrides.json',import.meta.url)));
+ for(const [name,o] of Object.entries(overrides)){const v=venues.find(v=>v.name===name);assert.ok(v,name);assert.ok(v.verified,name);assert.ok(/https?:\/\//.test(o.source)||/^User-provided/.test(o.source),name);
+  const street=o.address.split(/\s\d/)[0].toLowerCase();assert.ok(v.geocoded.matched_address.toLowerCase().includes(street),name);}
+});

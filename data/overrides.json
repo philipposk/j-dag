@@ -1,5 +1,192 @@
 {
-  "Palmehaven": {"address":"Pilestræde 43, 1112 København", "source":"User-provided verified venue address"},
-  "Blomsten": {"address":"Istedgade 109, 1650 København", "source":"https://cafeblomsten.dk/Kontakt"},
-  "Det Gamle Posthus": {"address":"Borups Allé 121, 2000 Frederiksberg", "source":"https://www.krak.dk/det+gamle+posthus+frederiksberg/66776801/firma"}
+ "Palmehaven": {
+  "address": "Pilestræde 43, 1112 København",
+  "source": "User-provided verified venue address"
+ },
+ "Blomsten": {
+  "address": "Istedgade 109, 1650 København",
+  "source": "https://cafeblomsten.dk/Kontakt"
+ },
+ "Det Gamle Posthus": {
+  "address": "Borups Allé 121, 2000 Frederiksberg",
+  "source": "https://www.krak.dk/det+gamle+posthus+frederiksberg/66776801/firma"
+ },
+ "4tallet": {
+  "address": "Højbro Plads 3A, 1200 København K",
+  "source": "https://www.4talletlive.dk/ ; https://jazz.dk/en/copenhagen-jazz-festival-2026/venues/121/",
+  "note": "Listed as 4tallet; official name 4tallet Live; OSM lacks 3A; geocoded at Højbro Plads 3 (same building)",
+  "geocode_query": "Højbro Plads 3, 1200 København K"
+ },
+ "Barcelona Bar": {
+  "address": "Gothersgade 35, 1123 København K",
+  "source": "https://barcelonabar.dk/contact/"
+ },
+ "Borgerly": {
+  "address": "Borgergade 93, 1300 København K",
+  "source": "https://www.postage.dk/virksomhed/1446632-cafe-borgerly/ ; https://www.krak.dk/caf%c3%a9+borgerly+k%c3%b8benhavn+k/303743740/firma",
+  "note": "Café Borgerly"
+ },
+ "Centre Stage": {
+  "address": "Studiestræde 24, 1455 København K",
+  "source": "https://www.centrestage.dk/ ; https://www.visitcopenhagen.dk/koebenhavn/planlaeg-din-tur/centre-stage-gdk436188",
+  "note": "Former Cosy Bar premises"
+ },
+ "Den Jyske Ambassade": {
+  "address": "Gothersgade 8A, 1123 København K",
+  "source": "https://denjyskeambassadekbh.dk/legal"
+ },
+ "Høvlen 77": {
+  "address": "Prinsessegade 77, 1422 København K",
+  "source": "https://www.hoevlen77.dk/om-hoevlen/",
+  "note": "Official page confirms J-Dag 6 Nov"
+ },
+ "Liams Irish Pub": {
+  "address": "Gothersgade 15, 1123 København K",
+  "source": "https://liamspub.dk/en/copenhagen/aboutus"
+ },
+ "Mc Joys Pub": {
+  "address": "Nyhavn 47, 1051 København K",
+  "source": "https://mcjoys.dk/contact-us/ ; https://visitnyhavn.com/da/a-z/mcjoys-choice/",
+  "note": "Trades as McJoy's Choice / McJoys Nyhavn"
+ },
+ "MJ Gothersgade": {
+  "address": "Gothersgade 26, 1123 København K",
+  "source": "https://www.mojoe.cafe/kontakt.aspx",
+  "note": "Legal name MJ Gothersgade ApS, trading as Mojoe Kitchen & Bar"
+ },
+ "Rosengårdens Bodega": {
+  "address": "Rosengården 11, 1174 København K",
+  "source": "https://www.kultunaut.dk/perl/sted/type-nynaut/nr-8628 ; https://2pos.dk/127764/91392"
+ },
+ "The Dubliner": {
+  "address": "Amagertorv 5, 1160 København K",
+  "source": "https://thedubliner.dk/kontakt/"
+ },
+ "Tyrolia Bier Klub": {
+  "address": "Vestergade 12, 1456 København K",
+  "source": "https://tyrolia.dk/en/legal ; https://www.krak.dk/tyrolia+bier+klub+k%c3%b8benhavn+k/66547183/firma"
+ },
+ "Victoria Pub": {
+  "address": "Gammeltorv 26, 1457 København K",
+  "source": "https://victoriapub.dk/contact/"
+ },
+ "Wessel Kro": {
+  "address": "Sværtegade 7, 1118 København K",
+  "source": "http://www.wesselskro.dk/ ; https://www.visitcopenhagen.dk/koebenhavn/planlaeg-din-tur/wessels-kro-gdk792757",
+  "note": "Official spelling Wessels Kro"
+ },
+ "Bar 42": {
+  "address": "Sønder Boulevard 42, 1720 København V",
+  "source": "https://bar42.dk/bes-g-os"
+ },
+ "Bar 180": {
+  "address": "Axeltorv 9, 1609 København V",
+  "source": "https://bar180.dk/ ; https://www.proff.dk/firma/bar-180-aps/k%C3%B8benhavn-v/restauranter-og-cafeer/0QB4V2I10KE"
+ },
+ "Camping Kødbyen": {
+  "address": "Kødboderne 9, 1711 København V",
+  "source": "https://camping.bar/venues/kodbyen/ ; https://www.visitcopenhagen.dk/koebenhavn/planlaeg-din-tur/koedbyen-camping-bar-gdk1127001"
+ },
+ "Larsens Plaz": {
+  "address": "Gammel Kongevej 43, 1610 København V",
+  "source": "https://larsensplaz.dk/kontakt"
+ },
+ "Maximum": {
+  "address": "Dybbølsbro 3, 1577 København V",
+  "source": "https://bowlnfun.dk/centre/kbh/",
+  "note": "Maximum København entertainment centre (opened 14 Aug 2026)"
+ },
+ "MEININGER Hotel Copenhagen": {
+  "address": "Colbjørnsensgade 5-11, 1652 København V",
+  "source": "https://www.meininger-hotels.com/en/hotels/copenhagen/hotel-copenhagen/",
+  "note": "Official range 5-11; geocoded at no. 5 within that range",
+  "geocode_query": "Colbjørnsensgade 5, 1652 København V"
+ },
+ "Nevermind – Axeltorv": {
+  "address": "Axeltorv 3, 1609 København V",
+  "source": "https://nevermindbar.dk/ ; https://www.krak.dk/never+mind+k%c3%b8benhavn+v/66857477/firma"
+ },
+ "Old Irish Pub Karaokebar": {
+  "address": "Vesterbrogade 2B, 1620 København V",
+  "source": "https://oldirishpub.dk/da/karaokebar-Kobenhavn/page/forside",
+  "note": "Same building as The Old English Pub"
+ },
+ "Oscar Bar og Cafe": {
+  "address": "Regnbuepladsen 9, 1550 København V",
+  "source": "https://www.oscarbarcafe.dk/ ; https://oscarbarcafe.resos.com/booking"
+ },
+ "Studiecafeen Humlen": {
+  "address": "Humletorvet 3, 1799 København V",
+  "source": "https://www.proff.dk/firma/studiecafeen-campus-carlsberg-humlen/k%C3%B8benhavn-v/barer-og-puber/0MJZPWI01X8",
+  "note": "Studiecafeen Campus Carlsberg, Humlen (KP Campus Carlsberg)"
+ },
+ "The Old English Pub Karaokebar": {
+  "address": "Vesterbrogade 2B, 1620 København V",
+  "source": "https://promillegang.dk/sted/the-old-english-pub-vesterbrogade-koebenhavn-v ; https://openhours.dk/spots/the-old-english-pub-kbenhavn-v-vesterbrogade-662cdc2866",
+  "note": "Same building as Old Irish Pub Karaokebar"
+ },
+ "Baren RHK": {
+  "address": "Jagtvej 120, 2200 København N",
+  "source": "https://www.rhk.dk/kontakt/ ; https://www.rhk.dk/baren/",
+  "note": "Bar at Rigshospitalets Kollegium; pin is the dormitory address"
+ },
+ "Cafe Klovnen": {
+  "address": "Rantzausgade 70, 2200 København N",
+  "source": "https://www.proff.dk/firma/cafe-klovnen-aps/k%C3%B8benhavn-n/barer-og-puber/GU93CZI01X8 ; https://cafeklovnen.dk/"
+ },
+ "Studenterhuset Sigurds Bar": {
+  "address": "Sigurdsgade 36, 2200 København N",
+  "source": "https://www.kultunaut.dk/perl/sted/type-nynaut/nr-2201952 ; https://www.postage.dk/virksomhed/1049120-foreningen-studenterhuset-sigurds-bar/"
+ },
+ "Amager Pub": {
+  "address": "Amagerbrogade 29, 2300 København S",
+  "source": "https://www.hotelamager.dk/contact-us.html ; https://denmarkguide.dk/copenhagen/pub/amager-pub/",
+  "note": "Pub in Hotel Amager; hotel lists no. 29, guides list no. 31 (adjacent)"
+ },
+ "Anker": {
+  "address": "Mozarts Plads 1A, 2450 København SV",
+  "source": "https://www.corner.inc/place/phvsmrjZiFFo ; https://politiken.dk/ibyen/anmeldelser/cafeanmeldelser/art10486139/",
+  "note": "Only Anker venue found in S+SV; it is a café-bar (medium confidence)"
+ },
+ "Cafe Engholm": {
+  "address": "Borgbjergsvej 28, 2450 København SV",
+  "source": "https://danmarkm.com/cafe-engholm-i23713.html ; https://goodbite.dk/koebenhavn-sv/cafe/cafe-engholmen/",
+  "note": "Also spelled Café Engholmen"
+ },
+ "Cafe Femøren": {
+  "address": "Amagerbrogade 170, 2300 København S",
+  "source": "https://amagerbutikkerne.dk/medlemmer/cafe-5-oeren/ ; https://www.kultunaut.dk/perl/sted/type-nynaut/nr-2014161",
+  "note": "Trades as Cafe 5-øren (not the Femøren beach area)"
+ },
+ "Post Bodegaen": {
+  "address": "Lyongade 25, 2300 København S",
+  "source": "https://virmo.dk/firma/41010606-post-bodegaen-is ; https://2pos.dk/186272/698"
+ },
+ "Foreningen Cafedrift": {
+  "address": "Universitetsparken 15C, 2100 København Ø",
+  "source": "https://cafeen.org/privatlivspolitik",
+  "note": "Foreningen til Cafédrift af 1993 runs Caféen? at Universitetsparken; OSM lacks 15C; geocoded at Universitetsparken 15 (HCØ campus building)",
+  "geocode_query": "Universitetsparken 15, 2100 København Ø"
+ },
+ "Halifax Trianglen": {
+  "address": "Trianglen 1, 2100 København Ø",
+  "source": "https://halifax.dk/restauranter/halifax-osterbro/ ; https://www.facebook.com/halifaxtrianglen",
+  "note": "1st floor"
+ },
+ "Bar Aksel": {
+  "address": "Godthåbsvej 29, 2000 Frederiksberg",
+  "source": "https://www.kultunaut.dk/perl/sted/type-nynaut/nr-8603457",
+  "note": "Some listings give 29A"
+ },
+ "The Old Irish Pub Smallegade": {
+  "address": "Smallegade 2B, 2000 Frederiksberg",
+  "source": "https://oldirishpub.dk/da/frederiksberg/page/kontakt",
+  "geocode_query": "Smallegade 2, 2000 Frederiksberg",
+  "note": "OSM lacks 2B; geocoded at Smallegade 2"
+ },
+ "Nykro": {
+  "address": "Vigerslevvej 136, 2500 Valby",
+  "source": "https://promillegang.dk/sted/ny-kro-vigerslevvej-valby ; https://www.bars10.com/DK/Copenhagen/110397254092494/NyKro-Vigerslev",
+  "note": "Also written Ny Kro"
+ }
 }
