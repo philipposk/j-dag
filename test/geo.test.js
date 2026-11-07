@@ -40,3 +40,19 @@ test('tentative venues are flagged, not presented as confirmed',()=>{
  const a=venues.find(v=>v.name==='Anker');assert.equal(a.tentative,true);
  const src=fs.readFileSync(new URL('../src/main.js',import.meta.url),'utf8');assert.ok(src.includes('v.tentative'));
 });
+test('nearby alternatives page in 3, then 10 more per click, never repeating the closest bar',async()=>{
+ const {nearbyPage,NEARBY_INITIAL,NEARBY_STEP}=await import('../src/geo.js');
+ const ranked=rankVenues(venues,{lat:55.6832,lng:12.5717});const total=ranked.length-1;
+ let shown=NEARBY_INITIAL,p=nearbyPage(ranked,shown);
+ assert.equal(p.items.length,3);assert.equal(p.remaining,total-3);assert.equal(p.next,10);
+ assert.ok(!p.items.some(v=>v.name===ranked[0].name));
+ shown+=NEARBY_STEP;p=nearbyPage(ranked,shown);assert.equal(p.items.length,13);
+ while(p.remaining){shown+=NEARBY_STEP;p=nearbyPage(ranked,shown);}
+ assert.equal(p.items.length,total);assert.equal(p.next,0);assert.equal(new Set(p.items.map(v=>v.name)).size,total);
+ for(let i=1;i<p.items.length;i++)assert.ok(p.items[i-1].distance<=p.items[i].distance);
+ assert.equal(nearbyPage(ranked,NEARBY_INITIAL).items[0].name,ranked[1].name); // reset = first page again
+});
+test('ranking is stable for equal distances',()=>{
+ const rows=[{name:'B',verified:true,lat:55.68,lng:12.57},{name:'A',verified:true,lat:55.68,lng:12.57}];
+ assert.deepEqual(rankVenues(rows,{lat:55.68,lng:12.571}).map(v=>v.name),['A','B']);
+});
