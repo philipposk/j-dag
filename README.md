@@ -89,3 +89,7 @@ itself is the best way to raise coverage.
 - `public/robots.txt` allows all crawlers (it is not access control), `public/sitemap.xml` lists the two canonical pages, `public/llms.txt` is a short factual summary, `public/og.png` is the 1200×630 share image.
 - `vercel.json` sets security headers including a CSP that allows only OpenStreetMap tiles, Nominatim and Google Fonts. `vite preview` uses the same headers so you can test it locally.
 - When the bar list changes year, update the count/year in `public/llms.txt` and the share image.
+
+## Missing a bar?
+
+Below the full list, a collapsed "Missing a bar?" / "Mangler der en bar?" form takes a bar name, address and optional http(s) source link and opens the visitor's own email app with a prepared message to filippos@6x7.gr (`src/suggest.js`). Nothing is sent by the site and no request is made; "Copy text" uses the clipboard when allowed and otherwise shows the text selected for manual copying. Suggestions are checked by hand. They never change `data/venues.json` or the map automatically. Design notes: `docs/missing-bar.md`.
