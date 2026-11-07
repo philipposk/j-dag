@@ -18,12 +18,15 @@ export function venueDetails(v, data = enrichment, facts = manual.facts) {
     outdoorSeating: yesNo(f.outdoor_seating),
     wheelchair: ['yes', 'limited', 'no'].includes(f.wheelchair) ? f.wheelchair : null,
     hours: f.opening_hours ?? null,
-    website: f.website ?? f['contact:website'] ?? null,
-    osmUrl: fresh ? e.osm.url : null,
+    website: safeUrl(f.website ?? f['contact:website']),
+    osmUrl: fresh ? safeUrl(e.osm.url) : null,
     checked: f['check_date:opening_hours'] ?? f.check_date ?? null,
-    beerPrices: facts[key]?.beerPrice ?? [],
+    beerPrices: (facts[key]?.beerPrice ?? []).filter(p => safeUrl(p.source)),
   };
 }
+
+// Only http(s) links are ever rendered; anything else becomes null.
+export const safeUrl = u => { try { const x = new URL(u); return ['https:', 'http:'].includes(x.protocol) ? x.href : null; } catch { return null; } };
 
 export const DEFAULT_FILTERS = { name: '', district: '', radius: 0, smoking: '', outdoor: false, wheelchair: '' };
 

@@ -52,3 +52,9 @@ test('stale enrichment is ignored when a venue pin moves; Anker stays tentative'
 test('manual beer prices cite a source and never invent a size',()=>{
  for(const [k,f] of Object.entries(manual.facts))for(const p of f.beerPrice||[]){assert.match(p.source,/^https:\/\//);assert.ok(Number.isFinite(p.priceDkk));assert.ok(p.size===null||/cl$/.test(p.size));assert.ok(venues.some(v=>v.name.toLowerCase()===k));}
 });
+import { safeUrl } from '../src/details.js';
+test('only http(s) links are rendered', () => {
+  assert.equal(safeUrl('javascript:alert(1)'), null);
+  assert.equal(safeUrl('not a url'), null);
+  assert.equal(safeUrl('https://bar42.dk/menu'), 'https://bar42.dk/menu');
+});
